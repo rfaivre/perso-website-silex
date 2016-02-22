@@ -2,7 +2,8 @@
 lock '3.4.0'
 
 set :application, 'website'
-set :repo_url, 'pi@192.168.1.24:remote/git/remi'
+set :repo_url, 'deploy@webserver:remote/git/remi'
+# webserver is defined in /etc/hosts
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
