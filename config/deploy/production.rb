@@ -7,7 +7,7 @@ server '192.168.1.24', user: 'pi', roles: %w{app db web}
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 
-
+set :deploy_to, '/var/www/sites/remi'
 
 # role-based syntax
 # ==================
