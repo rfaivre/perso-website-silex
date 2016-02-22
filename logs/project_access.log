@@ -102,3 +102,5 @@
 127.0.0.1 - - [22/Feb/2016:17:58:36 +0100] "GET /favicon.ico HTTP/1.1" 200 27 "http://remi.local.dev/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
 127.0.0.1 - - [22/Feb/2016:17:58:40 +0100] "GET / HTTP/1.1" 200 27 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
 127.0.0.1 - - [22/Feb/2016:17:58:41 +0100] "GET /favicon.ico HTTP/1.1" 200 27 "http://remi.local.dev/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+127.0.0.1 - - [22/Feb/2016:18:08:41 +0100] "GET / HTTP/1.1" 200 27 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
+127.0.0.1 - - [22/Feb/2016:18:08:41 +0100] "GET /favicon.ico HTTP/1.1" 200 27 "http://remi.local.dev/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"
