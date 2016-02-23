@@ -2,4 +2,4 @@
 /logs/*
 /bower_components
 /node_modules
-/web/ressources/css/*.scss
+/ressources
