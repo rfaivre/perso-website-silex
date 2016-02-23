@@ -9,7 +9,7 @@ var dist = './web/ressources'
 
 // Tâche "build" = LESS + autoprefixer + CSScomb + beautify (source -> destination)
 gulp.task('css', function () {
-  return gulp.src(src + '/css/*.scss')
+  return gulp.src(src + '/css/main.scss')
     .pipe(plugins.sass())
     .pipe(plugins.csscomb())
     .pipe(plugins.cssbeautify({indent: '  '}))
@@ -17,10 +17,16 @@ gulp.task('css', function () {
     .pipe(gulp.dest(dist + '/css/'));
 });
 
+gulp.task('js', function() {
+  return gulp.src(src + '/js/*.js')
+    .pipe(plugins.concat('main.js'))
+    .pipe(gulp.dest(dist + '/js/'));
+});
+
 
 // Tâche "minify" = minification CSS (dist -> dist)
 gulp.task('minify', function () {
-  return gulp.src(dist + '/css/*.css')
+  return gulp.src(dist + '/css/main.css')
     .pipe(plugins.csso())
     .pipe(plugins.rename({
       suffix: '.min'

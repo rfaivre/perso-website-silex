@@ -3,6 +3,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 use Silex\Provider\TwigServiceProvider;
+use Detection\MobileDetect;
 
 // config file
 include __DIR__ . '/../config/config.php';
