@@ -8,7 +8,7 @@ $options = array(
 	'twig.options'          => array(
 	    'charset'           => 'utf-8',
 	    'strict_variables'  => true,
-	    'cache'             => __DIR__ . '/../cache'
+	    'cache'             => __DIR__ . '/../web/cache'
 	)
 ); 
 

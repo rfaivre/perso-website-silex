@@ -5,7 +5,7 @@ var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')(); // tous les plugins de package.json
 
 var src = './ressources';
-var dist = '.web/ressources'
+var dist = './web/ressources'
 
 // Tâche "build" = LESS + autoprefixer + CSScomb + beautify (source -> destination)
 gulp.task('css', function () {

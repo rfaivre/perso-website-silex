@@ -1,6 +1,10 @@
 {
-	"name": "projet",
-    	"dependencies": {
-               	"jquery": "1.10.2"
-    	}
+  "name": "projet",
+  "main": [
+    "jquery.multiscroll.js",
+    "jquery.multiscroll.css"
+  ],
+  "devDependencies": {
+    "foundation": "^5.5.3"
+  }
 }
