@@ -4,3 +4,4 @@
 /node_modules
 /ressources
 .sass-cache
+web/cache
