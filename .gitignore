@@ -1,5 +1,3 @@
-!/logs/
-/logs/*
 /bower_components
 /node_modules
 /ressources
