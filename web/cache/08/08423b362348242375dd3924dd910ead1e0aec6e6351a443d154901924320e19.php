@@ -29,7 +29,6 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
     {
         // line 4
         echo "
-
 <div id=\"st-container\" class=\"st-container\">
 
 \t<nav class=\"st-menu st-effect-1\" id=\"menu-1\">
@@ -110,7 +109,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 85
+        // line 84
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -130,13 +129,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  114 => 85,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  113 => 84,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
 /* */
 /* {% block body %}*/
-/* */
 /* */
 /* <div id="st-container" class="st-container">*/
 /* */

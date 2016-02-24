@@ -9,7 +9,7 @@ if ($app['debug']) {
 
 $app->get('/', function (Silex\Application $app) {
 
-	$isMobile = $app["mobile_detect"]->isMobile()?'mobile':'no-mobile';
+	$isMobile = $app["mobile_detect"]->isMobile()?'1':'0';
 
 	return $app['twig']->render('index.twig', array('isMobile' => $isMobile, 'test' => 'test'));
 });
