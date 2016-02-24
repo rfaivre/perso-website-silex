@@ -26,17 +26,18 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 \t<title>Rémi FAIVRE</title>
 
 \t<link rel=\"stylesheet\" href=\"http://yui.yahooapis.com/pure/0.6.0/pure-min.css\">
+\t<link rel=\"stylesheet\" href=\"http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css\">
 
-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/main.css\">
 \t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.multiscroll.css\">
-\t<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js\"></script>
+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/main.css\">
       
+\t<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js\"></script>
 </head>
 <body>
 \t";
-        // line 17
+        // line 18
         $this->displayBlock('body', $context, $blocks);
-        // line 19
+        // line 20
         echo "
 \t<script src=\"ressources/js/jquery.easings.min.js\"></script>
 \t<script type=\"text/javascript\" src=\"ressources/js/jquery.multiscroll.min.js\"></script>
@@ -46,10 +47,10 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 </html>";
     }
 
-    // line 17
+    // line 18
     public function block_body($context, array $blocks = array())
     {
-        // line 18
+        // line 19
         echo "\t";
     }
 
@@ -60,7 +61,7 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 
     public function getDebugInfo()
     {
-        return array (  53 => 18,  50 => 17,  40 => 19,  38 => 17,  20 => 1,);
+        return array (  54 => 19,  51 => 18,  41 => 20,  39 => 18,  20 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -72,11 +73,12 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 /* 	<title>Rémi FAIVRE</title>*/
 /* */
 /* 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">*/
+/* 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">*/
 /* */
-/* 	<link rel="stylesheet" type="text/css" href="/ressources/css/main.css">*/
 /* 	<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.multiscroll.css">*/
-/* 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>*/
+/* 	<link rel="stylesheet" type="text/css" href="/ressources/css/main.css">*/
 /*       */
+/* 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>*/
 /* </head>*/
 /* <body>*/
 /* 	{% block body %}*/

@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900);
+
 .st-container,
 .st-pusher,
 .st-content {
@@ -5,7 +7,7 @@
 }
 
 .st-content {
-  overflow-y: scroll;
+  overflow-y: hidden;
   background: #f3efe0;
 }
 
@@ -151,39 +153,42 @@
     padding-left: 300px;
 }
 
+html
+{
+    font-family: 'Roboto', sans-serif;
+}
 html body
 {
     overflow: hidden; 
 
-    color: white;
+    color: black;
 }
 html body #multiscroll .ms-left
 {
     width: 40% !important;
+    /*
+				.ms-section:nth-child(1) {
+					background-color: $grey_dark;
+				}
+				.ms-section:nth-child(2) {
+					background-color: $grey_dark;
+				}
+				.ms-section:nth-child(3) {
+					background-color: $grey_dark;
+				}
+				*/
 }
 html body #multiscroll .ms-left .ms-section
 {
     z-index: 11;
 
     border-right: 10px solid #696969;
+    background-color: #696969; 
     box-shadow: 0 0 0 transparent, 0 3px 6px rgba(0, 0, 0, .4);
-}
-html body #multiscroll .ms-left .ms-section:nth-child(1)
-{
-    background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0), dimgray);
-    background: linear-gradient(to right, rgba(255, 0, 0, 0), dimgray);
-}
-html body #multiscroll .ms-left .ms-section:nth-child(2)
-{
-    background-color: red;
-}
-html body #multiscroll .ms-left .ms-section:nth-child(3)
-{
-    background-color: green;
 }
 html body #multiscroll .ms-right
 {
-    width: 60% !important;
+    width: 60%;
 }
 html body #multiscroll .ms-right .ms-section:nth-child(1)
 {
@@ -202,4 +207,16 @@ html body #multiscroll .ms-right .ms-section:nth-child(3)
 {
     position: absolute;
     z-index: 1000;
+}
+
+@media screen and (max-width: 640px)
+{
+    #multiscroll .ms-left
+    {
+        display: none;
+    }
+    #multiscroll .ms-right
+    {
+        width: 100% !important;
+    }
 }
