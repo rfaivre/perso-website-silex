@@ -46,4 +46,8 @@ namespace :deploy do
     end
   end
 
+  after :deploy:finalize_update do
+  	run "sudo chown -R www-data:www-data #{latest_release}/#{cache_path}"
+  end
+
 end
