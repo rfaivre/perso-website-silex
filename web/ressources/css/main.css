@@ -4708,6 +4708,10 @@ html body
 
     color: black;
 }
+html body #ha-header .ha-header-front
+{
+    box-shadow: -6px 0 white, 6px 0 white, 0 7px 4px -3px rgba(0, 0, 0, .19);
+}
 html body .st-content .menu-fixed
 {
     position: fixed;
@@ -4720,6 +4724,14 @@ html body .st-content .menu-fixed
 
     background-color: red;
 }
+html body #multiscroll .ms-section
+{
+    height: 100%;
+}
+html body #multiscroll .ms-section .wrap-section
+{
+    height: 100%;
+}
 html body #multiscroll .ms-left .ms-section
 {
     z-index: 11;
@@ -4728,21 +4740,45 @@ html body #multiscroll .ms-left .ms-section
     background-color: #696969; 
     box-shadow: 0 0 0 transparent, 0 3px 6px rgba(0, 0, 0, .4);
 }
+html body #multiscroll .ms-left .ms-section:nth-child(1) .wrap-section
+{
+    padding-top: 210px;
+}
+html body #multiscroll .ms-left .ms-section:nth-child(n+2) .wrap-section
+{
+    padding-top: 110px;
+}
 html body #multiscroll .ms-right .section-home
 {
     background-color: #696969;
+}
+html body #multiscroll .ms-right .section-home .wrap-section
+{
+    padding-top: 210px;
 }
 html body #multiscroll .ms-right .section-formations
 {
     background-color: green;
 }
+html body #multiscroll .ms-right .section-formations .wrap-section
+{
+    padding-top: 110px;
+}
 html body #multiscroll .ms-right .section-skills
 {
     background-color: #fb887c;
 }
+html body #multiscroll .ms-right .section-skills .wrap-section
+{
+    padding-top: 110px;
+}
 html body #multiscroll .ms-right .section-contact
 {
     background-color: yellow;
+}
+html body #multiscroll .ms-right .section-contact .wrap-section
+{
+    padding-top: 110px;
 }
 
 #st-trigger-effects

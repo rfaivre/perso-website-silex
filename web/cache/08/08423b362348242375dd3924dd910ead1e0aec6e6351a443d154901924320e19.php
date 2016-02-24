@@ -35,7 +35,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t<h2 class=\"icon icon-stack\">Sidebar</h2>
 \t\t<ul>
 \t\t\t<li><a class=\"icon icon-data\" href=\"#accueil\">Accueil</a></li>
-\t\t\t<li><a class=\"icon icon-location\" href=\"#formations\">Formations</a></li>
+\t\t\t<li><a class=\"icon icon-location\" href=\"#studies\">Formations</a></li>
 \t\t\t<li><a class=\"icon icon-study\" href=\"#skills\">Compétences</a></li>
 \t\t\t<li><a class=\"icon icon-photo\" href=\"#contact\">Contact</a></li>
 \t\t</ul>
@@ -53,9 +53,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t<div class=\"ha-header-front\">
 \t\t\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\" style=\"position:absolute\">
 
-\t\t\t\t\t\t<button data-effect=\"st-effect-1\">
+\t\t\t\t\t\t<a data-effect=\"st-effect-1\" href=\"javascript:void(0)\">
 \t\t\t\t\t\t\t<i class=\"fa fa-bars fa-2x\"></i>
-\t\t\t\t\t\t</button>
+\t\t\t\t\t\t</a>
 \t\t\t\t\t</div>
 \t\t\t\t\t\t\t<h1><span>Rémi FAIVRE</span></h1>
 \t\t\t\t\t\t\t<nav>
@@ -84,6 +84,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
 \t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \tSection gauche 1
+\t\t\t\t\t        \t<div style=\"position: absolute; bottom: 0;\">
+\t\t\t\t\t        \t\tferf
+\t\t\t\t\t        \t</div>
 \t\t\t\t        \t\t
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
@@ -163,7 +166,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 138
+        // line 141
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -183,7 +186,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  167 => 138,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  170 => 141,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -196,7 +199,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 		<h2 class="icon icon-stack">Sidebar</h2>*/
 /* 		<ul>*/
 /* 			<li><a class="icon icon-data" href="#accueil">Accueil</a></li>*/
-/* 			<li><a class="icon icon-location" href="#formations">Formations</a></li>*/
+/* 			<li><a class="icon icon-location" href="#studies">Formations</a></li>*/
 /* 			<li><a class="icon icon-study" href="#skills">Compétences</a></li>*/
 /* 			<li><a class="icon icon-photo" href="#contact">Contact</a></li>*/
 /* 		</ul>*/
@@ -214,9 +217,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 						<div class="ha-header-front">*/
 /* 							<div id="st-trigger-effects" class="column" style="position:absolute">*/
 /* */
-/* 						<button data-effect="st-effect-1">*/
+/* 						<a data-effect="st-effect-1" href="javascript:void(0)">*/
 /* 							<i class="fa fa-bars fa-2x"></i>*/
-/* 						</button>*/
+/* 						</a>*/
 /* 					</div>*/
 /* 							<h1><span>Rémi FAIVRE</span></h1>*/
 /* 							<nav>*/
@@ -245,6 +248,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        <div class="ms-section" data-anchor="home">*/
 /* 				        	<div class="wrap-section">*/
 /* 					        	Section gauche 1*/
+/* 					        	<div style="position: absolute; bottom: 0;">*/
+/* 					        		ferf*/
+/* 					        	</div>*/
 /* 				        		*/
 /* 				        	</div>*/
 /* 				        </div>*/
