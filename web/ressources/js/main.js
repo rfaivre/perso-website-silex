@@ -1,3 +1,5 @@
 $(document).ready(function() {
-	$('#multiscroll').multiscroll();
+	if (isMobile == 'no-mobile'){
+		$('#multiscroll').multiscroll();		
+	}
 });

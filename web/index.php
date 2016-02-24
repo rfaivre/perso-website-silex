@@ -8,14 +8,10 @@ if ($app['debug']) {
 }
 
 $app->get('/', function (Silex\Application $app) {
-	echo "resrse";
- if ($app["mobile_detect"]->isMobile()) {
- 	echo 'mobile';
- }
- else {
- 	echo "non";
- }
-	return $app['twig']->render('index.twig', array());
+
+	$isMobile = $app["mobile_detect"]->isMobile()?'mobile':'no-mobile';
+
+	return $app['twig']->render('index.twig', array('isMobile' => $isMobile, 'test' => 'test'));
 });
 
 
