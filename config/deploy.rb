@@ -43,11 +43,10 @@ namespace :deploy do
       # within release_path do
       #   execute :rake, 'cache:clear'
       # end
+	  run "sudo chown -R www-data:www-data #{latest_release}/#{cache_path}"
     end
   end
 
-  after :deploy:finalize_update do
-  	run "sudo chown -R www-data:www-data #{latest_release}/#{cache_path}"
-  end
+
 
 end
