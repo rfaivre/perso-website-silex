@@ -156,10 +156,14 @@
 html
 {
     font-family: 'Roboto', sans-serif;
+
+    height: 100%;
 }
 html body
 {
     overflow: hidden; 
+
+    height: 100%;
 
     color: black;
 }

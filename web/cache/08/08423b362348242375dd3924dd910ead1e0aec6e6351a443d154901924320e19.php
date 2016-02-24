@@ -71,20 +71,20 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        </div>
 \t\t\t\t    </div>
 
-\t\t\t\t    <div class=\"ms-right\">
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
+\t\t\t\t    <div class=\"ms-right\" id=\"fullpage\">
+\t\t\t\t        <div class=\"ms-section section\" data-anchor=\"home\">
 \t\t\t\t        \t<div class=\"pure-g\">
 \t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">retgftgfdtrg</div>
 \t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">hj,u,uu,ui,,ui,</div>
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"formations\">
+\t\t\t\t        <div class=\"ms-section section\" data-anchor=\"formations\">
 \t\t\t\t        \t\tSection droite 2
 \t\t\t\t        </div>
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
+\t\t\t\t        <div class=\"ms-section section\" data-anchor=\"skills\">
 \t\t\t\t        \t\tSection droite 3
 \t\t\t\t        </div>
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
+\t\t\t\t        <div class=\"ms-section section\" data-anchor=\"contact\">
 \t\t\t\t        \t\tSection droite 4\t        \t\t
 \t\t\t\t        \t
 \t\t\t\t        </div>
@@ -179,20 +179,20 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        </div>*/
 /* 				    </div>*/
 /* */
-/* 				    <div class="ms-right">*/
-/* 				        <div class="ms-section" data-anchor="home">*/
+/* 				    <div class="ms-right" id="fullpage">*/
+/* 				        <div class="ms-section section" data-anchor="home">*/
 /* 				        	<div class="pure-g">*/
 /* 				        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">retgftgfdtrg</div>*/
 /* 				        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">hj,u,uu,ui,,ui,</div>*/
 /* 				        	</div>*/
 /* 				        </div>*/
-/* 				        <div class="ms-section" data-anchor="formations">*/
+/* 				        <div class="ms-section section" data-anchor="formations">*/
 /* 				        		Section droite 2*/
 /* 				        </div>*/
-/* 				        <div class="ms-section" data-anchor="skills">*/
+/* 				        <div class="ms-section section" data-anchor="skills">*/
 /* 				        		Section droite 3*/
 /* 				        </div>*/
-/* 				        <div class="ms-section" data-anchor="contact">*/
+/* 				        <div class="ms-section section" data-anchor="contact">*/
 /* 				        		Section droite 4	        		*/
 /* 				        	*/
 /* 				        </div>*/

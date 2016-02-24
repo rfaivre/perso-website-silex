@@ -28,29 +28,51 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 \t<link rel=\"stylesheet\" href=\"http://yui.yahooapis.com/pure/0.6.0/pure-min.css\">
 \t<link rel=\"stylesheet\" href=\"http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css\">
 
-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.multiscroll.css\">
-\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/main.css\">
+\t";
+        // line 12
+        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "mobile")) {
+            // line 13
+            echo "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.fullpage.css\">
+\t";
+        } else {
+            // line 15
+            echo "\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.multiscroll.css\">
+\t";
+        }
+        // line 17
+        echo "\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/main.css\">
       
 \t<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js\"></script>
 </head>
 <body>
 \t";
-        // line 18
+        // line 22
         $this->displayBlock('body', $context, $blocks);
-        // line 20
+        // line 24
         echo "
 \t<script src=\"ressources/js/jquery.easings.min.js\"></script>
-\t<script type=\"text/javascript\" src=\"ressources/js/jquery.multiscroll.min.js\"></script>
-\t<script type=\"text/javascript\" src=\"ressources/js/classie.js\"></script>
-\t<script type=\"text/javascript\" src=\"ressources/js/sidebarEffects.js\"></script>
+\t";
+        // line 26
+        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "mobile")) {
+            // line 27
+            echo "\t\t<script type=\"text/javascript\" src=\"ressources/js/jquery.fullpage.js\"></script>
+\t";
+        } else {
+            // line 29
+            echo "\t\t<script type=\"text/javascript\" src=\"ressources/js/jquery.multiscroll.min.js\"></script>
+\t\t<script type=\"text/javascript\" src=\"ressources/js/classie.js\"></script>
+\t";
+        }
+        // line 32
+        echo "\t<script type=\"text/javascript\" src=\"ressources/js/sidebarEffects.js\"></script>
 </body>
 </html>";
     }
 
-    // line 18
+    // line 22
     public function block_body($context, array $blocks = array())
     {
-        // line 19
+        // line 23
         echo "\t";
     }
 
@@ -59,9 +81,14 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
         return "layout.twig";
     }
 
+    public function isTraitable()
+    {
+        return false;
+    }
+
     public function getDebugInfo()
     {
-        return array (  54 => 19,  51 => 18,  41 => 20,  39 => 18,  20 => 1,);
+        return array (  76 => 23,  73 => 22,  67 => 32,  62 => 29,  58 => 27,  56 => 26,  52 => 24,  50 => 22,  43 => 17,  39 => 15,  35 => 13,  33 => 12,  20 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -75,7 +102,11 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 /* 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">*/
 /* 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">*/
 /* */
-/* 	<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.multiscroll.css">*/
+/* 	{% if isMobile == 'mobile' %}*/
+/* 		<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.fullpage.css">*/
+/* 	{% else %}*/
+/* 		<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.multiscroll.css">*/
+/* 	{% endif %}*/
 /* 	<link rel="stylesheet" type="text/css" href="/ressources/css/main.css">*/
 /*       */
 /* 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>*/
@@ -85,8 +116,12 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 /* 	{% endblock %}*/
 /* */
 /* 	<script src="ressources/js/jquery.easings.min.js"></script>*/
-/* 	<script type="text/javascript" src="ressources/js/jquery.multiscroll.min.js"></script>*/
-/* 	<script type="text/javascript" src="ressources/js/classie.js"></script>*/
+/* 	{% if isMobile == 'mobile' %}*/
+/* 		<script type="text/javascript" src="ressources/js/jquery.fullpage.js"></script>*/
+/* 	{% else %}*/
+/* 		<script type="text/javascript" src="ressources/js/jquery.multiscroll.min.js"></script>*/
+/* 		<script type="text/javascript" src="ressources/js/classie.js"></script>*/
+/* 	{% endif %}*/
 /* 	<script type="text/javascript" src="ressources/js/sidebarEffects.js"></script>*/
 /* </body>*/
 /* </html>*/
