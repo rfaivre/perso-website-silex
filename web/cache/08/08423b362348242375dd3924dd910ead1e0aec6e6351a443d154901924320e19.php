@@ -57,26 +57,11 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t\t<i class=\"fa fa-bars fa-2x\"></i>
 \t\t\t\t\t\t</button>
 \t\t\t\t\t</div>
-\t\t\t\t\t\t\t<h1><span>Header Effects</span></h1>
+\t\t\t\t\t\t\t<h1><span>Rémi FAIVRE</span></h1>
 \t\t\t\t\t\t\t<nav>
 \t\t\t\t\t\t\t\t<a>‹ Previous Demo</a>
-\t\t\t\t\t\t\t\t<a>Something</a>
-\t\t\t\t\t\t\t\t<a>Anything</a>
-\t\t\t\t\t\t\t\t<a>Back to the article</a>
 \t\t\t\t\t\t\t</nav>
-\t\t\t\t\t\t</div>
-\t\t\t\t\t\t<div class=\"ha-header-bottom\">
-\t\t\t\t\t\t\t<nav>
-\t\t\t\t\t\t\t\t<a>Dalliance</a>
-\t\t\t\t\t\t\t\t<a>Inglenook</a>
-\t\t\t\t\t\t\t\t<a>Lagniappe</a>
-\t\t\t\t\t\t\t\t<a>Mellifluous</a>
-\t\t\t\t\t\t\t\t<a>Erstwhile</a>
-\t\t\t\t\t\t\t\t<a>Wafture</a>
-\t\t\t\t\t\t\t\t<a>Serendipity</a>
-\t\t\t\t\t\t\t\t<a>Love</a>
-\t\t\t\t\t\t\t</nav>
-\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>\t\t\t\t\t\t
 \t\t\t\t\t</div>
 \t\t\t\t</header>
 
@@ -178,7 +163,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 153
+        // line 138
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -198,7 +183,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  182 => 153,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  167 => 138,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -233,26 +218,11 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 							<i class="fa fa-bars fa-2x"></i>*/
 /* 						</button>*/
 /* 					</div>*/
-/* 							<h1><span>Header Effects</span></h1>*/
+/* 							<h1><span>Rémi FAIVRE</span></h1>*/
 /* 							<nav>*/
 /* 								<a>‹ Previous Demo</a>*/
-/* 								<a>Something</a>*/
-/* 								<a>Anything</a>*/
-/* 								<a>Back to the article</a>*/
 /* 							</nav>*/
-/* 						</div>*/
-/* 						<div class="ha-header-bottom">*/
-/* 							<nav>*/
-/* 								<a>Dalliance</a>*/
-/* 								<a>Inglenook</a>*/
-/* 								<a>Lagniappe</a>*/
-/* 								<a>Mellifluous</a>*/
-/* 								<a>Erstwhile</a>*/
-/* 								<a>Wafture</a>*/
-/* 								<a>Serendipity</a>*/
-/* 								<a>Love</a>*/
-/* 							</nav>*/
-/* 						</div>*/
+/* 						</div>						*/
 /* 					</div>*/
 /* 				</header>*/
 /* */
