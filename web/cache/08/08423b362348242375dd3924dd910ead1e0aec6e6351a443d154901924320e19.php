@@ -56,48 +56,77 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t<div id=\"multiscroll\">
 \t\t\t\t\t\t\t
 \t\t\t\t    <div class=\"ms-left\">
+\t\t\t\t    \t<!-- SECTION HOME -->
 \t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
+\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \tSection gauche 1
+\t\t\t\t        \t\t
+\t\t\t\t        \t</div>
 \t\t\t\t        </div>
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"formations\">
+\t\t\t\t        <!-- END SECTION HOME -->
+\t\t\t\t        <!-- SECTION STUDIES -->
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"studies\">
+\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\tSection gauche 2
+\t\t\t\t        \t\t
+\t\t\t\t        \t</div>
 \t\t\t        \t</div>
+\t\t\t        \t<!-- END SECTION STUDIES -->
+\t\t\t        \t<!-- SECTION SKILLS -->
 \t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
+\t\t\t\t\t    \t<div class=\"wrap-section\">\t\t\t\t\t    \t\t
 \t\t\t\t\t    \t\tSection gauche 3  
+\t\t\t\t\t    \t</div>
 \t\t\t\t        </div>
+\t\t\t\t        <!-- END SECTION SKILLS -->
+\t\t\t\t        <!-- SECTION CONTACT -->
 \t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
+\t\t\t\t\t    \t<div class=\"wrap-section\">
 \t\t\t\t\t    \t\tSection gauche 4 
+\t\t\t\t\t    \t\t
+\t\t\t\t\t    \t</div>
 \t\t\t\t        </div>
+\t\t\t\t        <!-- END SECTION CONTACT -->
 \t\t\t\t    </div>
 
 \t\t\t\t    <div class=\"ms-right\" id=\"fullpage\">
 
 \t\t\t\t        <div class=\"ms-section section section-home\" data-anchor=\"home\">
-\t\t\t\t        \t<div class=\"pure-g\">
-\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">retgftgfdtrg</div>
-\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">hj,u,uu,ui,,ui,</div>
+\t\t\t\t        \t<div class=\"wrap-section\">
+\t\t\t\t\t        \t<div class=\"pure-g\">
+\t\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">retgftgfdtrg</div>
+\t\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">hj,u,uu,ui,,ui,</div>
+\t\t\t\t\t        \t</div>
+\t\t\t\t        \t\t
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
-\t\t\t\t        <div class=\"ms-section section section-formations\" data-anchor=\"formations\">
+\t\t\t\t        <div class=\"ms-section section section-formations\" data-anchor=\"studies\">
+\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\tSection droite 2
+\t\t\t\t        \t\t
+\t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        <div class=\"ms-section section section-skills\" data-anchor=\"skills\">
+\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\tSection droite 3
+\t\t\t\t        \t\t
+\t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
-\t\t\t\t        \t\tSection droite 4\t        \t\t
+\t\t\t\t        \t<div class=\"wrap-section\">
+\t\t\t\t\t\t\t\tSection droite 4\t\t\t\t        \t\t
+\t\t\t\t        \t</div>
 \t\t\t\t        \t
 \t\t\t\t        </div>
 \t\t\t\t    </div>
-\t\t\t\t\t\t\t
 \t\t\t\t</div>
 
-\t\t\t\t<div id=\"multiscroll-nav\" class=\"right\">
+\t\t\t\t<div id=\"multiscroll-nav\" class=\"right animated slideInRight\">
 \t\t\t\t\t<ul id=\"myMenu\">
-\t\t\t\t\t    <li data-tooltip=\"accueil\"><a href=\"#home\">+</a></li>
-\t\t\t\t\t    <li data-tooltip=\"formations\"><a href=\"#formations\">+</a></li>
-\t\t\t\t\t    <li data-tooltip=\"competences\"><a href=\"#skills\">+</a></li>
-\t\t\t\t\t    <li data-tooltip=\"contact\"><a href=\"#contact\">+</a></li>
+\t\t\t\t\t    <li data-tooltip=\"Home\"><a href=\"#home\">+</a></li>
+\t\t\t\t\t    <li data-tooltip=\"Formations\"><a href=\"#studies\">+</a></li>
+\t\t\t\t\t    <li data-tooltip=\"Competences\"><a href=\"#skills\">+</a></li>
+\t\t\t\t\t    <li data-tooltip=\"Contact\"><a href=\"#contact\">+</a></li>
 \t\t\t\t\t</ul>
 \t\t\t\t</div>
 
@@ -110,7 +139,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 85
+        // line 114
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -130,7 +159,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  114 => 85,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  143 => 114,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -164,48 +193,77 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				<div id="multiscroll">*/
 /* 							*/
 /* 				    <div class="ms-left">*/
+/* 				    	<!-- SECTION HOME -->*/
 /* 				        <div class="ms-section" data-anchor="home">*/
+/* 				        	<div class="wrap-section">*/
 /* 					        	Section gauche 1*/
+/* 				        		*/
+/* 				        	</div>*/
 /* 				        </div>*/
-/* 				        <div class="ms-section" data-anchor="formations">*/
+/* 				        <!-- END SECTION HOME -->*/
+/* 				        <!-- SECTION STUDIES -->*/
+/* 				        <div class="ms-section" data-anchor="studies">*/
+/* 				        	<div class="wrap-section">*/
 /* 				        		Section gauche 2*/
+/* 				        		*/
+/* 				        	</div>*/
 /* 			        	</div>*/
+/* 			        	<!-- END SECTION STUDIES -->*/
+/* 			        	<!-- SECTION SKILLS -->*/
 /* 				        <div class="ms-section" data-anchor="skills">*/
+/* 					    	<div class="wrap-section">					    		*/
 /* 					    		Section gauche 3  */
+/* 					    	</div>*/
 /* 				        </div>*/
+/* 				        <!-- END SECTION SKILLS -->*/
+/* 				        <!-- SECTION CONTACT -->*/
 /* 				        <div class="ms-section" data-anchor="contact">*/
+/* 					    	<div class="wrap-section">*/
 /* 					    		Section gauche 4 */
+/* 					    		*/
+/* 					    	</div>*/
 /* 				        </div>*/
+/* 				        <!-- END SECTION CONTACT -->*/
 /* 				    </div>*/
 /* */
 /* 				    <div class="ms-right" id="fullpage">*/
 /* */
 /* 				        <div class="ms-section section section-home" data-anchor="home">*/
-/* 				        	<div class="pure-g">*/
-/* 				        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">retgftgfdtrg</div>*/
-/* 				        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">hj,u,uu,ui,,ui,</div>*/
+/* 				        	<div class="wrap-section">*/
+/* 					        	<div class="pure-g">*/
+/* 					        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">retgftgfdtrg</div>*/
+/* 					        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">hj,u,uu,ui,,ui,</div>*/
+/* 					        	</div>*/
+/* 				        		*/
 /* 				        	</div>*/
 /* 				        </div>*/
-/* 				        <div class="ms-section section section-formations" data-anchor="formations">*/
+/* 				        <div class="ms-section section section-formations" data-anchor="studies">*/
+/* 				        	<div class="wrap-section">*/
 /* 				        		Section droite 2*/
+/* 				        		*/
+/* 				        	</div>*/
 /* 				        </div>*/
 /* 				        <div class="ms-section section section-skills" data-anchor="skills">*/
+/* 				        	<div class="wrap-section">*/
 /* 				        		Section droite 3*/
+/* 				        		*/
+/* 				        	</div>*/
 /* 				        </div>*/
 /* 				        <div class="ms-section section section-contact" data-anchor="contact">*/
-/* 				        		Section droite 4	        		*/
+/* 				        	<div class="wrap-section">*/
+/* 								Section droite 4				        		*/
+/* 				        	</div>*/
 /* 				        	*/
 /* 				        </div>*/
 /* 				    </div>*/
-/* 							*/
 /* 				</div>*/
 /* */
-/* 				<div id="multiscroll-nav" class="right">*/
+/* 				<div id="multiscroll-nav" class="right animated slideInRight">*/
 /* 					<ul id="myMenu">*/
-/* 					    <li data-tooltip="accueil"><a href="#home">+</a></li>*/
-/* 					    <li data-tooltip="formations"><a href="#formations">+</a></li>*/
-/* 					    <li data-tooltip="competences"><a href="#skills">+</a></li>*/
-/* 					    <li data-tooltip="contact"><a href="#contact">+</a></li>*/
+/* 					    <li data-tooltip="Home"><a href="#home">+</a></li>*/
+/* 					    <li data-tooltip="Formations"><a href="#studies">+</a></li>*/
+/* 					    <li data-tooltip="Competences"><a href="#skills">+</a></li>*/
+/* 					    <li data-tooltip="Contact"><a href="#contact">+</a></li>*/
 /* 					</ul>*/
 /* 				</div>*/
 /* */
