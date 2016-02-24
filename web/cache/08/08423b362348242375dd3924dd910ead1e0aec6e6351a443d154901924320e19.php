@@ -29,6 +29,8 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
     {
         // line 4
         echo "
+
+
 <div id=\"st-container\" class=\"st-container\">
 
 \t<nav class=\"st-menu st-effect-1\" id=\"menu-1\">
@@ -47,51 +49,48 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t<div class=\"st-content\">
 \t\t\t<div class=\"st-content-inner\">
 
-\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\" style=\"position:absolute\">
-\t\t\t\t\t<button data-effect=\"st-effect-1\">Reveal</button>
-\t\t\t\t</div>
-\t\t\t\t<div id=\"multiscroll\">
-\t\t\t\t\t<div class=\"pure-g\">
-\t\t\t\t\t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">
-\t\t\t\t\t\t\t
-\t\t\t\t\t\t    <div class=\"ms-left\">
-\t\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
-\t\t\t\t\t\t\t        \tSection gauche 1
-\t\t\t\t\t\t        </div>
-\t\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"formations\">
-\t\t\t\t\t\t        \t\tSection gauche 2
-\t\t\t\t\t        \t</div>
-\t\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
-\t\t\t\t\t\t\t    \t\tSection gauche 3  
-\t\t\t\t\t\t        </div>
-\t\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
-\t\t\t\t\t\t\t    \t\tSection gauche 4 
-\t\t\t\t\t\t        </div>
-\t\t\t\t\t\t    </div>
-\t\t\t\t\t\t</div>
-
-\t\t\t\t\t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">
-\t\t\t\t\t\t    <div class=\"ms-right\">
-\t\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
-\t\t\t\t\t\t        \t<div class=\"pure-g\">
-\t\t\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">retgftgfdtrg</div>
-\t\t\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">hj,u,uu,ui,,ui,</div>
-\t\t\t\t\t\t        \t</div>
-\t\t\t\t\t\t        </div>
-\t\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"formations\">
-\t\t\t\t\t\t        \t\tSection droite 2
-\t\t\t\t\t\t        </div>
-\t\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
-\t\t\t\t\t\t        \t\tSection droite 3
-\t\t\t\t\t\t        </div>
-\t\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
-\t\t\t\t\t\t        \t\tSection droite 4\t        \t\t
-\t\t\t\t\t\t        \t
-\t\t\t\t\t\t        </div>
-\t\t\t\t\t\t    </div>
-\t\t\t\t\t\t\t
-\t\t\t\t\t\t</div>
+\t\t\t\t<div class=\"menu-fixed\">
+\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\" style=\"position:absolute\">
+\t\t\t\t\t\t<button data-effect=\"st-effect-1\">Reveal</button>
 \t\t\t\t\t</div>
+\t\t\t\t</div>
+
+\t\t\t\t<div id=\"multiscroll\">
+\t\t\t\t\t\t\t
+\t\t\t\t    <div class=\"ms-left\">
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
+\t\t\t\t\t        \tSection gauche 1
+\t\t\t\t        </div>
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"formations\">
+\t\t\t\t        \t\tSection gauche 2
+\t\t\t        \t</div>
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
+\t\t\t\t\t    \t\tSection gauche 3  
+\t\t\t\t        </div>
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
+\t\t\t\t\t    \t\tSection gauche 4 
+\t\t\t\t        </div>
+\t\t\t\t    </div>
+
+\t\t\t\t    <div class=\"ms-right\">
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
+\t\t\t\t        \t<div class=\"pure-g\">
+\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">retgftgfdtrg</div>
+\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">hj,u,uu,ui,,ui,</div>
+\t\t\t\t        \t</div>
+\t\t\t\t        </div>
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"formations\">
+\t\t\t\t        \t\tSection droite 2
+\t\t\t\t        </div>
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
+\t\t\t\t        \t\tSection droite 3
+\t\t\t\t        </div>
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
+\t\t\t\t        \t\tSection droite 4\t        \t\t
+\t\t\t\t        \t
+\t\t\t\t        </div>
+\t\t\t\t    </div>
+\t\t\t\t\t\t\t
 \t\t\t\t</div>
 
 \t\t\t\t<div id=\"multiscroll-nav\" class=\"right\">
@@ -133,6 +132,8 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* {% block body %}*/
 /* */
+/* */
+/* */
 /* <div id="st-container" class="st-container">*/
 /* */
 /* 	<nav class="st-menu st-effect-1" id="menu-1">*/
@@ -151,51 +152,48 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 		<div class="st-content">*/
 /* 			<div class="st-content-inner">*/
 /* */
-/* 				<div id="st-trigger-effects" class="column" style="position:absolute">*/
-/* 					<button data-effect="st-effect-1">Reveal</button>*/
-/* 				</div>*/
-/* 				<div id="multiscroll">*/
-/* 					<div class="pure-g">*/
-/* 						<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">*/
-/* 							*/
-/* 						    <div class="ms-left">*/
-/* 						        <div class="ms-section" data-anchor="home">*/
-/* 							        	Section gauche 1*/
-/* 						        </div>*/
-/* 						        <div class="ms-section" data-anchor="formations">*/
-/* 						        		Section gauche 2*/
-/* 					        	</div>*/
-/* 						        <div class="ms-section" data-anchor="skills">*/
-/* 							    		Section gauche 3  */
-/* 						        </div>*/
-/* 						        <div class="ms-section" data-anchor="contact">*/
-/* 							    		Section gauche 4 */
-/* 						        </div>*/
-/* 						    </div>*/
-/* 						</div>*/
-/* */
-/* 						<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">*/
-/* 						    <div class="ms-right">*/
-/* 						        <div class="ms-section" data-anchor="home">*/
-/* 						        	<div class="pure-g">*/
-/* 						        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">retgftgfdtrg</div>*/
-/* 						        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">hj,u,uu,ui,,ui,</div>*/
-/* 						        	</div>*/
-/* 						        </div>*/
-/* 						        <div class="ms-section" data-anchor="formations">*/
-/* 						        		Section droite 2*/
-/* 						        </div>*/
-/* 						        <div class="ms-section" data-anchor="skills">*/
-/* 						        		Section droite 3*/
-/* 						        </div>*/
-/* 						        <div class="ms-section" data-anchor="contact">*/
-/* 						        		Section droite 4	        		*/
-/* 						        	*/
-/* 						        </div>*/
-/* 						    </div>*/
-/* 							*/
-/* 						</div>*/
+/* 				<div class="menu-fixed">*/
+/* 					<div id="st-trigger-effects" class="column" style="position:absolute">*/
+/* 						<button data-effect="st-effect-1">Reveal</button>*/
 /* 					</div>*/
+/* 				</div>*/
+/* */
+/* 				<div id="multiscroll">*/
+/* 							*/
+/* 				    <div class="ms-left">*/
+/* 				        <div class="ms-section" data-anchor="home">*/
+/* 					        	Section gauche 1*/
+/* 				        </div>*/
+/* 				        <div class="ms-section" data-anchor="formations">*/
+/* 				        		Section gauche 2*/
+/* 			        	</div>*/
+/* 				        <div class="ms-section" data-anchor="skills">*/
+/* 					    		Section gauche 3  */
+/* 				        </div>*/
+/* 				        <div class="ms-section" data-anchor="contact">*/
+/* 					    		Section gauche 4 */
+/* 				        </div>*/
+/* 				    </div>*/
+/* */
+/* 				    <div class="ms-right">*/
+/* 				        <div class="ms-section" data-anchor="home">*/
+/* 				        	<div class="pure-g">*/
+/* 				        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">retgftgfdtrg</div>*/
+/* 				        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">hj,u,uu,ui,,ui,</div>*/
+/* 				        	</div>*/
+/* 				        </div>*/
+/* 				        <div class="ms-section" data-anchor="formations">*/
+/* 				        		Section droite 2*/
+/* 				        </div>*/
+/* 				        <div class="ms-section" data-anchor="skills">*/
+/* 				        		Section droite 3*/
+/* 				        </div>*/
+/* 				        <div class="ms-section" data-anchor="contact">*/
+/* 				        		Section droite 4	        		*/
+/* 				        	*/
+/* 				        </div>*/
+/* 				    </div>*/
+/* 							*/
 /* 				</div>*/
 /* */
 /* 				<div id="multiscroll-nav" class="right">*/

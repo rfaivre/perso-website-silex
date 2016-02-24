@@ -10,4 +10,5 @@ return array(
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
     'Pimple' => array($vendorDir . '/pimple/pimple/lib'),
     'Detection' => array($vendorDir . '/mobiledetect/mobiledetectlib/namespaced'),
+    'Binfo\\Silex' => array($vendorDir . '/jbinfo/mobile-detect-service-provider/src'),
 );

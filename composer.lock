@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "74429c06406aa9bb0d50c86f4ca340be",
-    "content-hash": "f32e514d3de3bf09b0bd66eaceeec2fb",
+    "hash": "0ec4d1b88c41d7ba7e2dfeeb32a00f58",
+    "content-hash": "d8da1f528c5f941f655a365b9a9a9c89",
     "packages": [
         {
             "name": "filp/whoops",
@@ -65,6 +65,58 @@
                 "zf2"
             ],
             "time": "2016-01-06 17:51:21"
+        },
+        {
+            "name": "jbinfo/mobile-detect-service-provider",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jbinfo/MobileDetectServiceProvider.git",
+                "reference": "56138fd6986aee25073f905f97dd69f602591981"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jbinfo/MobileDetectServiceProvider/zipball/56138fd6986aee25073f905f97dd69f602591981",
+                "reference": "56138fd6986aee25073f905f97dd69f602591981",
+                "shasum": ""
+            },
+            "require": {
+                "mobiledetect/mobiledetectlib": "~2",
+                "php": ">=5.3.0",
+                "silex/silex": "~1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Binfo\\Silex": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lhassan Baazzi",
+                    "email": "baazzilhassan@gmail.com",
+                    "homepage": "http://jbinfo.io/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A mobile detect ServiceProvider for Silex, based on Mobile-Detect library.",
+            "homepage": "https://github.com/jbinfo/MobileDetectServiceProvider",
+            "keywords": [
+                "mobile",
+                "mobile detect",
+                "php mobile detect",
+                "silex"
+            ],
+            "time": "2013-11-19 11:21:25"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
