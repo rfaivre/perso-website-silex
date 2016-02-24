@@ -604,16 +604,24 @@
     color: #fff;
 }
 
-@media screen and (max-width: 65em)
+@media screen and (max-width: 60em)
 {
     body
     {
         font-size: 85%;
     }
-}
-
-@media screen and (max-width: 60em)
-{
+    .ha-header-large
+    {
+        height: 220px;
+    }
+    .ha-header-small
+    {
+        height: 100px;
+    }
+    #ha-header nav
+    {
+        display: none;
+    }
     .ha-header-perspective > div,
     .ha-header nav
     {

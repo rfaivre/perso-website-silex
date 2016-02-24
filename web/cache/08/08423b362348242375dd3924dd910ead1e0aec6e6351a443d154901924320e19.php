@@ -65,18 +65,6 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t</header>
 
-
-
-
-\t\t\t\t<div class=\"menu-fixed\">
-\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\" style=\"position:absolute\">
-
-\t\t\t\t\t\t<button data-effect=\"st-effect-1\">
-\t\t\t\t\t\t\t<i class=\"fa fa-bars fa-2x\"></i>
-\t\t\t\t\t\t</button>
-\t\t\t\t\t</div>
-\t\t\t\t</div>
-
 \t\t\t\t<div id=\"multiscroll\">
 \t\t\t\t\t
 \t\t\t\t    <div class=\"ms-left\">
@@ -166,7 +154,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 141
+        // line 129
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -186,7 +174,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  170 => 141,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  158 => 129,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -228,18 +216,6 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 						</div>						*/
 /* 					</div>*/
 /* 				</header>*/
-/* */
-/* */
-/* */
-/* */
-/* 				<div class="menu-fixed">*/
-/* 					<div id="st-trigger-effects" class="column" style="position:absolute">*/
-/* */
-/* 						<button data-effect="st-effect-1">*/
-/* 							<i class="fa fa-bars fa-2x"></i>*/
-/* 						</button>*/
-/* 					</div>*/
-/* 				</div>*/
 /* */
 /* 				<div id="multiscroll">*/
 /* 					*/
