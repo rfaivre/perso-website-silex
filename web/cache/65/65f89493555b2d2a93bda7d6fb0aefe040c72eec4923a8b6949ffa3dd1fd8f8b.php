@@ -27,12 +27,10 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 
 \t<link rel=\"stylesheet\" href=\"http://yui.yahooapis.com/pure/0.6.0/pure-min.css\">
 \t<link rel=\"stylesheet\" href=\"http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css\">
+\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\">
 
-
-\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.fullpage.css\">
-
-\t\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.multiscroll.css\">
-
+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.fullpage.css\">
+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.multiscroll.css\">
 \t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/main.css\">
       
 \t<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js\"></script>
@@ -40,26 +38,27 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 <body>
 
 \t";
-        // line 23
+        // line 21
         $this->displayBlock('body', $context, $blocks);
-        // line 25
+        // line 23
         echo "
 \t<script src=\"ressources/js/jquery.easings.min.js\"></script>
+\t<script src=\"ressources/js/jquery.waypoints.min.js\"></script>
 
-\t\t<script type=\"text/javascript\" src=\"ressources/js/jquery.fullpage.js\"></script>
+\t<script type=\"text/javascript\" src=\"ressources/js/jquery.fullpage.js\"></script>
 
-\t\t<script type=\"text/javascript\" src=\"ressources/js/jquery.multiscroll.min.js\"></script>
-\t\t<script type=\"text/javascript\" src=\"ressources/js/classie.js\"></script>
+\t<script type=\"text/javascript\" src=\"ressources/js/jquery.multiscroll.min.js\"></script>
+\t<script type=\"text/javascript\" src=\"ressources/js/classie.js\"></script>
 
 \t<script type=\"text/javascript\" src=\"ressources/js/sidebarEffects.js\"></script>
 </body>
 </html>";
     }
 
-    // line 23
+    // line 21
     public function block_body($context, array $blocks = array())
     {
-        // line 24
+        // line 22
         echo "\t";
     }
 
@@ -70,7 +69,7 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 
     public function getDebugInfo()
     {
-        return array (  63 => 24,  60 => 23,  46 => 25,  44 => 23,  20 => 1,);
+        return array (  62 => 22,  59 => 21,  44 => 23,  42 => 21,  20 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -83,12 +82,10 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 /* */
 /* 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">*/
 /* 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">*/
+/* 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">*/
 /* */
-/* */
-/* 		<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.fullpage.css">*/
-/* */
-/* 		<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.multiscroll.css">*/
-/* */
+/* 	<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.fullpage.css">*/
+/* 	<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.multiscroll.css">*/
 /* 	<link rel="stylesheet" type="text/css" href="/ressources/css/main.css">*/
 /*       */
 /* 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>*/
@@ -99,11 +96,12 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 /* 	{% endblock %}*/
 /* */
 /* 	<script src="ressources/js/jquery.easings.min.js"></script>*/
+/* 	<script src="ressources/js/jquery.waypoints.min.js"></script>*/
 /* */
-/* 		<script type="text/javascript" src="ressources/js/jquery.fullpage.js"></script>*/
+/* 	<script type="text/javascript" src="ressources/js/jquery.fullpage.js"></script>*/
 /* */
-/* 		<script type="text/javascript" src="ressources/js/jquery.multiscroll.min.js"></script>*/
-/* 		<script type="text/javascript" src="ressources/js/classie.js"></script>*/
+/* 	<script type="text/javascript" src="ressources/js/jquery.multiscroll.min.js"></script>*/
+/* 	<script type="text/javascript" src="ressources/js/classie.js"></script>*/
 /* */
 /* 	<script type="text/javascript" src="ressources/js/sidebarEffects.js"></script>*/
 /* </body>*/

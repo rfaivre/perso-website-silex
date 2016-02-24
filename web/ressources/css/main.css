@@ -153,6 +153,503 @@
     padding-left: 300px;
 }
 
+.scroll
+{
+    font-size: 2em;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 2;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    width: 10em;
+    height: 2em;
+
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    opacity: .8; 
+    color: #e74c3c;
+    background: #fff;
+}
+
+.scroll::after
+{
+    font-size: 3em;
+    line-height: 1; 
+
+    display: block;
+
+    content: '\2193';
+
+    color: #fff;
+}
+
+/* Header styles and animations */
+.ha-header
+{
+    font-family: 'Lato', Arial, sans-serif;
+
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 0;
+
+    -webkit-transition: all .5s;
+            transition: all .5s; 
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+
+.ha-header-perspective
+{
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    -webkit-perspective: 1100px;
+            perspective: 1100px;
+    -webkit-perspective-origin: 50% 0;
+            perspective-origin: 50% 0;
+}
+
+.ha-header-perspective > div
+{
+    position: relative;
+
+    overflow: hidden; 
+
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 0 7%;
+
+    -webkit-transition: all .5s;
+            transition: all .5s;
+    text-align: left;
+    text-align: justify;
+
+    background: #fff;
+
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+}
+
+.ha-header-front
+{
+    z-index: 2;
+
+    -webkit-transform-origin: 50% 100%;
+            transform-origin: 50% 100%;
+}
+
+.ha-header-perspective .ha-header-bottom
+{
+    position: absolute;
+    z-index: 1;
+    top: 0; 
+
+    -webkit-transition: top .5s;
+            transition: top .5s;
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+    -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+
+    background: #ddd;
+}
+
+/* Justify inline-block elements (h1 on left side, nav on right) */
+.ha-header-perspective > div::after
+{
+    display: inline-block;
+
+    width: 100%; 
+
+    content: '';
+}
+
+/* Text styling */
+.ha-header h1,
+.ha-header h1::before,
+.ha-header h1 span,
+.ha-header nav,
+.ha-header nav::before
+{
+    display: inline-block;
+
+    text-align: left; 
+    vertical-align: middle;
+}
+
+.ha-header h1
+{
+    font-size: 3.2em;
+    font-weight: 300;
+
+    z-index: 1;
+
+    height: 100%;
+    margin: 0;
+    padding: 0 1em 0 0;
+
+    cursor: default;
+    -webkit-transition: all .5s;
+            transition: all .5s; 
+
+    color: #2d383f;
+}
+
+.ha-header h1::before,
+.ha-header nav::before
+{
+    height: 100%; 
+
+    content: '';
+}
+
+.ha-header h1::after
+{
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    left: 0;
+
+    width: 100px;
+    height: 96px;
+
+    content: '';
+    cursor: pointer;
+    -webkit-transition: opacity .5s;
+            transition: opacity .5s; 
+
+    opacity: 0;
+    border: 20px solid #fff;
+    background: #fff;
+    box-shadow: inset 0 8px #2d383f, inset 0 16px #fff, inset 0 24px #2d383f, inset 0 32px #fff, inset 0 40px #2d383f, inset 0 48px #fff, inset 0 56px #2d383f;
+}
+
+.ha-header nav
+{
+    height: 100%;
+}
+
+.ha-header nav a
+{
+    font-size: .8em;
+    font-weight: 700;
+
+    display: inline-block;
+
+    margin: 0 .4em 0;
+    padding: .2em .4em;
+
+    cursor: pointer;
+    text-decoration: none; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #e74c3c;
+    outline: none;
+}
+
+.ha-header nav a:hover
+{
+    color: #bc3c2f;
+}
+
+.ha-header nav a:last-child
+{
+    margin-right: 0;
+}
+
+.ha-header .ha-header-front nav a:first-child,
+.ha-header .ha-header-front nav a:last-child
+{
+    border: 2px solid #e74c3c;
+}
+
+.ha-header .ha-header-front nav a:first-child:hover,
+.ha-header .ha-header-front nav a:last-child:hover
+{
+    border: 2px solid #bc3c2f;
+}
+
+/* Individual states */
+.ha-header-large
+{
+    height: 420px;
+}
+
+.ha-header-small
+{
+    height: 220px;
+}
+
+.ha-header-hide
+{
+    height: 220px;
+
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.ha-header-show
+{
+    height: 220px;
+
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+}
+
+.ha-header-show .ha-header-bottom
+{
+    top: 0; 
+
+    -webkit-transition: top .5s, opacity 0s .5s;
+            transition: top .5s, opacity 0s .5s;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+
+    opacity: 0;
+}
+
+.ha-header-subshow
+{
+    height: 220px;
+}
+
+.ha-header-subshow .ha-header-bottom
+{
+    top: 50%; 
+
+    -webkit-transition: top .5s;
+            transition: top .5s;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+}
+
+.ha-header-shrink
+{
+    top: 50px;
+
+    height: 220px;
+    padding-right: 50px; 
+    padding-left: 50px;
+}
+
+.ha-header-shrink .ha-header-bottom
+{
+    opacity: 0;
+}
+
+.ha-header-rotate
+{
+    top: 50px;
+
+    height: 220px;
+    padding-right: 50px; 
+    padding-left: 50px;
+}
+
+.ha-header-rotate .ha-header-front
+{
+    -webkit-transform: translateY(-100%) rotateX(90deg);
+            transform: translateY(-100%) rotateX(90deg);
+}
+
+.ha-header-rotate .ha-header-bottom
+{
+    top: 50%;
+
+    -webkit-transition: -webkit-transform .5s;
+            transition: -webkit-transform .5s;
+            transition: transform .5s;
+            transition:         transform .5s, -webkit-transform .5s;
+    -webkit-transform: rotateX(0deg) translateY(-100%);
+            transform: rotateX(0deg) translateY(-100%);
+}
+
+.ha-header-rotateBack
+{
+    top: 50px;
+
+    height: 220px;
+    padding-right: 50px; 
+    padding-left: 50px;
+}
+
+.ha-header-rotateBack .ha-header-front
+{
+    -webkit-transform: translateY(0%) rotateX(0deg);
+            transform: translateY(0%) rotateX(0deg);
+}
+
+.ha-header-rotateBack .ha-header-bottom
+{
+    top: 50%;
+
+    -webkit-transition: -webkit-transform .5s;
+            transition: -webkit-transform .5s;
+            transition: transform .5s;
+            transition:         transform .5s, -webkit-transform .5s;
+    -webkit-transform: rotateX(-90deg);
+            transform: rotateX(-90deg);
+}
+
+.ha-header-color
+{
+    height: 420px;
+}
+
+.ha-header-color .ha-header-front,
+.ha-header-color .ha-header-bottom
+{
+    background: #f3796c;
+}
+
+.ha-header-color h1,
+.ha-header-color nav a
+{
+    color: #fff;
+}
+
+.ha-header-box
+{
+    top: 20px;
+    left: 20px; 
+
+    width: 100px;
+    height: 192px;
+}
+
+.ha-header-box h1
+{
+    padding-left: 150px;
+}
+
+.ha-header-box h1,
+.ha-header-box nav a
+{
+    color: transparent;
+}
+
+.ha-header-box h1:after
+{
+    opacity: 1;
+}
+
+.ha-header-box nav
+{
+    opacity: 0;
+}
+
+.ha-header-fullscreen
+{
+    height: 100%;
+
+    opacity: .9;
+}
+
+.ha-header-fullscreen .ha-header-front
+{
+    height: 100%;
+}
+
+.ha-header-fullscreen .ha-header-bottom
+{
+    top: 50%;
+
+    -webkit-transition: top .5s, opacity 0s .5s;
+            transition: top .5s, opacity 0s .5s;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+
+    opacity: 0;
+    background: #f3796c;
+}
+
+.ha-header-subfullscreen
+{
+    height: 100%;
+
+    opacity: .9;
+}
+
+.ha-header-subfullscreen .ha-header-bottom
+{
+    top: 50%;
+
+    -webkit-transition: top .5s;
+            transition: top .5s;
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+
+    background: #f3796c;
+}
+
+.ha-header-subfullscreen .ha-header-bottom nav a
+{
+    color: #fff;
+}
+
+@media screen and (max-width: 65em)
+{
+    body
+    {
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 60em)
+{
+    .ha-header-perspective > div,
+    .ha-header nav
+    {
+        text-align: center;
+    }
+    .ha-header h1
+    {
+        height: 60%; 
+        padding: 10px 0;
+    }
+    .ha-header .ha-header-bottom nav
+    {
+        padding: 40px 0;
+    }
+    .ha-header nav
+    {
+        display: block;
+
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 38em)
+{
+    section
+    {
+        font-size: 1.3em;
+    }
+    .ha-header h1
+    {
+        font-size: 2em;
+    }
+    .ha-header nav
+    {
+        font-size: 60%;
+    }
+}
+
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1

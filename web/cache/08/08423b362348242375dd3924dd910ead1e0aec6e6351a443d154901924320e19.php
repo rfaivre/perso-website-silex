@@ -44,12 +44,45 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t<!-- content push wrapper -->
 \t<div class=\"st-pusher\">
 
-\t\t<div class=\"st-content\">
+\t\t<div class=\"st-content container\">
 \t\t\t<div class=\"st-content-inner\">
+
+
+\t\t\t\t<header id=\"ha-header\" class=\"ha-header ha-header-large\">
+\t\t\t\t\t<div class=\"ha-header-perspective\">
+\t\t\t\t\t\t<div class=\"ha-header-front\">
+\t\t\t\t\t\t\t<h1><span>Header Effects</span></h1>
+\t\t\t\t\t\t\t<nav>
+\t\t\t\t\t\t\t\t<a>‹ Previous Demo</a>
+\t\t\t\t\t\t\t\t<a>Something</a>
+\t\t\t\t\t\t\t\t<a>Anything</a>
+\t\t\t\t\t\t\t\t<a>Back to the article</a>
+\t\t\t\t\t\t\t</nav>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t\t<div class=\"ha-header-bottom\">
+\t\t\t\t\t\t\t<nav>
+\t\t\t\t\t\t\t\t<a>Dalliance</a>
+\t\t\t\t\t\t\t\t<a>Inglenook</a>
+\t\t\t\t\t\t\t\t<a>Lagniappe</a>
+\t\t\t\t\t\t\t\t<a>Mellifluous</a>
+\t\t\t\t\t\t\t\t<a>Erstwhile</a>
+\t\t\t\t\t\t\t\t<a>Wafture</a>
+\t\t\t\t\t\t\t\t<a>Serendipity</a>
+\t\t\t\t\t\t\t\t<a>Love</a>
+\t\t\t\t\t\t\t</nav>
+\t\t\t\t\t\t</div>
+\t\t\t\t\t</div>
+\t\t\t\t</header>
+
+
+
 
 \t\t\t\t<div class=\"menu-fixed\">
 \t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\" style=\"position:absolute\">
-\t\t\t\t\t\t<button data-effect=\"st-effect-1\">Reveal</button>
+
+\t\t\t\t\t\t<button data-effect=\"st-effect-1\">
+\t\t\t\t\t\t\t<i class=\"fa fa-bars fa-2x\"></i>
+\t\t\t\t\t\t</button>
 \t\t\t\t\t</div>
 \t\t\t\t</div>
 
@@ -73,7 +106,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t        \t</div>
 \t\t\t        \t<!-- END SECTION STUDIES -->
 \t\t\t        \t<!-- SECTION SKILLS -->
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
+\t\t\t\t        <div class=\"ms-section ha-waypoint\" data-anchor=\"skills\" data-animate-down=\"ha-header-small\" data-animate-up=\"ha-header-large\">
 \t\t\t\t\t    \t<div class=\"wrap-section\">\t\t\t\t\t    \t\t
 \t\t\t\t\t    \t\tSection gauche 3  
 \t\t\t\t\t    \t</div>
@@ -139,7 +172,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 114
+        // line 147
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -159,7 +192,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  143 => 114,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  176 => 147,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -181,12 +214,45 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 	<!-- content push wrapper -->*/
 /* 	<div class="st-pusher">*/
 /* */
-/* 		<div class="st-content">*/
+/* 		<div class="st-content container">*/
 /* 			<div class="st-content-inner">*/
+/* */
+/* */
+/* 				<header id="ha-header" class="ha-header ha-header-large">*/
+/* 					<div class="ha-header-perspective">*/
+/* 						<div class="ha-header-front">*/
+/* 							<h1><span>Header Effects</span></h1>*/
+/* 							<nav>*/
+/* 								<a>‹ Previous Demo</a>*/
+/* 								<a>Something</a>*/
+/* 								<a>Anything</a>*/
+/* 								<a>Back to the article</a>*/
+/* 							</nav>*/
+/* 						</div>*/
+/* 						<div class="ha-header-bottom">*/
+/* 							<nav>*/
+/* 								<a>Dalliance</a>*/
+/* 								<a>Inglenook</a>*/
+/* 								<a>Lagniappe</a>*/
+/* 								<a>Mellifluous</a>*/
+/* 								<a>Erstwhile</a>*/
+/* 								<a>Wafture</a>*/
+/* 								<a>Serendipity</a>*/
+/* 								<a>Love</a>*/
+/* 							</nav>*/
+/* 						</div>*/
+/* 					</div>*/
+/* 				</header>*/
+/* */
+/* */
+/* */
 /* */
 /* 				<div class="menu-fixed">*/
 /* 					<div id="st-trigger-effects" class="column" style="position:absolute">*/
-/* 						<button data-effect="st-effect-1">Reveal</button>*/
+/* */
+/* 						<button data-effect="st-effect-1">*/
+/* 							<i class="fa fa-bars fa-2x"></i>*/
+/* 						</button>*/
 /* 					</div>*/
 /* 				</div>*/
 /* */
@@ -210,7 +276,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 			        	</div>*/
 /* 			        	<!-- END SECTION STUDIES -->*/
 /* 			        	<!-- SECTION SKILLS -->*/
-/* 				        <div class="ms-section" data-anchor="skills">*/
+/* 				        <div class="ms-section ha-waypoint" data-anchor="skills" data-animate-down="ha-header-small" data-animate-up="ha-header-large">*/
 /* 					    	<div class="wrap-section">					    		*/
 /* 					    		Section gauche 3  */
 /* 					    	</div>*/
