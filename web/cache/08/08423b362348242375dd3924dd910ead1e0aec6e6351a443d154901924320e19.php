@@ -51,6 +51,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t<header id=\"ha-header\" class=\"ha-header ha-header-large\">
 \t\t\t\t\t<div class=\"ha-header-perspective\">
 \t\t\t\t\t\t<div class=\"ha-header-front\">
+\t\t\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\" style=\"position:absolute\">
+
+\t\t\t\t\t\t<button data-effect=\"st-effect-1\">
+\t\t\t\t\t\t\t<i class=\"fa fa-bars fa-2x\"></i>
+\t\t\t\t\t\t</button>
+\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<h1><span>Header Effects</span></h1>
 \t\t\t\t\t\t\t<nav>
 \t\t\t\t\t\t\t\t<a>‹ Previous Demo</a>
@@ -87,7 +93,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t</div>
 
 \t\t\t\t<div id=\"multiscroll\">
-\t\t\t\t\t\t\t
+\t\t\t\t\t
 \t\t\t\t    <div class=\"ms-left\">
 \t\t\t\t    \t<!-- SECTION HOME -->
 \t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
@@ -106,7 +112,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t        \t</div>
 \t\t\t        \t<!-- END SECTION STUDIES -->
 \t\t\t        \t<!-- SECTION SKILLS -->
-\t\t\t\t        <div class=\"ms-section ha-waypoint\" data-anchor=\"skills\" data-animate-down=\"ha-header-small\" data-animate-up=\"ha-header-large\">
+\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
 \t\t\t\t\t    \t<div class=\"wrap-section\">\t\t\t\t\t    \t\t
 \t\t\t\t\t    \t\tSection gauche 3  
 \t\t\t\t\t    \t</div>
@@ -172,7 +178,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 147
+        // line 153
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -192,7 +198,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  176 => 147,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  182 => 153,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -221,6 +227,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				<header id="ha-header" class="ha-header ha-header-large">*/
 /* 					<div class="ha-header-perspective">*/
 /* 						<div class="ha-header-front">*/
+/* 							<div id="st-trigger-effects" class="column" style="position:absolute">*/
+/* */
+/* 						<button data-effect="st-effect-1">*/
+/* 							<i class="fa fa-bars fa-2x"></i>*/
+/* 						</button>*/
+/* 					</div>*/
 /* 							<h1><span>Header Effects</span></h1>*/
 /* 							<nav>*/
 /* 								<a>‹ Previous Demo</a>*/
@@ -257,7 +269,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				</div>*/
 /* */
 /* 				<div id="multiscroll">*/
-/* 							*/
+/* 					*/
 /* 				    <div class="ms-left">*/
 /* 				    	<!-- SECTION HOME -->*/
 /* 				        <div class="ms-section" data-anchor="home">*/
@@ -276,7 +288,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 			        	</div>*/
 /* 			        	<!-- END SECTION STUDIES -->*/
 /* 			        	<!-- SECTION SKILLS -->*/
-/* 				        <div class="ms-section ha-waypoint" data-anchor="skills" data-animate-down="ha-header-small" data-animate-up="ha-header-large">*/
+/* 				        <div class="ms-section" data-anchor="skills">*/
 /* 					    	<div class="wrap-section">					    		*/
 /* 					    		Section gauche 3  */
 /* 					    	</div>*/

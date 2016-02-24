@@ -43,6 +43,8 @@ gulp.task('prod', ['build',  'minify']);
 // Tâche "watch" = je surveille *less
 gulp.task('watch', function () {
   gulp.watch(src + '/css/*.scss', ['build']);
+  gulp.watch(src + '/js/*.js', ['js']);
+
 });
 
 // Tâche par défaut

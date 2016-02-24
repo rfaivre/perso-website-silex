@@ -2,25 +2,26 @@ $(document).ready(function() {
 
 	function header_effects(nextIndex, direction){
 
-		var $head = $( '#ha-header' ),
-			$waypoint = $( '.ha-waypoint' ),
-			animClassDown = $waypoint.data( 'animateDown' ),
-			animClassUp = $waypoint.data( 'animateUp' );
+		var $head = $( '#ha-header' );
 
-		if (direction == "down" && nextIndex == 2)
+		if (direction == "down" && nextIndex >= 2)
 		{
-			$head.attr('class', 'ha-header ' + animClassDown);
+			$head.attr('class', 'ha-header ha-header-small');
 		}
 
 		if (direction == "up" && nextIndex == 1)
 		{
-			$head.attr('class', 'ha-header ' + animClassUp);
+			$head.attr('class', 'ha-header ha-header-large');
 		}
 	}
 
 	if (isMobile == '0'){
 		$('#multiscroll').multiscroll({
 			onLeave: function(index, nextIndex, direction){
+				console.log('test');
+				console.log(nextIndex);
+				console.log(direction);
+
 				header_effects(nextIndex, direction);
 			},		
 			
