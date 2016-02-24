@@ -21,7 +21,7 @@ set :repo_url, 'deploy@webserver:remote/git/remi'
 # set :log_level, :debug
 
 # Default value for :pty is false
-# set :pty, true
+set :pty, true
 
 # Default value for :linked_files is []
 # set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
@@ -37,13 +37,10 @@ set :keep_releases, 3
 
 namespace :deploy do
 
-  after :restart, :clear_cache do
-    on roles(:web), in: :groups, limit: 3, wait: 10 do
-      # Here we can do anything such as:
-      # within release_path do
-      #   execute :rake, 'cache:clear'
-      # end
-	  run "sudo chown -R www-data:www-data #{latest_release}/#{cache_path}"
+  after :updated, :change_permission do	
+    on roles(:web) do
+      # invoke "php:change_permission"
+	  
     end
   end
 
