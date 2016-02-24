@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	if (isMobile == 'no-mobile'){
+	if (isMobile == '0'){
 		$('#multiscroll').multiscroll();		
 	}
 	else
