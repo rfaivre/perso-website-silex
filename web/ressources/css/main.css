@@ -4745,8 +4745,8 @@ html body #multiscroll .ms-right .section-contact .wrap-section
 {
     position: relative; 
 
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 
     border: none;
     outline: none;
@@ -4759,8 +4759,8 @@ html body #multiscroll .ms-right .section-contact .wrap-section
 
     display: block;
 
-    width: 30px;
-    height: 2px;
+    width: 40px;
+    height: 3px;
 
     -webkit-transition: all .3s;
             transition: all .3s; 
@@ -4773,11 +4773,11 @@ html body #multiscroll .ms-right .section-contact .wrap-section
 }
 #st-trigger-effects button i:nth-child(2)
 {
-    top: 24px;
+    top: 26px;
 }
 #st-trigger-effects button i:nth-child(3)
 {
-    top: 32px;
+    top: 36px;
 }
 
 .st-menu-open #st-trigger-effects button i:nth-child(1)
