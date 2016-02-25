@@ -159,18 +159,18 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t</div>
 
 \t\t\t\t<div id=\"multiscroll-nav\" class=\"right animated slideInRight\">
-\t\t\t\t\t<ul id=\"myMenu\">
-\t\t\t\t\t    <li>
-\t\t\t\t\t    \t<a href=\"#home\"><span></span></a>
+\t\t\t\t\t<ul id=\"multiscroll-menu\">
+\t\t\t\t\t    <li data-tooltip=\"\">
+\t\t\t\t\t    \t<a data-menuanchor=\"home\" href=\"home\"><span></span></a>
 \t\t\t\t\t    </li>
-\t\t\t\t\t    <li>
-\t\t\t\t\t    \t<span><a href=\"#studies\"></a></span>
+\t\t\t\t\t    <li data-tooltip=\"\">
+\t\t\t\t\t    \t<a data-menuanchor=\"studies\" href=\"studies\"><span></span></a>
 \t\t\t\t\t    </li>
-\t\t\t\t\t    <li>
-\t\t\t\t\t    \t<span><a href=\"#skills\"></a></span>
+\t\t\t\t\t    <li data-tooltip=\"\">
+\t\t\t\t\t    \t<a data-menuanchor=\"skills\" href=\"skills\"><span></span></a>
 \t\t\t\t\t    </li>
-\t\t\t\t\t    <li>
-\t\t\t\t\t    \t<span><a href=\"#contact\"></a></span>
+\t\t\t\t\t    <li data-tooltip=\"\">
+\t\t\t\t\t    \t<a data-menuanchor=\"contact\" href=\"contact\"><span></span></a>
 \t\t\t\t\t    </li>
 \t\t\t\t\t</ul>
 \t\t\t\t</div>
@@ -334,18 +334,18 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				</div>*/
 /* */
 /* 				<div id="multiscroll-nav" class="right animated slideInRight">*/
-/* 					<ul id="myMenu">*/
-/* 					    <li>*/
-/* 					    	<a href="#home"><span></span></a>*/
+/* 					<ul id="multiscroll-menu">*/
+/* 					    <li data-tooltip="">*/
+/* 					    	<a data-menuanchor="home" href="home"><span></span></a>*/
 /* 					    </li>*/
-/* 					    <li>*/
-/* 					    	<span><a href="#studies"></a></span>*/
+/* 					    <li data-tooltip="">*/
+/* 					    	<a data-menuanchor="studies" href="studies"><span></span></a>*/
 /* 					    </li>*/
-/* 					    <li>*/
-/* 					    	<span><a href="#skills"></a></span>*/
+/* 					    <li data-tooltip="">*/
+/* 					    	<a data-menuanchor="skills" href="skills"><span></span></a>*/
 /* 					    </li>*/
-/* 					    <li>*/
-/* 					    	<span><a href="#contact"></a></span>*/
+/* 					    <li data-tooltip="">*/
+/* 					    	<a data-menuanchor="contact" href="contact"><span></span></a>*/
 /* 					    </li>*/
 /* 					</ul>*/
 /* 				</div>*/

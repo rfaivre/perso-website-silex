@@ -15,17 +15,25 @@ $(document).ready(function() {
 
 	if (isMobile == '0') {
 		$('#multiscroll').multiscroll({
+			menu: '#multiscroll-menu',
 			anchors: ['home', 'studies', 'skills', 'contact'],
+			showActiveTooltip: false,
 			onLeave: function(index, nextIndex, direction){
 				header_effects(nextIndex, direction);
-			}
+			}	
 		});
 	} else {
 		$('#fullpage').fullpage({
+			controlArrows: false,
+			slidesNavigation: true,
 			onLeave: function(index, nextIndex, direction){
 				header_effects(nextIndex, direction);
 			}
 		});
 	}
+
+	$('#menu-1 a').on('click', function(){
+		$('#st-container').toggleClass('st-menu-open');
+	});
 	
 });
