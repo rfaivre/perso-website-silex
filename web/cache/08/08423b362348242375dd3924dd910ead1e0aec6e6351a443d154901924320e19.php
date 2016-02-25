@@ -34,7 +34,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t<nav class=\"st-menu st-effect-1\" id=\"menu-1\">
 \t\t<h2 class=\"icon icon-stack\">Sidebar</h2>
 \t\t<ul>
-\t\t\t<li><a class=\"icon icon-data\" href=\"#accueil\">Accueil</a></li>
+\t\t\t<li><a class=\"icon icon-data\" href=\"#home\">Accueil</a></li>
 \t\t\t<li><a class=\"icon icon-location\" href=\"#studies\">Formations</a></li>
 \t\t\t<li><a class=\"icon icon-study\" href=\"#skills\">Compétences</a></li>
 \t\t\t<li><a class=\"icon icon-photo\" href=\"#contact\">Contact</a></li>
@@ -50,33 +50,28 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t<header id=\"ha-header\" class=\"ha-header ha-header-large\">
 \t\t\t\t\t<div class=\"ha-header-perspective\">
-\t\t\t\t\t\t<div class=\"ha-header-front\">
-\t\t\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\" style=\"position:absolute\">
-\t\t\t\t\t\t\t\t<span>
+\t\t\t\t\t\t\t<div class=\"ha-header-front\">
+\t\t\t\t\t\t\t\t<h1><span>Rémi FAIVRE</span></h1>
+\t\t\t\t\t\t\t\t<!--<nav>
+\t\t\t\t\t\t\t\t\t<a>‹ Previous Demo</a>
+\t\t\t\t\t\t\t\t</nav>-->
 \t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t<a data-effect=\"st-effect-1\" href=\"javascript:void(0)\">
-\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-bars fa-2x\"></i>
-\t\t\t\t\t\t\t\t\t</a>
-\t\t\t\t\t\t\t\t</span>
-\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t<h1><span>Rémi FAIVRE</span></h1>
-\t\t\t\t\t\t\t<nav>
-\t\t\t\t\t\t\t\t<a>‹ Previous Demo</a>
-\t\t\t\t\t\t\t</nav>
-\t\t\t\t\t\t</div>\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\">
+\t\t\t\t\t\t\t\t\t<button data-effect=\"st-effect-1\" class=\"button-menu\">
+\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-bars fa-3x\"></i>
+\t\t\t\t\t\t\t\t\t</button>
+\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t</div>\t\t\t\t\t\t
+\t\t\t\t\t\t
 \t\t\t\t\t</div>
 \t\t\t\t</header>
 
 \t\t\t\t<div id=\"multiscroll\">
-\t\t\t\t\t
 \t\t\t\t    <div class=\"ms-left\">
 \t\t\t\t    \t<!-- SECTION HOME -->
 \t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
 \t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t\t        \tSection gauche 1
-\t\t\t\t\t        \t<div style=\"position: absolute; bottom: 0;\">
-\t\t\t\t\t        \t\tferf
-\t\t\t\t\t        \t</div>
+\t\t\t\t\t        \tetse
 \t\t\t\t        \t\t
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
@@ -110,14 +105,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t        <div class=\"ms-section section section-home\" data-anchor=\"home\">
 \t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t\t        \t<div class=\"pure-g\">
-\t\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">retgftgfdtrg</div>
-\t\t\t\t\t        \t\t<div class=\"pure-u-1 pure-u-md-1-1 pure-u-lg-1-2\">hj,u,uu,ui,,ui,</div>
-\t\t\t\t\t        \t</div>
+\t\t\t\t\t        \t
+\t\t\t\t\t        \ttergfretr
 \t\t\t\t        \t\t
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
-\t\t\t\t        <div class=\"ms-section section section-formations\" data-anchor=\"studies\">
+\t\t\t\t        <div class=\"ms-section section section-studies\" data-anchor=\"studies\">
 \t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\tSection droite 2
 \t\t\t\t        \t\t
@@ -130,9 +123,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 105
+        // line 98
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 106
+            // line 99
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t\t\t\t\tSection droite 4
@@ -140,7 +133,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 112
+            // line 105
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -158,7 +151,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 128
+        // line 121
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
@@ -180,7 +173,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 148
+        // line 141
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -200,7 +193,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  184 => 148,  162 => 128,  144 => 112,  136 => 106,  134 => 105,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  177 => 141,  155 => 121,  137 => 105,  129 => 99,  127 => 98,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -212,7 +205,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 	<nav class="st-menu st-effect-1" id="menu-1">*/
 /* 		<h2 class="icon icon-stack">Sidebar</h2>*/
 /* 		<ul>*/
-/* 			<li><a class="icon icon-data" href="#accueil">Accueil</a></li>*/
+/* 			<li><a class="icon icon-data" href="#home">Accueil</a></li>*/
 /* 			<li><a class="icon icon-location" href="#studies">Formations</a></li>*/
 /* 			<li><a class="icon icon-study" href="#skills">Compétences</a></li>*/
 /* 			<li><a class="icon icon-photo" href="#contact">Contact</a></li>*/
@@ -228,33 +221,28 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* 				<header id="ha-header" class="ha-header ha-header-large">*/
 /* 					<div class="ha-header-perspective">*/
-/* 						<div class="ha-header-front">*/
-/* 							<div id="st-trigger-effects" class="column" style="position:absolute">*/
-/* 								<span>*/
+/* 							<div class="ha-header-front">*/
+/* 								<h1><span>Rémi FAIVRE</span></h1>*/
+/* 								<!--<nav>*/
+/* 									<a>‹ Previous Demo</a>*/
+/* 								</nav>-->*/
 /* 									*/
-/* 									<a data-effect="st-effect-1" href="javascript:void(0)">*/
-/* 										<i class="fa fa-bars fa-2x"></i>*/
-/* 									</a>*/
-/* 								</span>*/
-/* 							</div>*/
-/* 							<h1><span>Rémi FAIVRE</span></h1>*/
-/* 							<nav>*/
-/* 								<a>‹ Previous Demo</a>*/
-/* 							</nav>*/
-/* 						</div>						*/
+/* 								<div id="st-trigger-effects" class="column">*/
+/* 									<button data-effect="st-effect-1" class="button-menu">*/
+/* 										<i class="fa fa-bars fa-3x"></i>*/
+/* 									</button>*/
+/* 								</div>*/
+/* 							</div>						*/
+/* 						*/
 /* 					</div>*/
 /* 				</header>*/
 /* */
 /* 				<div id="multiscroll">*/
-/* 					*/
 /* 				    <div class="ms-left">*/
 /* 				    	<!-- SECTION HOME -->*/
 /* 				        <div class="ms-section" data-anchor="home">*/
 /* 				        	<div class="wrap-section">*/
-/* 					        	Section gauche 1*/
-/* 					        	<div style="position: absolute; bottom: 0;">*/
-/* 					        		ferf*/
-/* 					        	</div>*/
+/* 					        	etse*/
 /* 				        		*/
 /* 				        	</div>*/
 /* 				        </div>*/
@@ -288,14 +276,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* 				        <div class="ms-section section section-home" data-anchor="home">*/
 /* 				        	<div class="wrap-section">*/
-/* 					        	<div class="pure-g">*/
-/* 					        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">retgftgfdtrg</div>*/
-/* 					        		<div class="pure-u-1 pure-u-md-1-1 pure-u-lg-1-2">hj,u,uu,ui,,ui,</div>*/
-/* 					        	</div>*/
+/* 					        	*/
+/* 					        	tergfretr*/
 /* 				        		*/
 /* 				        	</div>*/
 /* 				        </div>*/
-/* 				        <div class="ms-section section section-formations" data-anchor="studies">*/
+/* 				        <div class="ms-section section section-studies" data-anchor="studies">*/
 /* 				        	<div class="wrap-section">*/
 /* 				        		Section droite 2*/
 /* 				        		*/

@@ -604,57 +604,6 @@
     color: #fff;
 }
 
-@media screen and (max-width: 60em)
-{
-    body
-    {
-        font-size: 85%;
-    }
-    .ha-header-large
-    {
-        height: 220px;
-    }
-    .ha-header-small
-    {
-        height: 100px;
-    }
-    #ha-header nav
-    {
-        display: none;
-    }
-    .ha-header-perspective > div,
-    .ha-header nav
-    {
-        text-align: center;
-    }
-    .ha-header .ha-header-bottom nav
-    {
-        padding: 40px 0;
-    }
-    .ha-header nav
-    {
-        display: block;
-
-        height: auto;
-    }
-}
-
-@media screen and (max-width: 38em)
-{
-    section
-    {
-        font-size: 1.3em;
-    }
-    .ha-header h1
-    {
-        font-size: 2em;
-    }
-    .ha-header nav
-    {
-        font-size: 60%;
-    }
-}
-
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1
@@ -4735,14 +4684,6 @@ html body #multiscroll .ms-section .wrap-section
 {
     height: 100%;
 }
-html body #multiscroll .ms-left .ms-section
-{
-    z-index: 11;
-
-    border-right: 10px solid #696969;
-    background-color: #696969; 
-    box-shadow: 0 0 0 transparent, 0 3px 6px rgba(0, 0, 0, .4);
-}
 html body #multiscroll .ms-left .ms-section:nth-child(1) .wrap-section
 {
     padding-top: 210px;
@@ -4750,6 +4691,14 @@ html body #multiscroll .ms-left .ms-section:nth-child(1) .wrap-section
 html body #multiscroll .ms-left .ms-section:nth-child(n+2) .wrap-section
 {
     padding-top: 110px;
+}
+html body #multiscroll .ms-left .ms-section
+{
+    /*z-index: 11;
+					border-right: 10px solid $grey_dark;	
+					box-shadow: 0 0 0 transparent, 0px 3px 6px rgba(0, 0, 0, 0.4);
+					*/
+    background-color: #696969;
 }
 html body #multiscroll .ms-right .section-home
 {
@@ -4759,11 +4708,11 @@ html body #multiscroll .ms-right .section-home .wrap-section
 {
     padding-top: 210px;
 }
-html body #multiscroll .ms-right .section-formations
+html body #multiscroll .ms-right .section-studies
 {
     background-color: green;
 }
-html body #multiscroll .ms-right .section-formations .wrap-section
+html body #multiscroll .ms-right .section-studies .wrap-section
 {
     padding-top: 110px;
 }
@@ -4786,8 +4735,29 @@ html body #multiscroll .ms-right .section-contact .wrap-section
 
 #st-trigger-effects
 {
+    display: inline-block;
+
+    vertical-align: middle;
+}
+#st-trigger-effects button
+{
+    border: none;
+    outline: none; 
+    background: transparent;
+}
+
+#particles-js
+{
     position: absolute;
-    z-index: 1000;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #2c2e43;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    background-size: cover;
 }
 
 @media screen and (max-width: 640px)
@@ -4803,5 +4773,74 @@ html body #multiscroll .ms-right .section-contact .wrap-section
     #multiscroll-nav
     {
         display: none;
+    }
+}
+
+@media screen and (max-width: 60em)
+{
+    html body
+    {
+        font-size: 85%;
+    }
+    html body .ha-header-large
+    {
+        height: 220px;
+    }
+    html body .ha-header-small
+    {
+        height: 100px;
+    }
+    html body #ha-header nav
+    {
+        display: none;
+    }
+    html body .ha-header-perspective > div,
+    html body .ha-header nav
+    {
+        text-align: center;
+    }
+    html body .ha-header .ha-header-bottom nav
+    {
+        padding: 40px 0;
+    }
+    html body .ha-header nav
+    {
+        display: block;
+
+        height: auto;
+    }
+    html body #multiscroll .ms-left .ms-section:nth-child(1) .wrap-section
+    {
+        padding-top: 110px;
+    }
+    html body #multiscroll .ms-left .ms-section:nth-child(n+2) .wrap-section
+    {
+        padding-top: 50px;
+    }
+    html body #multiscroll .ms-right .section-studies .wrap-section,
+    html body #multiscroll .ms-right .section-skills .wrap-section,
+    html body #multiscroll .ms-right .section-contact .wrap-section
+    {
+        padding-top: 50px;
+    }
+    html body #multiscroll .ms-right .section-home .wrap-section
+    {
+        padding-top: 110px;
+    }
+}
+
+@media screen and (max-width: 38em)
+{
+    section
+    {
+        font-size: 1.3em;
+    }
+    .ha-header h1
+    {
+        font-size: 2em;
+    }
+    .ha-header nav
+    {
+        font-size: 60%;
     }
 }
