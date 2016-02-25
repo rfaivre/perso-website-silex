@@ -4769,20 +4769,20 @@ html body #multiscroll .ms-right .section-contact .wrap-section
 }
 #st-trigger-effects button i:nth-child(1)
 {
-    top: 16px;
+    top: 18px;
 }
 #st-trigger-effects button i:nth-child(2)
 {
-    top: 26px;
+    top: 30px;
 }
 #st-trigger-effects button i:nth-child(3)
 {
-    top: 36px;
+    top: 42px;
 }
 
 .st-menu-open #st-trigger-effects button i:nth-child(1)
 {
-    top: 25px;
+    top: 30px;
 
     -webkit-transform: rotateZ(45deg);
             transform: rotateZ(45deg);
@@ -4795,7 +4795,7 @@ html body #multiscroll .ms-right .section-contact .wrap-section
 
 .st-menu-open #st-trigger-effects button i:nth-child(3)
 {
-    top: 25px;
+    top: 30px;
 
     -webkit-transform: rotateZ(-45deg);
             transform: rotateZ(-45deg);
@@ -4859,9 +4859,47 @@ html body #multiscroll .ms-right .section-contact .wrap-section
 
         height: auto;
     }
+    html body #st-trigger-effects
+    {
+        top: 10px;
+    }
     html body #st-trigger-effects button
     {
         font-size: .7em;
+    }
+    html body #st-trigger-effects button
+    {
+        width: 40px;
+        height: 40px;
+    }
+    html body #st-trigger-effects button i
+    {
+        width: 30px; 
+        height: 2px;
+    }
+    html body #st-trigger-effects button i:nth-child(1)
+    {
+        top: 10px;
+    }
+    html body #st-trigger-effects button i:nth-child(2)
+    {
+        top: 20px;
+    }
+    html body #st-trigger-effects button i:nth-child(3)
+    {
+        top: 30px;
+    }
+    html body .st-menu-open #st-trigger-effects button i:nth-child(1)
+    {
+        top: 20px;
+    }
+    html body .st-menu-open #st-trigger-effects button i:nth-child(2)
+    {
+        background: transparent;
+    }
+    html body .st-menu-open #st-trigger-effects button i:nth-child(3)
+    {
+        top: 20px;
     }
     html body #multiscroll .ms-left .ms-section:nth-child(1) .wrap-section
     {
