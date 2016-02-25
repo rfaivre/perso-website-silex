@@ -47,63 +47,65 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t<div class=\"st-content container\">
 \t\t\t<div class=\"st-content-inner\">
 
-
 \t\t\t\t<header id=\"ha-header\" class=\"ha-header ha-header-large\">
 \t\t\t\t\t<div class=\"ha-header-perspective\">
-\t\t\t\t\t\t\t<div class=\"ha-header-front\">
-\t\t\t\t\t\t\t\t<h1><span>Rémi FAIVRE</span></h1>
-\t\t\t\t\t\t\t\t<!--<nav>
-\t\t\t\t\t\t\t\t\t<a>‹ Previous Demo</a>
-\t\t\t\t\t\t\t\t</nav>-->
-\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\">
-\t\t\t\t\t\t\t\t\t<button data-effect=\"st-effect-1\" class=\"button-menu\">
-\t\t\t\t\t\t\t\t\t\t<!--<i class=\"fa fa-bars fa-3x\"></i>-->
-\t\t\t\t\t\t\t\t\t\t<i></i>
-\t\t\t\t\t\t\t\t\t\t<i></i>
-\t\t\t\t\t\t\t\t\t\t<i></i>
-\t\t\t\t\t\t\t\t\t</button>
-\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t</div>\t\t\t\t\t\t
-\t\t\t\t\t\t
+\t\t\t\t\t\t<div class=\"ha-header-front\">
+\t\t\t\t\t\t\t<h1><span>Rémi FAIVRE</span></h1>
+\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\">
+\t\t\t\t\t\t\t\t<button data-effect=\"st-effect-1\" class=\"button-menu\">
+\t\t\t\t\t\t\t\t\t<i></i>
+\t\t\t\t\t\t\t\t\t<i></i>
+\t\t\t\t\t\t\t\t\t<i></i>
+\t\t\t\t\t\t\t\t</button>
+\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t</div>\t\t\t\t\t\t
 \t\t\t\t\t</div>
 \t\t\t\t</header>
 
 \t\t\t\t<div id=\"multiscroll\">
-\t\t\t\t    <div class=\"ms-left\">
-\t\t\t\t    \t<!-- SECTION HOME -->
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
-\t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t\t        \tetse
-\t\t\t\t        \t\t
-\t\t\t\t        \t</div>
-\t\t\t\t        </div>
-\t\t\t\t        <!-- END SECTION HOME -->
-\t\t\t\t        <!-- SECTION STUDIES -->
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"studies\">
-\t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t        \t\tSection gauche 2
-\t\t\t\t        \t\t
-\t\t\t\t        \t</div>
-\t\t\t        \t</div>
-\t\t\t        \t<!-- END SECTION STUDIES -->
-\t\t\t        \t<!-- SECTION SKILLS -->
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
-\t\t\t\t\t    \t<div class=\"wrap-section\">\t\t\t\t\t    \t\t
-\t\t\t\t\t    \t\tSection gauche 3  
-\t\t\t\t\t    \t</div>
-\t\t\t\t        </div>
-\t\t\t\t        <!-- END SECTION SKILLS -->
-\t\t\t\t        <!-- SECTION CONTACT -->
-\t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
-\t\t\t\t\t    \t<div class=\"wrap-section\">
-\t\t\t\t\t    \t\tSection gauche 4 
-\t\t\t\t\t    \t\t
-\t\t\t\t\t    \t</div>
-\t\t\t\t        </div>
-\t\t\t\t        <!-- END SECTION CONTACT -->
-\t\t\t\t    </div>
 
+\t\t\t\t\t";
+        // line 41
+        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
+            // line 42
+            echo "\t\t\t\t\t    <div class=\"ms-left\">
+\t\t\t\t\t    \t<!-- SECTION HOME -->
+\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
+\t\t\t\t\t        \t<div class=\"wrap-section\">
+\t\t\t\t\t\t        \tetse
+\t\t\t\t\t        \t\t
+\t\t\t\t\t        \t</div>
+\t\t\t\t\t        </div>
+\t\t\t\t\t        <!-- END SECTION HOME -->
+\t\t\t\t\t        <!-- SECTION STUDIES -->
+\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"studies\">
+\t\t\t\t\t        \t<div class=\"wrap-section\">
+\t\t\t\t\t        \t\tSection gauche 2
+\t\t\t\t\t        \t\t
+\t\t\t\t\t        \t</div>
+\t\t\t\t        \t</div>
+\t\t\t\t        \t<!-- END SECTION STUDIES -->
+\t\t\t\t        \t<!-- SECTION SKILLS -->
+\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
+\t\t\t\t\t\t    \t<div class=\"wrap-section\">\t\t\t\t\t    \t\t
+\t\t\t\t\t\t    \t\tSection gauche 3  
+\t\t\t\t\t\t    \t</div>
+\t\t\t\t\t        </div>
+\t\t\t\t\t        <!-- END SECTION SKILLS -->
+\t\t\t\t\t        <!-- SECTION CONTACT -->
+\t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
+\t\t\t\t\t\t    \t<div class=\"wrap-section\">
+\t\t\t\t\t\t    \t\tSection gauche 4 
+\t\t\t\t\t\t    \t\t
+\t\t\t\t\t\t    \t</div>
+\t\t\t\t\t        </div>
+\t\t\t\t\t        <!-- END SECTION CONTACT -->
+\t\t\t\t\t    </div>
+\t\t\t\t\t";
+        }
+        // line 76
+        echo "
 \t\t\t\t    <div class=\"ms-right\" id=\"fullpage\">
 
 \t\t\t\t        <div class=\"ms-section section section-home\" data-anchor=\"home\">
@@ -126,9 +128,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 101
+        // line 98
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 102
+            // line 99
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t\t\t\t\tSection droite 4
@@ -136,7 +138,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 108
+            // line 105
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -154,27 +156,23 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 124
+        // line 121
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
-\t\t\t\t<div id=\"multiscroll-nav\" class=\"right animated slideInRight\">
-\t\t\t\t\t<ul id=\"multiscroll-menu\">
-\t\t\t\t\t    <li data-tooltip=\"\">
-\t\t\t\t\t    \t<a data-menuanchor=\"home\" href=\"home\"><span></span></a>
-\t\t\t\t\t    </li>
-\t\t\t\t\t    <li data-tooltip=\"\">
-\t\t\t\t\t    \t<a data-menuanchor=\"studies\" href=\"studies\"><span></span></a>
-\t\t\t\t\t    </li>
-\t\t\t\t\t    <li data-tooltip=\"\">
-\t\t\t\t\t    \t<a data-menuanchor=\"skills\" href=\"skills\"><span></span></a>
-\t\t\t\t\t    </li>
-\t\t\t\t\t    <li data-tooltip=\"\">
-\t\t\t\t\t    \t<a data-menuanchor=\"contact\" href=\"contact\"><span></span></a>
-\t\t\t\t\t    </li>
-\t\t\t\t\t</ul>
-\t\t\t\t</div>
-
+\t\t\t\t";
+        // line 124
+        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
+            // line 125
+            echo "
+\t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
+\t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
+\t\t\t\t\t\t</ul>
+\t\t\t\t\t</div>
+\t\t\t\t";
+        }
+        // line 131
+        echo "
 
 \t\t\t</div>
 \t\t</div>
@@ -184,7 +182,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 152
+        // line 140
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -204,7 +202,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  188 => 152,  158 => 124,  140 => 108,  132 => 102,  130 => 101,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  186 => 140,  175 => 131,  167 => 125,  165 => 124,  160 => 121,  142 => 105,  134 => 99,  132 => 98,  108 => 76,  72 => 42,  70 => 41,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -229,62 +227,59 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 		<div class="st-content container">*/
 /* 			<div class="st-content-inner">*/
 /* */
-/* */
 /* 				<header id="ha-header" class="ha-header ha-header-large">*/
 /* 					<div class="ha-header-perspective">*/
-/* 							<div class="ha-header-front">*/
-/* 								<h1><span>Rémi FAIVRE</span></h1>*/
-/* 								<!--<nav>*/
-/* 									<a>‹ Previous Demo</a>*/
-/* 								</nav>-->*/
-/* 									*/
-/* 								<div id="st-trigger-effects" class="column">*/
-/* 									<button data-effect="st-effect-1" class="button-menu">*/
-/* 										<!--<i class="fa fa-bars fa-3x"></i>-->*/
-/* 										<i></i>*/
-/* 										<i></i>*/
-/* 										<i></i>*/
-/* 									</button>*/
-/* 								</div>*/
-/* 							</div>						*/
-/* 						*/
+/* 						<div class="ha-header-front">*/
+/* 							<h1><span>Rémi FAIVRE</span></h1>*/
+/* 								*/
+/* 							<div id="st-trigger-effects" class="column">*/
+/* 								<button data-effect="st-effect-1" class="button-menu">*/
+/* 									<i></i>*/
+/* 									<i></i>*/
+/* 									<i></i>*/
+/* 								</button>*/
+/* 							</div>*/
+/* 						</div>						*/
 /* 					</div>*/
 /* 				</header>*/
 /* */
 /* 				<div id="multiscroll">*/
-/* 				    <div class="ms-left">*/
-/* 				    	<!-- SECTION HOME -->*/
-/* 				        <div class="ms-section" data-anchor="home">*/
-/* 				        	<div class="wrap-section">*/
-/* 					        	etse*/
-/* 				        		*/
+/* */
+/* 					{% if isMobile == "0" %}*/
+/* 					    <div class="ms-left">*/
+/* 					    	<!-- SECTION HOME -->*/
+/* 					        <div class="ms-section" data-anchor="home">*/
+/* 					        	<div class="wrap-section">*/
+/* 						        	etse*/
+/* 					        		*/
+/* 					        	</div>*/
+/* 					        </div>*/
+/* 					        <!-- END SECTION HOME -->*/
+/* 					        <!-- SECTION STUDIES -->*/
+/* 					        <div class="ms-section" data-anchor="studies">*/
+/* 					        	<div class="wrap-section">*/
+/* 					        		Section gauche 2*/
+/* 					        		*/
+/* 					        	</div>*/
 /* 				        	</div>*/
-/* 				        </div>*/
-/* 				        <!-- END SECTION HOME -->*/
-/* 				        <!-- SECTION STUDIES -->*/
-/* 				        <div class="ms-section" data-anchor="studies">*/
-/* 				        	<div class="wrap-section">*/
-/* 				        		Section gauche 2*/
-/* 				        		*/
-/* 				        	</div>*/
-/* 			        	</div>*/
-/* 			        	<!-- END SECTION STUDIES -->*/
-/* 			        	<!-- SECTION SKILLS -->*/
-/* 				        <div class="ms-section" data-anchor="skills">*/
-/* 					    	<div class="wrap-section">					    		*/
-/* 					    		Section gauche 3  */
-/* 					    	</div>*/
-/* 				        </div>*/
-/* 				        <!-- END SECTION SKILLS -->*/
-/* 				        <!-- SECTION CONTACT -->*/
-/* 				        <div class="ms-section" data-anchor="contact">*/
-/* 					    	<div class="wrap-section">*/
-/* 					    		Section gauche 4 */
-/* 					    		*/
-/* 					    	</div>*/
-/* 				        </div>*/
-/* 				        <!-- END SECTION CONTACT -->*/
-/* 				    </div>*/
+/* 				        	<!-- END SECTION STUDIES -->*/
+/* 				        	<!-- SECTION SKILLS -->*/
+/* 					        <div class="ms-section" data-anchor="skills">*/
+/* 						    	<div class="wrap-section">					    		*/
+/* 						    		Section gauche 3  */
+/* 						    	</div>*/
+/* 					        </div>*/
+/* 					        <!-- END SECTION SKILLS -->*/
+/* 					        <!-- SECTION CONTACT -->*/
+/* 					        <div class="ms-section" data-anchor="contact">*/
+/* 						    	<div class="wrap-section">*/
+/* 						    		Section gauche 4 */
+/* 						    		*/
+/* 						    	</div>*/
+/* 					        </div>*/
+/* 					        <!-- END SECTION CONTACT -->*/
+/* 					    </div>*/
+/* 					{% endif %}*/
 /* */
 /* 				    <div class="ms-right" id="fullpage">*/
 /* */
@@ -307,7 +302,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        		*/
 /* 				        	</div>*/
 /* 				        </div>*/
-/* 				        {% if isMobile == '0' %}*/
+/* 				        {% if isMobile == "0" %}*/
 /* 					        <div class="ms-section section section-contact" data-anchor="contact">*/
 /* 					        	<div class="wrap-section">*/
 /* 									Section droite 4*/
@@ -333,22 +328,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				    </div>*/
 /* 				</div>*/
 /* */
-/* 				<div id="multiscroll-nav" class="right animated slideInRight">*/
-/* 					<ul id="multiscroll-menu">*/
-/* 					    <li data-tooltip="">*/
-/* 					    	<a data-menuanchor="home" href="home"><span></span></a>*/
-/* 					    </li>*/
-/* 					    <li data-tooltip="">*/
-/* 					    	<a data-menuanchor="studies" href="studies"><span></span></a>*/
-/* 					    </li>*/
-/* 					    <li data-tooltip="">*/
-/* 					    	<a data-menuanchor="skills" href="skills"><span></span></a>*/
-/* 					    </li>*/
-/* 					    <li data-tooltip="">*/
-/* 					    	<a data-menuanchor="contact" href="contact"><span></span></a>*/
-/* 					    </li>*/
-/* 					</ul>*/
-/* 				</div>*/
+/* 				{% if isMobile == "0" %}*/
+/* */
+/* 					<div id="multiscroll-nav" class="animated slideInRight multiscroll-nav-class">*/
+/* 						<ul id="multiscroll-menu">						    */
+/* 						</ul>*/
+/* 					</div>*/
+/* 				{% endif %}*/
 /* */
 /* */
 /* 			</div>*/

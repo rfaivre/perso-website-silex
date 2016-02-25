@@ -20,62 +20,59 @@
 		<div class="st-content container">
 			<div class="st-content-inner">
 
-
 				<header id="ha-header" class="ha-header ha-header-large">
 					<div class="ha-header-perspective">
-							<div class="ha-header-front">
-								<h1><span>Rémi FAIVRE</span></h1>
-								<!--<nav>
-									<a>‹ Previous Demo</a>
-								</nav>-->
-									
-								<div id="st-trigger-effects" class="column">
-									<button data-effect="st-effect-1" class="button-menu">
-										<!--<i class="fa fa-bars fa-3x"></i>-->
-										<i></i>
-										<i></i>
-										<i></i>
-									</button>
-								</div>
-							</div>						
-						
+						<div class="ha-header-front">
+							<h1><span>Rémi FAIVRE</span></h1>
+								
+							<div id="st-trigger-effects" class="column">
+								<button data-effect="st-effect-1" class="button-menu">
+									<i></i>
+									<i></i>
+									<i></i>
+								</button>
+							</div>
+						</div>						
 					</div>
 				</header>
 
 				<div id="multiscroll">
-				    <div class="ms-left">
-				    	<!-- SECTION HOME -->
-				        <div class="ms-section" data-anchor="home">
-				        	<div class="wrap-section">
-					        	etse
-				        		
+
+					{% if isMobile == "0" %}
+					    <div class="ms-left">
+					    	<!-- SECTION HOME -->
+					        <div class="ms-section" data-anchor="home">
+					        	<div class="wrap-section">
+						        	etse
+					        		
+					        	</div>
+					        </div>
+					        <!-- END SECTION HOME -->
+					        <!-- SECTION STUDIES -->
+					        <div class="ms-section" data-anchor="studies">
+					        	<div class="wrap-section">
+					        		Section gauche 2
+					        		
+					        	</div>
 				        	</div>
-				        </div>
-				        <!-- END SECTION HOME -->
-				        <!-- SECTION STUDIES -->
-				        <div class="ms-section" data-anchor="studies">
-				        	<div class="wrap-section">
-				        		Section gauche 2
-				        		
-				        	</div>
-			        	</div>
-			        	<!-- END SECTION STUDIES -->
-			        	<!-- SECTION SKILLS -->
-				        <div class="ms-section" data-anchor="skills">
-					    	<div class="wrap-section">					    		
-					    		Section gauche 3  
-					    	</div>
-				        </div>
-				        <!-- END SECTION SKILLS -->
-				        <!-- SECTION CONTACT -->
-				        <div class="ms-section" data-anchor="contact">
-					    	<div class="wrap-section">
-					    		Section gauche 4 
-					    		
-					    	</div>
-				        </div>
-				        <!-- END SECTION CONTACT -->
-				    </div>
+				        	<!-- END SECTION STUDIES -->
+				        	<!-- SECTION SKILLS -->
+					        <div class="ms-section" data-anchor="skills">
+						    	<div class="wrap-section">					    		
+						    		Section gauche 3  
+						    	</div>
+					        </div>
+					        <!-- END SECTION SKILLS -->
+					        <!-- SECTION CONTACT -->
+					        <div class="ms-section" data-anchor="contact">
+						    	<div class="wrap-section">
+						    		Section gauche 4 
+						    		
+						    	</div>
+					        </div>
+					        <!-- END SECTION CONTACT -->
+					    </div>
+					{% endif %}
 
 				    <div class="ms-right" id="fullpage">
 
@@ -98,7 +95,7 @@
 				        		
 				        	</div>
 				        </div>
-				        {% if isMobile == '0' %}
+				        {% if isMobile == "0" %}
 					        <div class="ms-section section section-contact" data-anchor="contact">
 					        	<div class="wrap-section">
 									Section droite 4
@@ -124,22 +121,13 @@
 				    </div>
 				</div>
 
-				<div id="multiscroll-nav" class="right animated slideInRight">
-					<ul id="multiscroll-menu">
-					    <li data-tooltip="">
-					    	<a data-menuanchor="home" href="home"><span></span></a>
-					    </li>
-					    <li data-tooltip="">
-					    	<a data-menuanchor="studies" href="studies"><span></span></a>
-					    </li>
-					    <li data-tooltip="">
-					    	<a data-menuanchor="skills" href="skills"><span></span></a>
-					    </li>
-					    <li data-tooltip="">
-					    	<a data-menuanchor="contact" href="contact"><span></span></a>
-					    </li>
-					</ul>
-				</div>
+				{% if isMobile == "0" %}
+
+					<div id="multiscroll-nav" class="animated slideInRight multiscroll-nav-class">
+						<ul id="multiscroll-menu">						    
+						</ul>
+					</div>
+				{% endif %}
 
 
 			</div>

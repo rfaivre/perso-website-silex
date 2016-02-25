@@ -17,7 +17,8 @@ $(document).ready(function() {
 		$('#multiscroll').multiscroll({
 			menu: '#multiscroll-menu',
 			anchors: ['home', 'studies', 'skills', 'contact'],
-			showActiveTooltip: false,
+			navigation: true,
+			navigationPosition: 'right',
 			onLeave: function(index, nextIndex, direction){
 				header_effects(nextIndex, direction);
 			}	

@@ -4676,6 +4676,10 @@ html body .st-content .menu-fixed
 
     background-color: red;
 }
+html body #multiscroll-nav ul li
+{
+    margin-bottom: 20px;
+}
 html body #multiscroll .ms-section
 {
     height: 100%;
@@ -4726,11 +4730,61 @@ html body #multiscroll .ms-right .section-skills .wrap-section
 }
 html body #multiscroll .ms-right .section-contact
 {
-    background-color: yellow;
+    background-color: blue;
 }
 html body #multiscroll .ms-right .section-contact .wrap-section
 {
     padding-top: 110px;
+}
+
+.multiscroll-nav-class li,
+.fp-slidesNav li
+{
+    -webkit-transition: box-shadow .3s ease;
+            transition: box-shadow .3s ease; 
+
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+}
+.multiscroll-nav-class li a,
+.fp-slidesNav li a
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+    -webkit-transition: box-shadow .3s ease, background-color .3s ease;
+            transition: box-shadow .3s ease, background-color .3s ease; 
+    text-indent: -999em;
+
+    color: #696969;
+    border-radius: 50%;
+    outline: none;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .3);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+}
+.multiscroll-nav-class li a:hover,
+.multiscroll-nav-class li a:focus,
+.fp-slidesNav li a:hover,
+.fp-slidesNav li a:focus
+{
+    background-color: white;
+}
+.multiscroll-nav-class li a.active,
+.fp-slidesNav li a.active
+{
+    background-color: transparent;
+    box-shadow: 0 0 0 2px white;
+}
+.multiscroll-nav-class li a span,
+.fp-slidesNav li a span
+{
+    background-color: transparent !important;
 }
 
 #st-trigger-effects
@@ -4765,7 +4819,7 @@ html body #multiscroll .ms-right .section-contact .wrap-section
     -webkit-transition: all .3s;
             transition: all .3s; 
 
-    background: black;
+    background: #696969;
 }
 #st-trigger-effects button i:nth-child(1)
 {
