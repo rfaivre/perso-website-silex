@@ -18,8 +18,7 @@ $(document).ready(function() {
 			anchors: ['home', 'studies', 'skills', 'contact'],
 			onLeave: function(index, nextIndex, direction){
 				header_effects(nextIndex, direction);
-			},		
-			
+			}
 		});
 	} else {
 		$('#fullpage').fullpage({

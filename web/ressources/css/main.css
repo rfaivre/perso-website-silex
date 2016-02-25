@@ -4735,15 +4735,70 @@ html body #multiscroll .ms-right .section-contact .wrap-section
 
 #st-trigger-effects
 {
+    top: 10px; 
+
     display: inline-block;
 
     vertical-align: middle;
 }
 #st-trigger-effects button
 {
+    position: relative; 
+
+    width: 50px;
+    height: 50px;
+
     border: none;
-    outline: none; 
+    outline: none;
     background: transparent;
+}
+#st-trigger-effects button i
+{
+    position: absolute;
+    left: 10px;
+
+    display: block;
+
+    width: 30px;
+    height: 2px;
+
+    -webkit-transition: all .3s;
+            transition: all .3s; 
+
+    background: black;
+}
+#st-trigger-effects button i:nth-child(1)
+{
+    top: 16px;
+}
+#st-trigger-effects button i:nth-child(2)
+{
+    top: 24px;
+}
+#st-trigger-effects button i:nth-child(3)
+{
+    top: 32px;
+}
+
+.st-menu-open #st-trigger-effects button i:nth-child(1)
+{
+    top: 25px;
+
+    -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+}
+
+.st-menu-open #st-trigger-effects button i:nth-child(2)
+{
+    background: transparent;
+}
+
+.st-menu-open #st-trigger-effects button i:nth-child(3)
+{
+    top: 25px;
+
+    -webkit-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
 }
 
 #particles-js

@@ -58,7 +58,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\">
 \t\t\t\t\t\t\t\t\t<button data-effect=\"st-effect-1\" class=\"button-menu\">
-\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-bars fa-3x\"></i>
+\t\t\t\t\t\t\t\t\t\t<!--<i class=\"fa fa-bars fa-3x\"></i>-->
+\t\t\t\t\t\t\t\t\t\t<i></i>
+\t\t\t\t\t\t\t\t\t\t<i></i>
+\t\t\t\t\t\t\t\t\t\t<i></i>
 \t\t\t\t\t\t\t\t\t</button>
 \t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t</div>\t\t\t\t\t\t
@@ -123,9 +126,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 98
+        // line 101
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 99
+            // line 102
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t\t\t\t\tSection droite 4
@@ -133,7 +136,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 105
+            // line 108
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -151,16 +154,24 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 121
+        // line 124
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t<div id=\"multiscroll-nav\" class=\"right animated slideInRight\">
 \t\t\t\t\t<ul id=\"myMenu\">
-\t\t\t\t\t    <li data-tooltip=\"Home\"><a href=\"#home\">+</a></li>
-\t\t\t\t\t    <li data-tooltip=\"Formations\"><a href=\"#studies\">+</a></li>
-\t\t\t\t\t    <li data-tooltip=\"Competences\"><a href=\"#skills\">+</a></li>
-\t\t\t\t\t    <li data-tooltip=\"Contact\"><a href=\"#contact\">+</a></li>
+\t\t\t\t\t    <li>
+\t\t\t\t\t    \t<a href=\"#home\"><span></span></a>
+\t\t\t\t\t    </li>
+\t\t\t\t\t    <li>
+\t\t\t\t\t    \t<span><a href=\"#studies\"></a></span>
+\t\t\t\t\t    </li>
+\t\t\t\t\t    <li>
+\t\t\t\t\t    \t<span><a href=\"#skills\"></a></span>
+\t\t\t\t\t    </li>
+\t\t\t\t\t    <li>
+\t\t\t\t\t    \t<span><a href=\"#contact\"></a></span>
+\t\t\t\t\t    </li>
 \t\t\t\t\t</ul>
 \t\t\t\t</div>
 
@@ -173,7 +184,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 141
+        // line 152
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -193,7 +204,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  177 => 141,  155 => 121,  137 => 105,  129 => 99,  127 => 98,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  188 => 152,  158 => 124,  140 => 108,  132 => 102,  130 => 101,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -229,7 +240,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 									*/
 /* 								<div id="st-trigger-effects" class="column">*/
 /* 									<button data-effect="st-effect-1" class="button-menu">*/
-/* 										<i class="fa fa-bars fa-3x"></i>*/
+/* 										<!--<i class="fa fa-bars fa-3x"></i>-->*/
+/* 										<i></i>*/
+/* 										<i></i>*/
+/* 										<i></i>*/
 /* 									</button>*/
 /* 								</div>*/
 /* 							</div>						*/
@@ -321,10 +335,18 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* 				<div id="multiscroll-nav" class="right animated slideInRight">*/
 /* 					<ul id="myMenu">*/
-/* 					    <li data-tooltip="Home"><a href="#home">+</a></li>*/
-/* 					    <li data-tooltip="Formations"><a href="#studies">+</a></li>*/
-/* 					    <li data-tooltip="Competences"><a href="#skills">+</a></li>*/
-/* 					    <li data-tooltip="Contact"><a href="#contact">+</a></li>*/
+/* 					    <li>*/
+/* 					    	<a href="#home"><span></span></a>*/
+/* 					    </li>*/
+/* 					    <li>*/
+/* 					    	<span><a href="#studies"></a></span>*/
+/* 					    </li>*/
+/* 					    <li>*/
+/* 					    	<span><a href="#skills"></a></span>*/
+/* 					    </li>*/
+/* 					    <li>*/
+/* 					    	<span><a href="#contact"></a></span>*/
+/* 					    </li>*/
 /* 					</ul>*/
 /* 				</div>*/
 /* */
