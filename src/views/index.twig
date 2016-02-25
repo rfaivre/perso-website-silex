@@ -25,11 +25,13 @@
 					<div class="ha-header-perspective">
 						<div class="ha-header-front">
 							<div id="st-trigger-effects" class="column" style="position:absolute">
-
-						<a data-effect="st-effect-1" href="javascript:void(0)">
-							<i class="fa fa-bars fa-2x"></i>
-						</a>
-					</div>
+								<span>
+									
+									<a data-effect="st-effect-1" href="javascript:void(0)">
+										<i class="fa fa-bars fa-2x"></i>
+									</a>
+								</span>
+							</div>
 							<h1><span>Rémi FAIVRE</span></h1>
 							<nav>
 								<a>‹ Previous Demo</a>
@@ -100,12 +102,29 @@
 				        		
 				        	</div>
 				        </div>
-				        <div class="ms-section section section-contact" data-anchor="contact">
-				        	<div class="wrap-section">
-								Section droite 4				        		
-				        	</div>
-				        	
-				        </div>
+				        {% if isMobile == '0' %}
+					        <div class="ms-section section section-contact" data-anchor="contact">
+					        	<div class="wrap-section">
+									Section droite 4
+					        	</div>
+					        </div>
+					    {% else %}
+					    	<div class="ms-section section section-contact" data-anchor="contact">
+					    		<div class="slide">
+						        	<div class="wrap-section">
+										ftrfdgrvfgr
+						        	</div>
+					    			
+					    		</div>
+					    		<div class="slide">
+					    			<div class="wrap-section">
+										azdedferefre
+						        	</div>
+					    			
+					    		</div>
+					        </div>
+
+					    {% endif %}
 				    </div>
 				</div>
 

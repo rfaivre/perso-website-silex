@@ -52,11 +52,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t<div class=\"ha-header-perspective\">
 \t\t\t\t\t\t<div class=\"ha-header-front\">
 \t\t\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\" style=\"position:absolute\">
-
-\t\t\t\t\t\t<a data-effect=\"st-effect-1\" href=\"javascript:void(0)\">
-\t\t\t\t\t\t\t<i class=\"fa fa-bars fa-2x\"></i>
-\t\t\t\t\t\t</a>
-\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t<span>
+\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t<a data-effect=\"st-effect-1\" href=\"javascript:void(0)\">
+\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-bars fa-2x\"></i>
+\t\t\t\t\t\t\t\t\t</a>
+\t\t\t\t\t\t\t\t</span>
+\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t<h1><span>Rémi FAIVRE</span></h1>
 \t\t\t\t\t\t\t<nav>
 \t\t\t\t\t\t\t\t<a>‹ Previous Demo</a>
@@ -127,13 +129,37 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
-\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
-\t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t\t\t\t\tSection droite 4\t\t\t\t        \t\t
-\t\t\t\t        \t</div>
-\t\t\t\t        \t
-\t\t\t\t        </div>
-\t\t\t\t    </div>
+\t\t\t\t        ";
+        // line 105
+        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
+            // line 106
+            echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
+\t\t\t\t\t        \t<div class=\"wrap-section\">
+\t\t\t\t\t\t\t\t\tSection droite 4
+\t\t\t\t\t        \t</div>
+\t\t\t\t\t        </div>
+\t\t\t\t\t    ";
+        } else {
+            // line 112
+            echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
+\t\t\t\t\t    \t\t<div class=\"slide\">
+\t\t\t\t\t\t        \t<div class=\"wrap-section\">
+\t\t\t\t\t\t\t\t\t\tftrfdgrvfgr
+\t\t\t\t\t\t        \t</div>
+\t\t\t\t\t    \t\t\t
+\t\t\t\t\t    \t\t</div>
+\t\t\t\t\t    \t\t<div class=\"slide\">
+\t\t\t\t\t    \t\t\t<div class=\"wrap-section\">
+\t\t\t\t\t\t\t\t\t\tazdedferefre
+\t\t\t\t\t\t        \t</div>
+\t\t\t\t\t    \t\t\t
+\t\t\t\t\t    \t\t</div>
+\t\t\t\t\t        </div>
+
+\t\t\t\t\t    ";
+        }
+        // line 128
+        echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t<div id=\"multiscroll-nav\" class=\"right animated slideInRight\">
@@ -154,7 +180,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 129
+        // line 148
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -174,7 +200,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  158 => 129,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  184 => 148,  162 => 128,  144 => 112,  136 => 106,  134 => 105,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -204,11 +230,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					<div class="ha-header-perspective">*/
 /* 						<div class="ha-header-front">*/
 /* 							<div id="st-trigger-effects" class="column" style="position:absolute">*/
-/* */
-/* 						<a data-effect="st-effect-1" href="javascript:void(0)">*/
-/* 							<i class="fa fa-bars fa-2x"></i>*/
-/* 						</a>*/
-/* 					</div>*/
+/* 								<span>*/
+/* 									*/
+/* 									<a data-effect="st-effect-1" href="javascript:void(0)">*/
+/* 										<i class="fa fa-bars fa-2x"></i>*/
+/* 									</a>*/
+/* 								</span>*/
+/* 							</div>*/
 /* 							<h1><span>Rémi FAIVRE</span></h1>*/
 /* 							<nav>*/
 /* 								<a>‹ Previous Demo</a>*/
@@ -279,12 +307,29 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        		*/
 /* 				        	</div>*/
 /* 				        </div>*/
-/* 				        <div class="ms-section section section-contact" data-anchor="contact">*/
-/* 				        	<div class="wrap-section">*/
-/* 								Section droite 4				        		*/
-/* 				        	</div>*/
-/* 				        	*/
-/* 				        </div>*/
+/* 				        {% if isMobile == '0' %}*/
+/* 					        <div class="ms-section section section-contact" data-anchor="contact">*/
+/* 					        	<div class="wrap-section">*/
+/* 									Section droite 4*/
+/* 					        	</div>*/
+/* 					        </div>*/
+/* 					    {% else %}*/
+/* 					    	<div class="ms-section section section-contact" data-anchor="contact">*/
+/* 					    		<div class="slide">*/
+/* 						        	<div class="wrap-section">*/
+/* 										ftrfdgrvfgr*/
+/* 						        	</div>*/
+/* 					    			*/
+/* 					    		</div>*/
+/* 					    		<div class="slide">*/
+/* 					    			<div class="wrap-section">*/
+/* 										azdedferefre*/
+/* 						        	</div>*/
+/* 					    			*/
+/* 					    		</div>*/
+/* 					        </div>*/
+/* */
+/* 					    {% endif %}*/
 /* 				    </div>*/
 /* 				</div>*/
 /* */
