@@ -4794,11 +4794,6 @@ html body #multiscroll .ms-right .section-contact .wrap-section
     {
         display: none;
     }
-    html body .ha-header-perspective > div,
-    html body .ha-header nav
-    {
-        text-align: center;
-    }
     html body .ha-header .ha-header-bottom nav
     {
         padding: 40px 0;
@@ -4808,6 +4803,10 @@ html body #multiscroll .ms-right .section-contact .wrap-section
         display: block;
 
         height: auto;
+    }
+    html body #st-trigger-effects button
+    {
+        font-size: .7em;
     }
     html body #multiscroll .ms-left .ms-section:nth-child(1) .wrap-section
     {
