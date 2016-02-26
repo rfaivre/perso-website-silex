@@ -36,5 +36,9 @@ $(document).ready(function() {
 	$('#menu-1 a').on('click', function(){
 		$('#st-container').toggleClass('st-menu-open');
 	});
+
+	$('#multiscroll-menu a').on('click', function(){
+		$(this).blur();
+	});
 	
 });

@@ -23,8 +23,8 @@ set :repo_url, 'deploy@webserver:remote/git/remi'
 # Default value for :pty is false
 set :pty, true
 
-host = SSHKit::Host.new('deploy@webserver')
-host.password = "remi0202"
+h#ost = SSHKit::Host.new('deploy@webserver')
+#host.password = "remi0202"
 
 # Default value for :linked_files is []
 # set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
