@@ -32,12 +32,11 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 <div id=\"st-container\" class=\"st-container\">
 
 \t<nav class=\"st-menu st-effect-1\" id=\"menu-1\">
-\t\t<h2 class=\"icon icon-stack\">Sidebar</h2>
 \t\t<ul>
-\t\t\t<li><a class=\"icon icon-data\" href=\"#home\">Accueil</a></li>
-\t\t\t<li><a class=\"icon icon-location\" href=\"#studies\">Formations</a></li>
-\t\t\t<li><a class=\"icon icon-study\" href=\"#skills\">Compétences</a></li>
-\t\t\t<li><a class=\"icon icon-photo\" href=\"#contact\">Contact</a></li>
+\t\t\t<li><a class=\"icon icon-data hvr-bounce-to-right\" href=\"#home\">Accueil</a></li>
+\t\t\t<li><a class=\"icon icon-location hvr-bounce-to-right\" href=\"#studies\">Formations</a></li>
+\t\t\t<li><a class=\"icon icon-study hvr-bounce-to-right\" href=\"#skills\">Compétences</a></li>
+\t\t\t<li><a class=\"icon icon-photo hvr-bounce-to-right\" href=\"#contact\">Contact</a></li>
 \t\t</ul>
 \t</nav>
 
@@ -47,11 +46,6 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t<div class=\"st-content container\">
 \t\t\t<div class=\"st-content-inner\">
 
-\t\t\t\t";
-        // line 23
-        $this->loadTemplate("content.twig", "index.twig", 23)->display($context);
-        // line 24
-        echo "
 \t\t\t\t<header id=\"ha-header\" class=\"ha-header ha-header-large\">
 \t\t\t\t\t<div class=\"ha-header-perspective\">
 \t\t\t\t\t\t<div class=\"ha-header-front\">
@@ -71,9 +65,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t<div id=\"multiscroll\">
 
 \t\t\t\t\t";
-        // line 43
+        // line 40
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 44
+            // line 41
             echo "\t\t\t\t\t    <div class=\"ms-left\">
 \t\t\t\t\t    \t<!-- SECTION HOME -->
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
@@ -109,7 +103,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t    </div>
 \t\t\t\t\t";
         }
-        // line 78
+        // line 75
         echo "
 \t\t\t\t    <div class=\"ms-right\" id=\"fullpage\">
 
@@ -133,9 +127,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 100
+        // line 97
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 101
+            // line 98
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t\t\t\t\tSection droite 4
@@ -143,7 +137,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 107
+            // line 104
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -161,14 +155,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 123
+        // line 120
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 126
+        // line 123
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 127
+            // line 124
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -176,7 +170,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 133
+        // line 130
         echo "
 
 \t\t\t</div>
@@ -187,7 +181,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 142
+        // line 139
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -207,7 +201,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  191 => 142,  180 => 133,  172 => 127,  170 => 126,  165 => 123,  147 => 107,  139 => 101,  137 => 100,  113 => 78,  77 => 44,  75 => 43,  54 => 24,  52 => 23,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  185 => 139,  174 => 130,  166 => 124,  164 => 123,  159 => 120,  141 => 104,  133 => 98,  131 => 97,  107 => 75,  71 => 41,  69 => 40,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -217,12 +211,11 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* <div id="st-container" class="st-container">*/
 /* */
 /* 	<nav class="st-menu st-effect-1" id="menu-1">*/
-/* 		<h2 class="icon icon-stack">Sidebar</h2>*/
 /* 		<ul>*/
-/* 			<li><a class="icon icon-data" href="#home">Accueil</a></li>*/
-/* 			<li><a class="icon icon-location" href="#studies">Formations</a></li>*/
-/* 			<li><a class="icon icon-study" href="#skills">Compétences</a></li>*/
-/* 			<li><a class="icon icon-photo" href="#contact">Contact</a></li>*/
+/* 			<li><a class="icon icon-data hvr-bounce-to-right" href="#home">Accueil</a></li>*/
+/* 			<li><a class="icon icon-location hvr-bounce-to-right" href="#studies">Formations</a></li>*/
+/* 			<li><a class="icon icon-study hvr-bounce-to-right" href="#skills">Compétences</a></li>*/
+/* 			<li><a class="icon icon-photo hvr-bounce-to-right" href="#contact">Contact</a></li>*/
 /* 		</ul>*/
 /* 	</nav>*/
 /* */
@@ -231,8 +224,6 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* 		<div class="st-content container">*/
 /* 			<div class="st-content-inner">*/
-/* */
-/* 				{% include("content.twig") %}*/
 /* */
 /* 				<header id="ha-header" class="ha-header ha-header-large">*/
 /* 					<div class="ha-header-perspective">*/

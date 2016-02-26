@@ -32,15 +32,16 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 \t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.fullpage.css\">
 \t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/jquery.multiscroll.css\">
 \t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/main.css\">
+\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/ressources/css/hover.min.css\">
       
 \t<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js\"></script>
 </head>
 <body>
 
 \t";
-        // line 21
+        // line 22
         $this->displayBlock('body', $context, $blocks);
-        // line 23
+        // line 24
         echo "
 \t<script src=\"ressources/js/jquery.easings.min.js\"></script>
 \t<script src=\"ressources/js/jquery.waypoints.min.js\"></script>
@@ -55,10 +56,10 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 </html>";
     }
 
-    // line 21
+    // line 22
     public function block_body($context, array $blocks = array())
     {
-        // line 22
+        // line 23
         echo "\t";
     }
 
@@ -69,7 +70,7 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 
     public function getDebugInfo()
     {
-        return array (  62 => 22,  59 => 21,  44 => 23,  42 => 21,  20 => 1,);
+        return array (  63 => 23,  60 => 22,  45 => 24,  43 => 22,  20 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -87,6 +88,7 @@ class __TwigTemplate_c9b31bbfaea6302ac72c154e4c2286cc977acabe79d6dcc304612e7fd16
 /* 	<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.fullpage.css">*/
 /* 	<link rel="stylesheet" type="text/css" href="/ressources/css/jquery.multiscroll.css">*/
 /* 	<link rel="stylesheet" type="text/css" href="/ressources/css/main.css">*/
+/* 	<link rel="stylesheet" type="text/css" href="/ressources/css/hover.min.css">*/
 /*       */
 /* 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>*/
 /* </head>*/
