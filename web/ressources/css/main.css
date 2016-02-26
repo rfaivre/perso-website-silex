@@ -4660,6 +4660,14 @@ html body
 
     color: black;
 }
+html body #st-container .st-menu
+{
+    background: #696969;
+}
+html body #st-container .st-menu ul li a
+{
+    text-decoration: none;
+}
 html body #ha-header .ha-header-front
 {
     box-shadow: -6px 0 white, 6px 0 white, 0 7px 4px -3px rgba(0, 0, 0, .19);
