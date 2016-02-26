@@ -4692,6 +4692,11 @@ html body #multiscroll .ms-section .wrap-section
 {
     height: 100%;
 }
+html body #multiscroll .ms-section .wrap-section .section-container
+{
+    box-sizing: border-box;
+    padding: 0 10px;
+}
 html body #multiscroll .ms-left .ms-section:nth-child(1) .wrap-section
 {
     padding-top: 210px;
@@ -4710,7 +4715,14 @@ html body #multiscroll .ms-left .ms-section
 }
 html body #multiscroll .ms-left .ms-section .wrap-section .section-container
 {
-    margin-left: 15%;
+    width: 100%; 
+    max-width: 512px;
+}
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container
+{
+    width: 100%; 
+    max-width: 723px;
+    margin-right: 45px;
 }
 html body #multiscroll .ms-right .section-home
 {
