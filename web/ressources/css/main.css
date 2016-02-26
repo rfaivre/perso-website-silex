@@ -4715,7 +4715,9 @@ html body #multiscroll .ms-left .ms-section
 }
 html body #multiscroll .ms-left .ms-section .wrap-section .section-container
 {
-    width: 100%; 
+    float: right; 
+
+    width: 100%;
     max-width: 512px;
 }
 html body #multiscroll .ms-right .ms-section .wrap-section .section-container
