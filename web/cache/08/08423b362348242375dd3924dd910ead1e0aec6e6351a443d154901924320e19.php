@@ -33,11 +33,46 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<nav class=\"st-menu st-effect-1\" id=\"menu-1\">
 \t\t<ul>
-\t\t\t<li><a class=\"icon icon-data hvr-bounce-to-right\" href=\"#home\">Accueil</a></li>
-\t\t\t<li><a class=\"icon icon-location hvr-bounce-to-right\" href=\"#studies\">Formations</a></li>
-\t\t\t<li><a class=\"icon icon-location hvr-bounce-to-right\" href=\"#projects\">Projets</a></li>
-\t\t\t<li><a class=\"icon icon-study hvr-bounce-to-right\" href=\"#skills\">Compétences</a></li>
-\t\t\t<li><a class=\"icon icon-photo hvr-bounce-to-right\" href=\"#contact\">Contact</a></li>
+\t\t\t<li>
+\t\t\t\t<a class=\"icon icon-data hvr-bounce-to-right\" href=\"#home\">
+\t\t\t\t\t<i class=\"fa fa-home\"></i>
+\t\t\t\t\t<span>
+\t\t\t\t\t\tAccueil
+\t\t\t\t\t</span>
+\t\t\t\t</a>
+\t\t\t</li>
+\t\t\t<li>
+\t\t\t\t<a class=\"icon icon-location hvr-bounce-to-right\" href=\"#studies\">
+\t\t\t\t\t<i class=\"fa fa-graduation-cap\"></i>
+\t\t\t\t\t<span>
+\t\t\t\t\t\tFormations
+\t\t\t\t\t</span>
+\t\t\t\t</a>
+\t\t\t</li>
+\t\t\t<li>
+\t\t\t\t<a class=\"icon icon-location hvr-bounce-to-right\" href=\"#projects\">
+\t\t\t\t\t<i class=\"fa fa-folder-open\"></i>
+\t\t\t\t\t<span>
+\t\t\t\t\t\tProjets
+\t\t\t\t\t</span>
+\t\t\t\t</a>
+\t\t\t</li>
+\t\t\t<li>
+\t\t\t\t<a class=\"icon icon-study hvr-bounce-to-right\" href=\"#skills\">
+\t\t\t\t\t<i class=\"fa fa-code\"></i>
+\t\t\t\t\t<span>
+\t\t\t\t\t\tCompétences
+\t\t\t\t\t</span>
+\t\t\t\t</a>
+\t\t\t</li>
+\t\t\t<li>
+\t\t\t\t<a class=\"icon icon-photo hvr-bounce-to-right\" href=\"#contact\">
+\t\t\t\t\t<i class=\"fa fa-envelope\"></i>
+\t\t\t\t\t<span>
+\t\t\t\t\t\tContact
+\t\t\t\t\t</span>
+\t\t\t\t</a>
+\t\t\t</li>
 \t\t</ul>
 \t</nav>
 
@@ -66,9 +101,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t<div id=\"multiscroll\">
 
 \t\t\t\t\t";
-        // line 41
+        // line 76
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 42
+            // line 77
             echo "\t\t\t\t\t    <div class=\"ms-left\">
 \t\t\t\t\t    \t<!-- SECTION HOME -->
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
@@ -123,13 +158,16 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t    </div>
 \t\t\t\t\t";
         }
-        // line 95
+        // line 130
         echo "
 \t\t\t\t    <div class=\"ms-right\" id=\"fullpage\">
 
 \t\t\t\t        <div class=\"ms-section section section-home\" data-anchor=\"home\">
 \t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t        \t\tSituation professionelle: en recherche active de poste
+\t\t\t\t        \t\t<div class=\"section-sontainer\">
+\t\t\t\t        \t\t\tSituation professionelle: en recherche active de poste
+\t\t\t\t        \t\t\t
+\t\t\t\t        \t\t</div>
 \t\t\t\t\t        \t
 \t\t\t\t\t        \t
 \t\t\t\t        \t\t
@@ -137,33 +175,36 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        </div>
 \t\t\t\t        <div class=\"ms-section section section-studies\" data-anchor=\"studies\">
 \t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t\t        \t";
-        // line 108
+\t\t\t\t        \t\t<div class=\"section-container\">
+\t\t\t\t        \t\t\t
+\t\t\t\t\t\t        \t";
+        // line 148
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 109
-            echo "\t\t\t\t\t        \t\t<h1>Formations</h1>
-\t\t\t\t\t        \t";
+            // line 149
+            echo "\t\t\t\t\t\t        \t\t<h1>Formations</h1>
+\t\t\t\t\t\t        \t";
         }
-        // line 111
-        echo "\t\t\t\t\t        \t<div>
-\t\t\t\t        \t\t\tSection droite 2
-\t\t\t\t\t        \t\t
-\t\t\t\t\t        \t</div>
+        // line 151
+        echo "\t\t\t\t\t\t        \t<div>
+\t\t\t\t\t        \t\t\tSection droite 2
+\t\t\t\t\t\t        \t\t
+\t\t\t\t\t\t        \t</div>
+\t\t\t\t        \t\t</div>
 \t\t\t\t        \t\t
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        <div class=\"ms-section section section-skills\" data-anchor=\"skills\">
 \t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t        \t\t<div class=\"section-container\" style=\"max-width: 723px; margin-right: 45px;\">
+\t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 122
+        // line 163
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 123
+            // line 164
             echo "\t\t\t\t\t        \t\t\t<h1>Compétences</h1>
 \t\t\t\t\t        \t\t";
         }
-        // line 125
+        // line 166
         echo "\t\t\t\t\t        \t\t<div>
 \t\t\t\t\t        \t\t\tSection droite 3
 \t\t\t\t\t        \t\t\t
@@ -177,27 +218,36 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 137
+        // line 178
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 138
+            // line 179
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t\t\t\t\t\tSection droite 4
+\t\t\t\t\t        \t\t<div class=\"section-container\">
+\t\t\t\t\t\t\t\t\t\tSection droite 4
+\t\t\t\t\t        \t\t\t
+\t\t\t\t\t        \t\t</div>
 \t\t\t\t\t        \t</div>
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 144
+            // line 188
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t\t\t\t\t\t\t<h1>Contact</h1>
+\t\t\t\t\t\t        \t\t<div class=\"section-container\">
+\t\t\t\t\t\t\t\t\t\t\t<h1>Contact</h1>
+\t\t\t\t\t\t        \t\t\tgttgggrggtr
+\t\t\t\t\t\t        \t\t</div>
 \t\t\t\t\t\t        \t</div>
 \t\t\t\t\t    \t\t\t
 \t\t\t\t\t    \t\t</div>
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t    \t\t\t<div class=\"wrap-section\">
-\t\t\t\t\t\t\t\t\t\tazdedferefre
+\t\t\t\t\t    \t\t\t\t<div class=\"section-container\">
+\t\t\t\t\t\t\t\t\t\t\tazdedferefre
+\t\t\t\t\t    \t\t\t\t\t
+\t\t\t\t\t    \t\t\t\t</div>
 \t\t\t\t\t\t        \t</div>
 \t\t\t\t\t    \t\t\t
 \t\t\t\t\t    \t\t</div>
@@ -205,14 +255,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 160
+        // line 210
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 163
+        // line 213
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 164
+            // line 214
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -220,7 +270,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 170
+        // line 220
         echo "
 
 \t\t\t</div>
@@ -231,7 +281,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 179
+        // line 229
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -251,7 +301,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  235 => 179,  224 => 170,  216 => 164,  214 => 163,  209 => 160,  191 => 144,  183 => 138,  181 => 137,  167 => 125,  163 => 123,  161 => 122,  148 => 111,  144 => 109,  142 => 108,  127 => 95,  72 => 42,  70 => 41,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  285 => 229,  274 => 220,  266 => 214,  264 => 213,  259 => 210,  235 => 188,  224 => 179,  222 => 178,  208 => 166,  204 => 164,  202 => 163,  188 => 151,  184 => 149,  182 => 148,  162 => 130,  107 => 77,  105 => 76,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -262,11 +312,46 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* 	<nav class="st-menu st-effect-1" id="menu-1">*/
 /* 		<ul>*/
-/* 			<li><a class="icon icon-data hvr-bounce-to-right" href="#home">Accueil</a></li>*/
-/* 			<li><a class="icon icon-location hvr-bounce-to-right" href="#studies">Formations</a></li>*/
-/* 			<li><a class="icon icon-location hvr-bounce-to-right" href="#projects">Projets</a></li>*/
-/* 			<li><a class="icon icon-study hvr-bounce-to-right" href="#skills">Compétences</a></li>*/
-/* 			<li><a class="icon icon-photo hvr-bounce-to-right" href="#contact">Contact</a></li>*/
+/* 			<li>*/
+/* 				<a class="icon icon-data hvr-bounce-to-right" href="#home">*/
+/* 					<i class="fa fa-home"></i>*/
+/* 					<span>*/
+/* 						Accueil*/
+/* 					</span>*/
+/* 				</a>*/
+/* 			</li>*/
+/* 			<li>*/
+/* 				<a class="icon icon-location hvr-bounce-to-right" href="#studies">*/
+/* 					<i class="fa fa-graduation-cap"></i>*/
+/* 					<span>*/
+/* 						Formations*/
+/* 					</span>*/
+/* 				</a>*/
+/* 			</li>*/
+/* 			<li>*/
+/* 				<a class="icon icon-location hvr-bounce-to-right" href="#projects">*/
+/* 					<i class="fa fa-folder-open"></i>*/
+/* 					<span>*/
+/* 						Projets*/
+/* 					</span>*/
+/* 				</a>*/
+/* 			</li>*/
+/* 			<li>*/
+/* 				<a class="icon icon-study hvr-bounce-to-right" href="#skills">*/
+/* 					<i class="fa fa-code"></i>*/
+/* 					<span>*/
+/* 						Compétences*/
+/* 					</span>*/
+/* 				</a>*/
+/* 			</li>*/
+/* 			<li>*/
+/* 				<a class="icon icon-photo hvr-bounce-to-right" href="#contact">*/
+/* 					<i class="fa fa-envelope"></i>*/
+/* 					<span>*/
+/* 						Contact*/
+/* 					</span>*/
+/* 				</a>*/
+/* 			</li>*/
 /* 		</ul>*/
 /* 	</nav>*/
 /* */
@@ -353,7 +438,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* 				        <div class="ms-section section section-home" data-anchor="home">*/
 /* 				        	<div class="wrap-section">*/
-/* 				        		Situation professionelle: en recherche active de poste*/
+/* 				        		<div class="section-sontainer">*/
+/* 				        			Situation professionelle: en recherche active de poste*/
+/* 				        			*/
+/* 				        		</div>*/
 /* 					        	*/
 /* 					        	*/
 /* 				        		*/
@@ -361,19 +449,22 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        </div>*/
 /* 				        <div class="ms-section section section-studies" data-anchor="studies">*/
 /* 				        	<div class="wrap-section">*/
-/* 					        	{% if isMobile == "1" %}*/
-/* 					        		<h1>Formations</h1>*/
-/* 					        	{% endif %}*/
-/* 					        	<div>*/
-/* 				        			Section droite 2*/
-/* 					        		*/
-/* 					        	</div>*/
+/* 				        		<div class="section-container">*/
+/* 				        			*/
+/* 						        	{% if isMobile == "1" %}*/
+/* 						        		<h1>Formations</h1>*/
+/* 						        	{% endif %}*/
+/* 						        	<div>*/
+/* 					        			Section droite 2*/
+/* 						        		*/
+/* 						        	</div>*/
+/* 				        		</div>*/
 /* 				        		*/
 /* 				        	</div>*/
 /* 				        </div>*/
 /* 				        <div class="ms-section section section-skills" data-anchor="skills">*/
 /* 				        	<div class="wrap-section">*/
-/* 				        		<div class="section-container" style="max-width: 723px; margin-right: 45px;">*/
+/* 				        		<div class="section-container">*/
 /* 				        			*/
 /* 					        		{% if isMobile == "1" %}*/
 /* 					        			<h1>Compétences</h1>*/
@@ -393,20 +484,29 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        {% if isMobile == "0" %}*/
 /* 					        <div class="ms-section section section-contact" data-anchor="contact">*/
 /* 					        	<div class="wrap-section">*/
-/* 									Section droite 4*/
+/* 					        		<div class="section-container">*/
+/* 										Section droite 4*/
+/* 					        			*/
+/* 					        		</div>*/
 /* 					        	</div>*/
 /* 					        </div>*/
 /* 					    {% else %}*/
 /* 					    	<div class="ms-section section section-contact" data-anchor="contact">*/
 /* 					    		<div class="slide">*/
 /* 						        	<div class="wrap-section">*/
-/* 										<h1>Contact</h1>*/
+/* 						        		<div class="section-container">*/
+/* 											<h1>Contact</h1>*/
+/* 						        			gttgggrggtr*/
+/* 						        		</div>*/
 /* 						        	</div>*/
 /* 					    			*/
 /* 					    		</div>*/
 /* 					    		<div class="slide">*/
 /* 					    			<div class="wrap-section">*/
-/* 										azdedferefre*/
+/* 					    				<div class="section-container">*/
+/* 											azdedferefre*/
+/* 					    					*/
+/* 					    				</div>*/
 /* 						        	</div>*/
 /* 					    			*/
 /* 					    		</div>*/

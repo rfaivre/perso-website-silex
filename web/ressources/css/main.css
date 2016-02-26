@@ -4854,6 +4854,11 @@ html body #multiscroll .ms-right .section-contact .wrap-section
     top: 42px;
 }
 
+.st-menu ul li a span
+{
+    margin-left: 10px;
+}
+
 .st-menu-open #st-trigger-effects button i:nth-child(1)
 {
     top: 30px;
