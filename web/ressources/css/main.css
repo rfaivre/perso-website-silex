@@ -4662,11 +4662,34 @@ html body
 }
 html body #st-container .st-menu
 {
-    background: #696969;
+    background: #336e7b;
 }
 html body #st-container .st-menu ul li a
 {
+    padding: 1.5em 1em 1.5em 1.2em; 
+
     text-decoration: none;
+}
+html body #st-container .st-menu .st-menu-bottom
+{
+    position: absolute;
+    bottom: 0;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.5em 1em 1.5em 1.2em;
+
+    text-align: center; 
+
+    box-shadow: inset 0 1px rgba(0, 0, 0, .2);
+}
+html body #st-container .st-menu .st-menu-bottom a
+{
+    display: inline-block;
+
+    padding: 0 10px 0 10px; 
+
+    color: white;
 }
 html body .st-content .menu-fixed
 {
@@ -4711,7 +4734,7 @@ html body #multiscroll .ms-left .ms-section
 					border-right: 10px solid $grey_dark;	
 					box-shadow: 0 0 0 transparent, 0px 3px 6px rgba(0, 0, 0, 0.4);
 					*/
-    background-color: #696969;
+    background-color: #34495e;
 }
 html body #multiscroll .ms-left .ms-section .wrap-section .section-container
 {
@@ -4720,39 +4743,31 @@ html body #multiscroll .ms-left .ms-section .wrap-section .section-container
     width: 100%;
     max-width: 512px;
 }
+html body #multiscroll .ms-right .ms-section
+{
+    background-color: #81cfe0;
+}
+html body #multiscroll .ms-right .ms-section .wrap-section
+{
+    border-left: 10px solid white;
+}
 html body #multiscroll .ms-right .ms-section .wrap-section .section-container
 {
     width: 100%; 
     max-width: 723px;
     margin-right: 45px;
 }
-html body #multiscroll .ms-right .section-home
-{
-    background-color: #696969;
-}
 html body #multiscroll .ms-right .section-home .wrap-section
 {
     padding-top: 210px;
-}
-html body #multiscroll .ms-right .section-studies
-{
-    background-color: green;
 }
 html body #multiscroll .ms-right .section-studies .wrap-section
 {
     padding-top: 110px;
 }
-html body #multiscroll .ms-right .section-skills
-{
-    background-color: #fb887c;
-}
 html body #multiscroll .ms-right .section-skills .wrap-section
 {
     padding-top: 110px;
-}
-html body #multiscroll .ms-right .section-contact
-{
-    background-color: blue;
 }
 html body #multiscroll .ms-right .section-contact .wrap-section
 {

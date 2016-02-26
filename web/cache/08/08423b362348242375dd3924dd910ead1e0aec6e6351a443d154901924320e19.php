@@ -74,6 +74,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t</a>
 \t\t\t</li>
 \t\t</ul>
+\t\t<div class=\"st-menu-bottom\">
+\t\t\t<a href=\"\"><i class=\"fa fa-envelope\"></i></a>
+\t\t\t<a href=\"\"><i class=\"fa fa-linkedin-square\"></i></a>
+\t\t\t<a href=\"\"><i class=\"fa fa-facebook\"></i></a>
+\t\t\t<a href=\"\"><i class=\"fa fa-google-plus\"></i></a>
+\t\t\t<a href=\"\"><i class=\"fa fa-twitter\"></i></a>
+\t\t</div>
 \t</nav>
 
 \t<!-- content push wrapper -->
@@ -101,9 +108,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t<div id=\"multiscroll\">
 
 \t\t\t\t\t";
-        // line 76
+        // line 83
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 77
+            // line 84
             echo "\t\t\t\t\t    <div class=\"ms-left\">
 \t\t\t\t\t    \t<!-- SECTION HOME -->
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
@@ -158,7 +165,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t    </div>
 \t\t\t\t\t";
         }
-        // line 130
+        // line 137
         echo "
 \t\t\t\t    <div class=\"ms-right\" id=\"fullpage\">
 
@@ -178,13 +185,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t\t        \t";
-        // line 148
+        // line 155
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 149
+            // line 156
             echo "\t\t\t\t\t\t        \t\t<h1>Formations</h1>
 \t\t\t\t\t\t        \t";
         }
-        // line 151
+        // line 158
         echo "\t\t\t\t\t\t        \t<div>
 \t\t\t\t\t        \t\t\tSection droite 2
 \t\t\t\t\t\t        \t\t
@@ -198,29 +205,30 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 163
+        // line 170
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 164
+            // line 171
             echo "\t\t\t\t\t        \t\t\t<h1>Compétences</h1>
 \t\t\t\t\t        \t\t";
         }
-        // line 166
+        // line 173
         echo "\t\t\t\t\t        \t\t<div>
-\t\t\t\t\t        \t\t\tSection droite 3
+\t\t\t\t\t        \t\t\t<h2>Langages Web</h2>
 \t\t\t\t\t        \t\t\t
-\t\t\t\t\t        \t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae accumsan velit, quis commodo justo. Vivamus tellus ante, pellentesque vitae velit at, finibus condimentum purus. Cras nunc mi, tempor scelerisque convallis vel, dapibus in lorem. Donec molestie tellus iaculis augue eleifend commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse leo lacus, fringilla in faucibus elementum, malesuada sit amet massa. Proin eget nisi lorem. Sed nec viverra metus, congue bibendum lacus. Integer euismod arcu ut sagittis aliquet. Cras id varius neque. Cras eget augue tincidunt libero pulvinar auctor. Integer lacinia, erat commodo aliquet posuere, lorem diam faucibus nisi, at tristique mauris magna ut diam.
+\t\t\t\t\t        \t\t\t<p>
+\t\t\t\t\t\t        \t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae accumsan velit, quis commodo justo. Vivamus tellus ante, pellentesque vitae velit at, finibus condimentum purus. Cras nunc mi, tempor scelerisque convallis vel, dapibus in lorem. Donec molestie tellus iaculis augue eleifend commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse leo lacus, fringilla in faucibus elementum, malesuada sit amet massa. Proin eget nisi lorem. Sed nec viverra metus, congue bibendum lacus. Integer euismod arcu ut sagittis aliquet. Cras id varius neque. Cras eget augue tincidunt libero pulvinar auctor. Integer lacinia, erat commodo aliquet posuere, lorem diam faucibus nisi, at tristique mauris magna ut diam.
+\t\t\t\t\t\t        \t\t\t\t
+\t\t\t\t\t        \t\t\t</p>
 
-\tClass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam vel magna ex. Aliquam molestie enim tortor, vel semper diam hendrerit sed. Aliquam eget tincidunt odio. Vivamus sit amet odio erat. Ut fringilla sit amet diam non facilisis. Pellentesque dui diam, cursus in varius non, elementum non nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-\t\t\t\t\t        \t\t</div>
 \t\t\t\t        \t\t</div>
 \t\t\t\t        \t\t
 \t\t\t\t        \t\t
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 178
+        // line 186
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 179
+            // line 187
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -231,7 +239,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 188
+            // line 196
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -255,14 +263,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 210
+        // line 218
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 213
+        // line 221
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 214
+            // line 222
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -270,7 +278,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 220
+        // line 228
         echo "
 
 \t\t\t</div>
@@ -281,7 +289,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 229
+        // line 237
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -301,7 +309,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  285 => 229,  274 => 220,  266 => 214,  264 => 213,  259 => 210,  235 => 188,  224 => 179,  222 => 178,  208 => 166,  204 => 164,  202 => 163,  188 => 151,  184 => 149,  182 => 148,  162 => 130,  107 => 77,  105 => 76,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  293 => 237,  282 => 228,  274 => 222,  272 => 221,  267 => 218,  243 => 196,  232 => 187,  230 => 186,  215 => 173,  211 => 171,  209 => 170,  195 => 158,  191 => 156,  189 => 155,  169 => 137,  114 => 84,  112 => 83,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -353,6 +361,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				</a>*/
 /* 			</li>*/
 /* 		</ul>*/
+/* 		<div class="st-menu-bottom">*/
+/* 			<a href=""><i class="fa fa-envelope"></i></a>*/
+/* 			<a href=""><i class="fa fa-linkedin-square"></i></a>*/
+/* 			<a href=""><i class="fa fa-facebook"></i></a>*/
+/* 			<a href=""><i class="fa fa-google-plus"></i></a>*/
+/* 			<a href=""><i class="fa fa-twitter"></i></a>*/
+/* 		</div>*/
 /* 	</nav>*/
 /* */
 /* 	<!-- content push wrapper -->*/
@@ -470,12 +485,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        			<h1>Compétences</h1>*/
 /* 					        		{% endif %}*/
 /* 					        		<div>*/
-/* 					        			Section droite 3*/
+/* 					        			<h2>Langages Web</h2>*/
 /* 					        			*/
-/* 					        			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae accumsan velit, quis commodo justo. Vivamus tellus ante, pellentesque vitae velit at, finibus condimentum purus. Cras nunc mi, tempor scelerisque convallis vel, dapibus in lorem. Donec molestie tellus iaculis augue eleifend commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse leo lacus, fringilla in faucibus elementum, malesuada sit amet massa. Proin eget nisi lorem. Sed nec viverra metus, congue bibendum lacus. Integer euismod arcu ut sagittis aliquet. Cras id varius neque. Cras eget augue tincidunt libero pulvinar auctor. Integer lacinia, erat commodo aliquet posuere, lorem diam faucibus nisi, at tristique mauris magna ut diam.*/
+/* 					        			<p>*/
+/* 						        			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae accumsan velit, quis commodo justo. Vivamus tellus ante, pellentesque vitae velit at, finibus condimentum purus. Cras nunc mi, tempor scelerisque convallis vel, dapibus in lorem. Donec molestie tellus iaculis augue eleifend commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse leo lacus, fringilla in faucibus elementum, malesuada sit amet massa. Proin eget nisi lorem. Sed nec viverra metus, congue bibendum lacus. Integer euismod arcu ut sagittis aliquet. Cras id varius neque. Cras eget augue tincidunt libero pulvinar auctor. Integer lacinia, erat commodo aliquet posuere, lorem diam faucibus nisi, at tristique mauris magna ut diam.*/
+/* 						        				*/
+/* 					        			</p>*/
 /* */
-/* 	Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam vel magna ex. Aliquam molestie enim tortor, vel semper diam hendrerit sed. Aliquam eget tincidunt odio. Vivamus sit amet odio erat. Ut fringilla sit amet diam non facilisis. Pellentesque dui diam, cursus in varius non, elementum non nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus.*/
-/* 					        		</div>*/
 /* 				        		</div>*/
 /* 				        		*/
 /* 				        		*/
