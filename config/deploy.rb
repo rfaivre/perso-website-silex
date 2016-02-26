@@ -25,12 +25,6 @@ set :pty, true
 
 set :use_sudo, false
 
-set :user, 'deploy'
-
-
-#host = SSHKit::Host.new('deploy@webserver')
-#host.password = "remi0202"
-
 # Default value for :linked_files is []
 # set :linked_files, fetch(:linked_files, []).push('config/database.yml', 'config/secrets.yml')
 
