@@ -27,6 +27,7 @@ set :use_sudo, false
 
 set :user, 'deploy'
 
+
 #host = SSHKit::Host.new('deploy@webserver')
 #host.password = "remi0202"
 
