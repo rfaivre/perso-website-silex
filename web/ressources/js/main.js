@@ -39,6 +39,7 @@ $(document).ready(function() {
 
 	$('#multiscroll-menu a').on('click', function(){
 		$(this).blur();
+		$(this).focusout();
 	});
 	
 });
