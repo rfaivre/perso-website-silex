@@ -47,6 +47,11 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t<div class=\"st-content container\">
 \t\t\t<div class=\"st-content-inner\">
 
+\t\t\t\t";
+        // line 23
+        $this->loadTemplate("content.twig", "index.twig", 23)->display($context);
+        // line 24
+        echo "
 \t\t\t\t<header id=\"ha-header\" class=\"ha-header ha-header-large\">
 \t\t\t\t\t<div class=\"ha-header-perspective\">
 \t\t\t\t\t\t<div class=\"ha-header-front\">
@@ -66,9 +71,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t<div id=\"multiscroll\">
 
 \t\t\t\t\t";
-        // line 41
+        // line 43
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 42
+            // line 44
             echo "\t\t\t\t\t    <div class=\"ms-left\">
 \t\t\t\t\t    \t<!-- SECTION HOME -->
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
@@ -104,7 +109,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t    </div>
 \t\t\t\t\t";
         }
-        // line 76
+        // line 78
         echo "
 \t\t\t\t    <div class=\"ms-right\" id=\"fullpage\">
 
@@ -128,9 +133,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 98
+        // line 100
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 99
+            // line 101
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t\t\t\t\tSection droite 4
@@ -138,7 +143,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 105
+            // line 107
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -156,14 +161,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 121
+        // line 123
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 124
+        // line 126
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 125
+            // line 127
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -171,7 +176,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 131
+        // line 133
         echo "
 
 \t\t\t</div>
@@ -182,7 +187,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 140
+        // line 142
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -202,7 +207,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  186 => 140,  175 => 131,  167 => 125,  165 => 124,  160 => 121,  142 => 105,  134 => 99,  132 => 98,  108 => 76,  72 => 42,  70 => 41,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  191 => 142,  180 => 133,  172 => 127,  170 => 126,  165 => 123,  147 => 107,  139 => 101,  137 => 100,  113 => 78,  77 => 44,  75 => 43,  54 => 24,  52 => 23,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -226,6 +231,8 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* 		<div class="st-content container">*/
 /* 			<div class="st-content-inner">*/
+/* */
+/* 				{% include("content.twig") %}*/
 /* */
 /* 				<header id="ha-header" class="ha-header ha-header-large">*/
 /* 					<div class="ha-header-perspective">*/

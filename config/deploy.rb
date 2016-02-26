@@ -23,6 +23,10 @@ set :repo_url, 'deploy@webserver:remote/git/remi'
 # Default value for :pty is false
 set :pty, true
 
+set :use_sudo, false
+
+set :user, 'deploy'
+
 #host = SSHKit::Host.new('deploy@webserver')
 #host.password = "remi0202"
 
@@ -43,16 +47,7 @@ namespace :deploy do
   after :updated, :change_permission do	
     on roles(:web) do
       invoke "php:change_permission"
-	  
     end
   end
-
-
-
-  #before :cleanup, :reverse_permission do
-  #	on roles(:web) do
-  #		invoke "php:reverse_permission"
-  #	end
-  #end
 
 end
