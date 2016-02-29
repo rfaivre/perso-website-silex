@@ -5129,7 +5129,7 @@ ul.timeline-studies:before
 
         text-align: justify;
     }
-    html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div
+    html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content
     {
         padding-right: 10px;
     }
