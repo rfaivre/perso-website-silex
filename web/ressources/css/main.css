@@ -4777,7 +4777,8 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer
 }
 html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .sub-container div
 {
-    padding-left: 15px;
+    padding-right: 10px; 
+    padding-left: 10px;
 }
 html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .sub-container div p
 {
