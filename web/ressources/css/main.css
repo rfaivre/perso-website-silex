@@ -4975,6 +4975,7 @@ ul.timeline-studies li .year
 
     box-sizing: border-box; 
     width: 9%;
+    min-width: 57px;
     padding: 10px;
 }
 ul.timeline-studies li .diplome

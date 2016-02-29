@@ -120,7 +120,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t\t\t<h2>/ Accueil</h2>
 \t\t\t\t        \t\t\t\t<div class=\"sub-container\">
 \t\t\t\t\t        \t\t\t\t<p class=\"intro\">
-\t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
+\t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contacter si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
 \t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt!
 \t\t\t\t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t        \t\t\t</div>
@@ -196,7 +196,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
             // line 154
             echo "\t\t\t\t\t\t\t\t\t\t\t<p class=\"intro\">
-\t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
+\t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contacter si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
 \t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt!
 \t\t\t\t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t\t\t\t";
@@ -474,7 +474,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        				<h2>/ Accueil</h2>*/
 /* 				        				<div class="sub-container">*/
 /* 					        				<p class="intro">*/
-/* 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class="fa fa-smile-o"></i> !*/
+/* 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contacter si mon profil vous intéresse <i class="fa fa-smile-o"></i> !*/
 /* 												<br /><br />A très bientôt!*/
 /* 											</p>*/
 /* 					        			</div>*/
@@ -537,7 +537,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        			<div class="sub-container">*/
 /* 										{% if isMobile =="1" %}*/
 /* 											<p class="intro">*/
-/* 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class="fa fa-smile-o"></i> !*/
+/* 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contacter si mon profil vous intéresse <i class="fa fa-smile-o"></i> !*/
 /* 												<br /><br />A très bientôt!*/
 /* 											</p>*/
 /* 										{% endif %}*/
