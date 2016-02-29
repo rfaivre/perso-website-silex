@@ -133,7 +133,11 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t\t        \t\t\t<h1>/ Formations</h1>
-\t\t\t\t\t        \t\t\t
+\t\t\t\t\t        \t\t\t<div class=\"sub-container\">
+\t\t\t\t\t        \t\t\t\t<p class=\"intro\">
+\t\t\t\t\t        \t\t\t\t\tSuite à l'obtention de mon baccalauréat Scientifique obtenu avec la mention assez bien, je me suis dirigé vers une licence Informatique à l'Université de Franche-Comté à Besançon (25). C'est lors de cette licence que j'ai décidé de m'orienter vers le domaine du web. Après l'obtention de ma licence, j'ai donc décidé de me diriger vers un Master IIAM (Image et Intelligence Artificielle, Multimédia) option Multimédia réalisé à l'Université de Bourgogne à Dijon (21). Ce Master m'a permis de compléter ma formation pour travailler dans les métiers du web.
+\t\t\t\t\t        \t\t\t\t</p>
+\t\t\t\t\t        \t\t\t</div>
 \t\t\t\t\t        \t\t</div>\t\t\t\t\t        \t\t
 \t\t\t\t\t        \t</div>
 \t\t\t\t        \t</div>
@@ -168,10 +172,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t    </div>
 \t\t\t\t\t";
         }
-        // line 139
+        // line 143
         echo "
 \t\t\t\t    <div class=\"ms-right ";
-        // line 140
+        // line 144
         echo twig_escape_filter($this->env, (isset($context["isMobileClass"]) ? $context["isMobileClass"] : $this->getContext($context, "isMobileClass")), "html", null, true);
         echo "\" id=\"fullpage\">
 
@@ -179,25 +183,25 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t";
-        // line 145
-        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 146
-            echo "\t\t\t\t\t\t        \t\t<h1>/Accueil</h1>
-\t\t\t\t\t\t        \t";
-        }
-        // line 148
-        echo "\t\t\t\t        \t\t\t<div class=\"sub-container\">
-\t\t\t\t\t\t\t\t\t\t";
         // line 149
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
             // line 150
+            echo "\t\t\t\t\t\t        \t\t<h1>/ Accueil</h1>
+\t\t\t\t\t\t        \t";
+        }
+        // line 152
+        echo "\t\t\t\t        \t\t\t<div class=\"sub-container\">
+\t\t\t\t\t\t\t\t\t\t";
+        // line 153
+        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
+            // line 154
             echo "\t\t\t\t\t\t\t\t\t\t\t<p class=\"intro\">
 \t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
 \t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt!
 \t\t\t\t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t\t\t\t";
         }
-        // line 155
+        // line 159
         echo "\t\t\t\t\t\t\t\t\t\t<h2>// A mon sujet</h2>
 \t\t\t\t\t\t\t\t\t\t<div>
 \t\t\t        \t\t\t\t\t\t<p><span>Nom </span><span>Faivre</span></p>
@@ -213,19 +217,18 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        </div>
 \t\t\t\t        <div class=\"ms-section section section-studies\" data-anchor=\"studies\">
 \t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t        \t\t\t
+\t\t\t\t        \t\t<div class=\"section-container\">\t\t\t\t        \t\t\t
 \t\t\t\t\t\t        \t";
-        // line 172
+        // line 175
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 173
-            echo "\t\t\t\t\t\t        \t\t<h1>Formations</h1>
+            // line 176
+            echo "\t\t\t\t\t\t        \t\t<h1>/ Formations</h1>
 \t\t\t\t\t\t        \t";
         }
-        // line 175
-        echo "\t\t\t\t\t\t        \t<div>
-\t\t\t\t\t        \t\t\tSection droite 2
-\t\t\t\t\t\t        \t\t
+        // line 178
+        echo "\t\t\t\t\t\t        \t<div class=\"sub-container\">
+\t\t\t\t\t\t        \t\t<h2>// Timeline</h2>
+\t\t\t\t\t\t        \t\t<div></div>
 \t\t\t\t\t\t        \t</div>
 \t\t\t\t        \t\t</div>
 \t\t\t\t        \t\t
@@ -236,17 +239,17 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 187
+        // line 190
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 188
+            // line 191
             echo "\t\t\t\t\t        \t\t\t<h1>Compétences</h1>
 \t\t\t\t\t        \t\t";
         } else {
-            // line 190
+            // line 193
             echo "\t\t\t\t\t\t\t\t\t\t<div></div>
 \t\t\t\t\t        \t\t";
         }
-        // line 192
+        // line 195
         echo "\t\t\t\t\t        \t\t<div>
 \t\t\t\t\t        \t\t\t<h2>Langages Web</h2>
 \t\t\t\t\t        \t\t\t
@@ -259,9 +262,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 203
+        // line 206
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 204
+            // line 207
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -272,7 +275,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 213
+            // line 216
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -296,14 +299,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 235
+        // line 238
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 238
+        // line 241
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 239
+            // line 242
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -311,7 +314,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 245
+        // line 248
         echo "
 
 \t\t\t</div>
@@ -322,7 +325,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 254
+        // line 257
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -342,7 +345,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  326 => 254,  315 => 245,  307 => 239,  305 => 238,  300 => 235,  276 => 213,  265 => 204,  263 => 203,  250 => 192,  246 => 190,  242 => 188,  240 => 187,  226 => 175,  222 => 173,  220 => 172,  201 => 155,  194 => 150,  192 => 149,  189 => 148,  185 => 146,  183 => 145,  175 => 140,  172 => 139,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  329 => 257,  318 => 248,  310 => 242,  308 => 241,  303 => 238,  279 => 216,  268 => 207,  266 => 206,  253 => 195,  249 => 193,  245 => 191,  243 => 190,  229 => 178,  225 => 176,  223 => 175,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -449,7 +452,11 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        	<div class="wrap-section">*/
 /* 					        		<div class="section-container">*/
 /* 					        			<h1>/ Formations</h1>*/
-/* 					        			*/
+/* 					        			<div class="sub-container">*/
+/* 					        				<p class="intro">*/
+/* 					        					Suite à l'obtention de mon baccalauréat Scientifique obtenu avec la mention assez bien, je me suis dirigé vers une licence Informatique à l'Université de Franche-Comté à Besançon (25). C'est lors de cette licence que j'ai décidé de m'orienter vers le domaine du web. Après l'obtention de ma licence, j'ai donc décidé de me diriger vers un Master IIAM (Image et Intelligence Artificielle, Multimédia) option Multimédia réalisé à l'Université de Bourgogne à Dijon (21). Ce Master m'a permis de compléter ma formation pour travailler dans les métiers du web.*/
+/* 					        				</p>*/
+/* 					        			</div>*/
 /* 					        		</div>					        		*/
 /* 					        	</div>*/
 /* 				        	</div>*/
@@ -490,7 +497,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        	<div class="wrap-section">*/
 /* 				        		<div class="section-container">*/
 /* 				        			{% if isMobile == "1" %}*/
-/* 						        		<h1>/Accueil</h1>*/
+/* 						        		<h1>/ Accueil</h1>*/
 /* 						        	{% endif %}*/
 /* 				        			<div class="sub-container">*/
 /* 										{% if isMobile =="1" %}*/
@@ -514,14 +521,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        </div>*/
 /* 				        <div class="ms-section section section-studies" data-anchor="studies">*/
 /* 				        	<div class="wrap-section">*/
-/* 				        		<div class="section-container">*/
-/* 				        			*/
+/* 				        		<div class="section-container">				        			*/
 /* 						        	{% if isMobile == "1" %}*/
-/* 						        		<h1>Formations</h1>*/
+/* 						        		<h1>/ Formations</h1>*/
 /* 						        	{% endif %}*/
-/* 						        	<div>*/
-/* 					        			Section droite 2*/
-/* 						        		*/
+/* 						        	<div class="sub-container">*/
+/* 						        		<h2>// Timeline</h2>*/
+/* 						        		<div></div>*/
 /* 						        	</div>*/
 /* 				        		</div>*/
 /* 				        		*/

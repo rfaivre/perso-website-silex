@@ -4721,6 +4721,13 @@ html body #multiscroll h1
     font-weight: 900;
 
     letter-spacing: 4px;
+    text-transform: uppercase;
+}
+html body #multiscroll h2
+{
+    font-weight: 100;
+
+    letter-spacing: 4px;
 }
 html body #multiscroll .ms-section
 {
@@ -4773,7 +4780,7 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-container
 {
     box-sizing: border-box; 
     width: 100%;
-    max-width: 723px;
+    max-width: 768px;
     margin-top: 65px;
     padding-left: 10px;
 }
@@ -4789,7 +4796,6 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-container .s
 
     box-sizing: border-box; 
     width: 100%;
-    padding-right: 60px;
     padding-left: 10px;
 }
 html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div p
@@ -4946,6 +4952,14 @@ html body #multiscroll .ms-right .section-studies .wrap-section
 .tar
 {
     text-align: right;
+}
+
+@media screen and (max-width: 1280px)
+{
+    #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div
+    {
+        padding-right: 60px;
+    }
 }
 
 @media screen and (max-width: 640px)

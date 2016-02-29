@@ -4,6 +4,7 @@
 		"twig/twig": "~1.0",
 		"filp/whoops": "^2.0",
 		"mobiledetect/mobiledetectlib": "^2.8",
-		"jbinfo/mobile-detect-service-provider": "~1"
+		"jbinfo/mobile-detect-service-provider": "~1",
+		"symfony/yaml": "2.1.*@dev"
 	}
 }
