@@ -28,6 +28,8 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
     public function block_body($context, array $blocks = array())
     {
         // line 4
+        $context["isMobileClass"] = ((((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) ? ("no-mobile") : ("mobile"));
+        // line 5
         echo "
 <div id=\"st-container\" class=\"st-container\">
 
@@ -93,7 +95,6 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t<div class=\"ha-header-perspective\">
 \t\t\t\t\t\t<div class=\"ha-header-front\">
 \t\t\t\t\t\t\t<h1><span>Rémi FAIVRE</span></h1>
-\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t<div id=\"st-trigger-effects\" class=\"column\">
 \t\t\t\t\t\t\t\t<button data-effect=\"st-effect-1\" class=\"button-menu\">
 \t\t\t\t\t\t\t\t\t<i></i>
@@ -116,10 +117,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t\t        \t\t\t<h1>Bienvenue</h1>
-\t\t\t\t\t\t        \t\t<p>Développeur web</p>
-\t\t\t\t\t\t        \t\t<p>25 ans</p>
-\t\t\t\t\t\t        \t\t<p>permis B</p>
+\t\t\t\t        \t\t\t\t<h1><i class=\"fa fa-arrow-circle-right\"></i></i> Accueil</h1>
+\t\t\t\t        \t\t\t\t<div class=\"sub-container\">
+\t\t\t\t\t        \t\t\t\t<p class=\"intro\">
+\t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
+\t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt!
+\t\t\t\t\t\t\t\t\t\t\t</p>
+\t\t\t\t\t        \t\t\t</div>
 \t\t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t</div>
 \t\t\t\t\t        \t</div>
@@ -129,7 +133,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"studies\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t\t        \t\t\t<h1>Formations</h1>
+\t\t\t\t\t        \t\t\t<h1><i class=\"fa fa-arrow-circle-right\"></i> Formations</h1>
 \t\t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t</div>\t\t\t\t\t        \t\t
 \t\t\t\t\t        \t</div>
@@ -139,10 +143,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
 \t\t\t\t\t\t    \t<div class=\"wrap-section\">\t\t\t\t\t    \t\t
 \t\t\t\t\t\t    \t\t<div class=\"section-container\">
-\t\t\t\t\t\t    \t\t\t<h1>Compétences</h1>
+\t\t\t\t\t\t    \t\t\t<h1><i class=\"fa fa-arrow-circle-right\"></i> Compétences</h1>
 \t\t\t\t\t\t    \t\t\t<div>
 \t\t\t\t\t\t    \t\t\t\t<p>
-\t\t\t\t\t\t\t    \t\t\t\tAu cours de mes études et mes diverses expériences, j'ai pu découvrir et approfondir différents langages de programmation. J'aime découvrir de nouvelles technologies et me tenir au courant des technologies et méthodes utilisés dans le monde du web.
+\t\t\t\t\t\t\t    \t\t\t\tAu cours de mes études et mes diverses expériences, j'ai pu découvrir et approfondir différents langages de programmation. J'aime découvrir de nouvelles technologies et me tenir au courant des technologies et méthodes utilisés dans le monde du web. Pour cela, j'aime effectuer de la veille technologique à titre personnel.
 \t\t\t\t\t\t\t    \t\t\t\t\t
 \t\t\t\t\t\t    \t\t\t\t</p>
 \t\t\t\t\t\t    \t\t\t</div>
@@ -155,7 +159,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
 \t\t\t\t\t\t    \t<div class=\"wrap-section\">
 \t\t\t\t\t\t    \t\t<div class=\"section-container\">
-\t\t\t\t\t\t    \t\t\t<h1>Contact</h1>
+\t\t\t\t\t\t    \t\t\t<h1><i class=\"fa fa-arrow-circle-right\"></i> Contact</h1>
 \t\t\t\t\t\t    \t\t\t
 \t\t\t\t\t\t    \t\t</div>
 \t\t\t\t\t\t    \t\t
@@ -165,19 +169,26 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t    </div>
 \t\t\t\t\t";
         }
-        // line 137
+        // line 140
         echo "
-\t\t\t\t    <div class=\"ms-right\" id=\"fullpage\">
+\t\t\t\t    <div class=\"ms-right ";
+        // line 141
+        echo twig_escape_filter($this->env, (isset($context["isMobileClass"]) ? $context["isMobileClass"] : $this->getContext($context, "isMobileClass")), "html", null, true);
+        echo "\" id=\"fullpage\">
 
 \t\t\t\t        <div class=\"ms-section section section-home\" data-anchor=\"home\">
 \t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\t<div class=\"section-sontainer\">
-\t\t\t\t        \t\t\tSituation professionelle: en recherche active de poste
-\t\t\t\t        \t\t\t
-\t\t\t\t        \t\t</div>
-\t\t\t\t\t        \t
-\t\t\t\t\t        \t
-\t\t\t\t        \t\t
+\t\t\t\t        \t\t\t<div class=\"sub-container\">
+\t\t\t\t\t\t\t\t\t\t<h2><i class=\"fa fa-arrow-circle-down\"></i> A mon sujet</h2>
+\t\t\t\t\t\t\t\t\t\t<div>
+\t\t\t        \t\t\t\t\t\t<p><span>Nom </span><span>Faivre</span></p>
+\t\t\t\t\t\t\t        \t\t<p><span>Prénom</span><span>Rémi</span></p>
+\t\t\t\t\t\t\t        \t\t<p><span>Âge</span><span>25 ans</span></p>\t\t\t\t\t\t        \t\t
+\t\t\t\t\t\t\t        \t\t<p><span>Situation professionelle</span><span>En recherche active de poste</span></p>\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t        \t\t\t\t</div>
+\t\t\t\t        \t\t</div>\t\t\t\t        \t\t
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        <div class=\"ms-section section section-studies\" data-anchor=\"studies\">
@@ -185,13 +196,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t\t        \t";
-        // line 155
+        // line 162
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 156
+            // line 163
             echo "\t\t\t\t\t\t        \t\t<h1>Formations</h1>
 \t\t\t\t\t\t        \t";
         }
-        // line 158
+        // line 165
         echo "\t\t\t\t\t\t        \t<div>
 \t\t\t\t\t        \t\t\tSection droite 2
 \t\t\t\t\t\t        \t\t
@@ -205,20 +216,22 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 170
+        // line 177
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 171
+            // line 178
             echo "\t\t\t\t\t        \t\t\t<h1>Compétences</h1>
 \t\t\t\t\t        \t\t";
+        } else {
+            // line 180
+            echo "\t\t\t\t\t\t\t\t\t\t<div></div>
+\t\t\t\t\t        \t\t";
         }
-        // line 173
+        // line 182
         echo "\t\t\t\t\t        \t\t<div>
 \t\t\t\t\t        \t\t\t<h2>Langages Web</h2>
 \t\t\t\t\t        \t\t\t
-\t\t\t\t\t        \t\t\t<p>
-\t\t\t\t\t\t        \t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae accumsan velit, quis commodo justo. Vivamus tellus ante, pellentesque vitae velit at, finibus condimentum purus. Cras nunc mi, tempor scelerisque convallis vel, dapibus in lorem. Donec molestie tellus iaculis augue eleifend commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse leo lacus, fringilla in faucibus elementum, malesuada sit amet massa. Proin eget nisi lorem. Sed nec viverra metus, congue bibendum lacus. Integer euismod arcu ut sagittis aliquet. Cras id varius neque. Cras eget augue tincidunt libero pulvinar auctor. Integer lacinia, erat commodo aliquet posuere, lorem diam faucibus nisi, at tristique mauris magna ut diam.
-\t\t\t\t\t\t        \t\t\t\t
-\t\t\t\t\t        \t\t\t</p>
+\t\t\t\t\t        \t\t\t
+\t\t\t\t\t        \t\t</div>
 
 \t\t\t\t        \t\t</div>
 \t\t\t\t        \t\t
@@ -226,9 +239,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 186
+        // line 193
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 187
+            // line 194
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -239,7 +252,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 196
+            // line 203
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -263,14 +276,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 218
+        // line 225
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 221
+        // line 228
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 222
+            // line 229
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -278,7 +291,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 228
+        // line 235
         echo "
 
 \t\t\t</div>
@@ -289,7 +302,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 237
+        // line 244
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -309,12 +322,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  293 => 237,  282 => 228,  274 => 222,  272 => 221,  267 => 218,  243 => 196,  232 => 187,  230 => 186,  215 => 173,  211 => 171,  209 => 170,  195 => 158,  191 => 156,  189 => 155,  169 => 137,  114 => 84,  112 => 83,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  306 => 244,  295 => 235,  287 => 229,  285 => 228,  280 => 225,  256 => 203,  245 => 194,  243 => 193,  230 => 182,  226 => 180,  222 => 178,  220 => 177,  206 => 165,  202 => 163,  200 => 162,  176 => 141,  173 => 140,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
 /* */
 /* {% block body %}*/
+/* {% set isMobileClass = (isMobile == "0"? "no-mobile": "mobile") %}*/
 /* */
 /* <div id="st-container" class="st-container">*/
 /* */
@@ -380,7 +394,6 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					<div class="ha-header-perspective">*/
 /* 						<div class="ha-header-front">*/
 /* 							<h1><span>Rémi FAIVRE</span></h1>*/
-/* 								*/
 /* 							<div id="st-trigger-effects" class="column">*/
 /* 								<button data-effect="st-effect-1" class="button-menu">*/
 /* 									<i></i>*/
@@ -400,10 +413,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        <div class="ms-section" data-anchor="home">*/
 /* 					        	<div class="wrap-section">*/
 /* 					        		<div class="section-container">*/
-/* 					        			<h1>Bienvenue</h1>*/
-/* 						        		<p>Développeur web</p>*/
-/* 						        		<p>25 ans</p>*/
-/* 						        		<p>permis B</p>*/
+/* 				        				<h1><i class="fa fa-arrow-circle-right"></i></i> Accueil</h1>*/
+/* 				        				<div class="sub-container">*/
+/* 					        				<p class="intro">*/
+/* 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class="fa fa-smile-o"></i> !*/
+/* 												<br /><br />A très bientôt!*/
+/* 											</p>*/
+/* 					        			</div>*/
 /* 					        			*/
 /* 					        		</div>*/
 /* 					        	</div>*/
@@ -413,7 +429,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        <div class="ms-section" data-anchor="studies">*/
 /* 					        	<div class="wrap-section">*/
 /* 					        		<div class="section-container">*/
-/* 					        			<h1>Formations</h1>*/
+/* 					        			<h1><i class="fa fa-arrow-circle-right"></i> Formations</h1>*/
 /* 					        			*/
 /* 					        		</div>					        		*/
 /* 					        	</div>*/
@@ -423,10 +439,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        <div class="ms-section" data-anchor="skills">*/
 /* 						    	<div class="wrap-section">					    		*/
 /* 						    		<div class="section-container">*/
-/* 						    			<h1>Compétences</h1>*/
+/* 						    			<h1><i class="fa fa-arrow-circle-right"></i> Compétences</h1>*/
 /* 						    			<div>*/
 /* 						    				<p>*/
-/* 							    				Au cours de mes études et mes diverses expériences, j'ai pu découvrir et approfondir différents langages de programmation. J'aime découvrir de nouvelles technologies et me tenir au courant des technologies et méthodes utilisés dans le monde du web.*/
+/* 							    				Au cours de mes études et mes diverses expériences, j'ai pu découvrir et approfondir différents langages de programmation. J'aime découvrir de nouvelles technologies et me tenir au courant des technologies et méthodes utilisés dans le monde du web. Pour cela, j'aime effectuer de la veille technologique à titre personnel.*/
 /* 							    					*/
 /* 						    				</p>*/
 /* 						    			</div>*/
@@ -439,7 +455,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        <div class="ms-section" data-anchor="contact">*/
 /* 						    	<div class="wrap-section">*/
 /* 						    		<div class="section-container">*/
-/* 						    			<h1>Contact</h1>*/
+/* 						    			<h1><i class="fa fa-arrow-circle-right"></i> Contact</h1>*/
 /* 						    			*/
 /* 						    		</div>*/
 /* 						    		*/
@@ -449,17 +465,21 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					    </div>*/
 /* 					{% endif %}*/
 /* */
-/* 				    <div class="ms-right" id="fullpage">*/
+/* 				    <div class="ms-right {{ isMobileClass }}" id="fullpage">*/
 /* */
 /* 				        <div class="ms-section section section-home" data-anchor="home">*/
 /* 				        	<div class="wrap-section">*/
 /* 				        		<div class="section-sontainer">*/
-/* 				        			Situation professionelle: en recherche active de poste*/
-/* 				        			*/
-/* 				        		</div>*/
-/* 					        	*/
-/* 					        	*/
-/* 				        		*/
+/* 				        			<div class="sub-container">*/
+/* 										<h2><i class="fa fa-arrow-circle-down"></i> A mon sujet</h2>*/
+/* 										<div>*/
+/* 			        						<p><span>Nom </span><span>Faivre</span></p>*/
+/* 							        		<p><span>Prénom</span><span>Rémi</span></p>*/
+/* 							        		<p><span>Âge</span><span>25 ans</span></p>						        		*/
+/* 							        		<p><span>Situation professionelle</span><span>En recherche active de poste</span></p>								*/
+/* 										</div>*/
+/* 			        				</div>*/
+/* 				        		</div>				        		*/
 /* 				        	</div>*/
 /* 				        </div>*/
 /* 				        <div class="ms-section section section-studies" data-anchor="studies">*/
@@ -483,14 +503,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        			*/
 /* 					        		{% if isMobile == "1" %}*/
 /* 					        			<h1>Compétences</h1>*/
+/* 					        		{% else %}*/
+/* 										<div></div>*/
 /* 					        		{% endif %}*/
 /* 					        		<div>*/
 /* 					        			<h2>Langages Web</h2>*/
 /* 					        			*/
-/* 					        			<p>*/
-/* 						        			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae accumsan velit, quis commodo justo. Vivamus tellus ante, pellentesque vitae velit at, finibus condimentum purus. Cras nunc mi, tempor scelerisque convallis vel, dapibus in lorem. Donec molestie tellus iaculis augue eleifend commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse leo lacus, fringilla in faucibus elementum, malesuada sit amet massa. Proin eget nisi lorem. Sed nec viverra metus, congue bibendum lacus. Integer euismod arcu ut sagittis aliquet. Cras id varius neque. Cras eget augue tincidunt libero pulvinar auctor. Integer lacinia, erat commodo aliquet posuere, lorem diam faucibus nisi, at tristique mauris magna ut diam.*/
-/* 						        				*/
-/* 					        			</p>*/
+/* 					        			*/
+/* 					        		</div>*/
 /* */
 /* 				        		</div>*/
 /* 				        		*/

@@ -1,6 +1,7 @@
 {% extends "layout.twig" %}
 
 {% block body %}
+{% set isMobileClass = (isMobile == "0"? "no-mobile": "mobile") %}
 
 <div id="st-container" class="st-container">
 
@@ -66,7 +67,6 @@
 					<div class="ha-header-perspective">
 						<div class="ha-header-front">
 							<h1><span>Rémi FAIVRE</span></h1>
-								
 							<div id="st-trigger-effects" class="column">
 								<button data-effect="st-effect-1" class="button-menu">
 									<i></i>
@@ -86,10 +86,13 @@
 					        <div class="ms-section" data-anchor="home">
 					        	<div class="wrap-section">
 					        		<div class="section-container">
-					        			<h1>Bienvenue</h1>
-						        		<p>Développeur web</p>
-						        		<p>25 ans</p>
-						        		<p>permis B</p>
+				        				<h1><i class="fa fa-arrow-circle-right"></i></i> Accueil</h1>
+				        				<div class="sub-container">
+					        				<p class="intro">
+												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class="fa fa-smile-o"></i> !
+												<br /><br />A très bientôt!
+											</p>
+					        			</div>
 					        			
 					        		</div>
 					        	</div>
@@ -99,7 +102,7 @@
 					        <div class="ms-section" data-anchor="studies">
 					        	<div class="wrap-section">
 					        		<div class="section-container">
-					        			<h1>Formations</h1>
+					        			<h1><i class="fa fa-arrow-circle-right"></i> Formations</h1>
 					        			
 					        		</div>					        		
 					        	</div>
@@ -109,10 +112,10 @@
 					        <div class="ms-section" data-anchor="skills">
 						    	<div class="wrap-section">					    		
 						    		<div class="section-container">
-						    			<h1>Compétences</h1>
+						    			<h1><i class="fa fa-arrow-circle-right"></i> Compétences</h1>
 						    			<div>
 						    				<p>
-							    				Au cours de mes études et mes diverses expériences, j'ai pu découvrir et approfondir différents langages de programmation. J'aime découvrir de nouvelles technologies et me tenir au courant des technologies et méthodes utilisés dans le monde du web.
+							    				Au cours de mes études et mes diverses expériences, j'ai pu découvrir et approfondir différents langages de programmation. J'aime découvrir de nouvelles technologies et me tenir au courant des technologies et méthodes utilisés dans le monde du web. Pour cela, j'aime effectuer de la veille technologique à titre personnel.
 							    					
 						    				</p>
 						    			</div>
@@ -125,7 +128,7 @@
 					        <div class="ms-section" data-anchor="contact">
 						    	<div class="wrap-section">
 						    		<div class="section-container">
-						    			<h1>Contact</h1>
+						    			<h1><i class="fa fa-arrow-circle-right"></i> Contact</h1>
 						    			
 						    		</div>
 						    		
@@ -135,17 +138,21 @@
 					    </div>
 					{% endif %}
 
-				    <div class="ms-right" id="fullpage">
+				    <div class="ms-right {{ isMobileClass }}" id="fullpage">
 
 				        <div class="ms-section section section-home" data-anchor="home">
 				        	<div class="wrap-section">
 				        		<div class="section-sontainer">
-				        			Situation professionelle: en recherche active de poste
-				        			
-				        		</div>
-					        	
-					        	
-				        		
+				        			<div class="sub-container">
+										<h2><i class="fa fa-arrow-circle-down"></i> A mon sujet</h2>
+										<div>
+			        						<p><span>Nom </span><span>Faivre</span></p>
+							        		<p><span>Prénom</span><span>Rémi</span></p>
+							        		<p><span>Âge</span><span>25 ans</span></p>						        		
+							        		<p><span>Situation professionelle</span><span>En recherche active de poste</span></p>								
+										</div>
+			        				</div>
+				        		</div>				        		
 				        	</div>
 				        </div>
 				        <div class="ms-section section section-studies" data-anchor="studies">
@@ -169,14 +176,13 @@
 				        			
 					        		{% if isMobile == "1" %}
 					        			<h1>Compétences</h1>
+					        		{% else %}
+										<div></div>
 					        		{% endif %}
 					        		<div>
 					        			<h2>Langages Web</h2>
 					        			
-					        			<p>
-						        			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae accumsan velit, quis commodo justo. Vivamus tellus ante, pellentesque vitae velit at, finibus condimentum purus. Cras nunc mi, tempor scelerisque convallis vel, dapibus in lorem. Donec molestie tellus iaculis augue eleifend commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse leo lacus, fringilla in faucibus elementum, malesuada sit amet massa. Proin eget nisi lorem. Sed nec viverra metus, congue bibendum lacus. Integer euismod arcu ut sagittis aliquet. Cras id varius neque. Cras eget augue tincidunt libero pulvinar auctor. Integer lacinia, erat commodo aliquet posuere, lorem diam faucibus nisi, at tristique mauris magna ut diam.
-						        				
-					        			</p>
+					        			
 					        		</div>
 
 				        		</div>
