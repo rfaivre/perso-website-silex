@@ -233,7 +233,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2014</div>
 \t\t\t\t\t\t        \t\t\t\t\t<div class=\"diplome\">
 \t\t\t\t\t\t\t        \t\t\t\t\t<div>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>Master IIAM (Image et Intelligence Artificielle, Multimédia,</strong>
+\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>
+\t\t\t\t\t        \t\t\t\t\t\t\t\t\t<i class=\"fa fa-angle-double-right\"></i>
+\t\t\t\t\t        \t\t\t\t\t\t\t\t\tMaster IIAM (Image et Intelligence Artificielle, Multimédia.
+\t\t\t\t\t        \t\t\t\t\t\t\t\t</strong>
 \t\t\t\t\t\t\t        \t\t\t\t\t</div>
 \t\t\t\t\t\t\t        \t\t\t\t\t<div>
 \t\t\t\t\t\t\t        \t\t\t\t\t\t<em>option multimédia</em>
@@ -248,7 +251,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2012</div>
 \t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"diplome\">
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<div>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<strong>Licence Informatique</strong>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<strong>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-angle-double-right\"></i>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLicence Informatique
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</strong>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t<div>
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUniversité de Franche-Comté - Besançon(25)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -259,7 +265,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2009</div>
 \t\t\t\t\t        \t\t\t\t\t\t<div class=\"diplome\">
 \t\t\t\t\t        \t\t\t\t\t\t\t<div>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>Baccalauréat Scientifique</strong>\t\t\t\t\t        \t\t\t
+\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>
+\t\t\t\t\t        \t\t\t\t\t\t\t\t\t<i class=\"fa fa-angle-double-right\"></i>
+\t\t\t\t\t        \t\t\t\t\t\t\t\t\tBaccalauréat Scientifique
+\t\t\t\t\t        \t\t\t\t\t\t\t\t</strong>\t\t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t\t\t\t\t\t</div>
 \t\t\t\t\t        \t\t\t\t\t\t\t<div>
 \t\t\t\t\t        \t\t\t\t\t\t\t\t-- Mention Assez Bien
@@ -281,17 +290,17 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 232
+        // line 241
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 233
+            // line 242
             echo "\t\t\t\t\t        \t\t\t<h2>Compétences</h2>
 \t\t\t\t\t        \t\t";
         } else {
-            // line 235
+            // line 244
             echo "\t\t\t\t\t\t\t\t\t\t<div></div>
 \t\t\t\t\t        \t\t";
         }
-        // line 237
+        // line 246
         echo "\t\t\t\t\t        \t\t<div>
 \t\t\t\t\t        \t\t\t<h3>Langages Web</h3>
 \t\t\t\t\t        \t\t\t
@@ -304,9 +313,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 248
+        // line 257
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 249
+            // line 258
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -317,7 +326,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 258
+            // line 267
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -341,14 +350,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 280
+        // line 289
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 283
+        // line 292
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 284
+            // line 293
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -356,7 +365,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 290
+        // line 299
         echo "
 
 \t\t\t</div>
@@ -367,7 +376,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 299
+        // line 308
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -387,7 +396,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  371 => 299,  360 => 290,  352 => 284,  350 => 283,  345 => 280,  321 => 258,  310 => 249,  308 => 248,  295 => 237,  291 => 235,  287 => 233,  285 => 232,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  380 => 308,  369 => 299,  361 => 293,  359 => 292,  354 => 289,  330 => 267,  319 => 258,  317 => 257,  304 => 246,  300 => 244,  296 => 242,  294 => 241,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -574,7 +583,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 						        					<div class="year">2014</div>*/
 /* 						        					<div class="diplome">*/
 /* 							        					<div>*/
-/* 					        								<strong>Master IIAM (Image et Intelligence Artificielle, Multimédia,</strong>*/
+/* 					        								<strong>*/
+/* 					        									<i class="fa fa-angle-double-right"></i>*/
+/* 					        									Master IIAM (Image et Intelligence Artificielle, Multimédia.*/
+/* 					        								</strong>*/
 /* 							        					</div>*/
 /* 							        					<div>*/
 /* 							        						<em>option multimédia</em>*/
@@ -589,7 +601,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 						        					<div class="year">2012</div>*/
 /* 													<div class="diplome">*/
 /* 														<div>*/
-/* 															<strong>Licence Informatique</strong>															*/
+/* 															<strong>*/
+/* 																<i class="fa fa-angle-double-right"></i>*/
+/* 																Licence Informatique*/
+/* 															</strong>															*/
 /* 														</div>*/
 /* 														<div>*/
 /* 															Université de Franche-Comté - Besançon(25)															*/
@@ -600,7 +615,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 						        					<div class="year">2009</div>*/
 /* 					        						<div class="diplome">*/
 /* 					        							<div>*/
-/* 					        								<strong>Baccalauréat Scientifique</strong>					        			*/
+/* 					        								<strong>*/
+/* 					        									<i class="fa fa-angle-double-right"></i>*/
+/* 					        									Baccalauréat Scientifique*/
+/* 					        								</strong>					        			*/
 /* 					        							</div>*/
 /* 					        							<div>*/
 /* 					        								-- Mention Assez Bien*/
