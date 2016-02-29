@@ -4716,14 +4716,14 @@ html body #multiscroll-nav ul li
 {
     margin-bottom: 20px;
 }
-html body #multiscroll h1
+html body #multiscroll h2
 {
     font-weight: 900;
 
     letter-spacing: 4px;
     text-transform: uppercase;
 }
-html body #multiscroll h2
+html body #multiscroll h3
 {
     font-weight: 100;
 
@@ -4790,7 +4790,7 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-container .s
 
     text-align: justify;
 }
-html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content
 {
     display: block;
 
@@ -4798,13 +4798,13 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-container .s
     width: 100%;
     padding-left: 10px;
 }
-html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div p
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content p
 {
     padding-bottom: 10px; 
 
     border-bottom: 2px solid rgba(0, 0, 0, .2);
 }
-html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div p span:nth-child(1)
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content p span:nth-child(1)
 {
     display: inline-block; 
 
@@ -4944,6 +4944,63 @@ html body #multiscroll .ms-right .section-studies .wrap-section
             transform: rotateZ(-45deg);
 }
 
+ul.timeline-studies
+{
+    position: relative;
+
+    display: inline-block;
+    clear: both;
+
+    width: 100%; 
+    height: 100%;
+    padding: 10px 0;
+}
+ul.timeline-studies li
+{
+    position: relative;
+
+    float: left;
+
+    width: 100%;
+    margin-bottom: 20px;
+
+    list-style-type: none;
+
+    background: #d7dbdb;
+}
+ul.timeline-studies li .year
+{
+    display: inline-block;
+    float: left;
+
+    box-sizing: border-box; 
+    width: 9%;
+    padding: 10px;
+}
+ul.timeline-studies li .diplome
+{
+    display: inline-block; 
+
+    width: 90%;
+}
+ul.timeline-studies:before
+{
+    position: absolute;
+    top: 0;
+    left: 25px;
+
+    display: block;
+
+    width: 5px;
+    height: 100%;
+
+    content: ' ';
+
+    background: #1ea0ce;
+    background: -webkit-linear-gradient(top, #d7dbdb 0%, #000 7%, #000 89%, #d7dbdb 100%);
+    background: linear-gradient(to bottom, #d7dbdb 0%, #000 7%, #000 89%, #d7dbdb 100%);
+}
+
 .ml20
 {
     margin-left: 20px;
@@ -4956,7 +5013,7 @@ html body #multiscroll .ms-right .section-studies .wrap-section
 
 @media screen and (max-width: 1280px)
 {
-    #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div
+    #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content
     {
         padding-right: 60px;
     }

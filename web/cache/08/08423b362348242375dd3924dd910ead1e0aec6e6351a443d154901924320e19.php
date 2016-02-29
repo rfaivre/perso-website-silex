@@ -117,7 +117,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t        \t\t\t\t<h1>/ Accueil</h1>
+\t\t\t\t        \t\t\t\t<h2>/ Accueil</h2>
 \t\t\t\t        \t\t\t\t<div class=\"sub-container\">
 \t\t\t\t\t        \t\t\t\t<p class=\"intro\">
 \t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
@@ -132,7 +132,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"studies\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t\t        \t\t\t<h1>/ Formations</h1>
+\t\t\t\t\t        \t\t\t<h2>/ Formations</h2>
 \t\t\t\t\t        \t\t\t<div class=\"sub-container\">
 \t\t\t\t\t        \t\t\t\t<p class=\"intro\">
 \t\t\t\t\t        \t\t\t\t\tSuite à l'obtention de mon baccalauréat Scientifique obtenu avec la mention assez bien, je me suis dirigé vers une licence Informatique à l'Université de Franche-Comté à Besançon (25). C'est lors de cette licence que j'ai décidé de m'orienter vers le domaine du web. Après l'obtention de ma licence, j'ai donc décidé de me diriger vers un Master IIAM (Image et Intelligence Artificielle, Multimédia) option Multimédia réalisé à l'Université de Bourgogne à Dijon (21). Ce Master m'a permis de compléter ma formation pour travailler dans les métiers du web.
@@ -146,7 +146,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"skills\">
 \t\t\t\t\t\t    \t<div class=\"wrap-section\">\t\t\t\t\t    \t\t
 \t\t\t\t\t\t    \t\t<div class=\"section-container\">
-\t\t\t\t\t\t    \t\t\t<h1>/ Compétences</h1>
+\t\t\t\t\t\t    \t\t\t<h2>/ Compétences</h2>
 \t\t\t\t\t\t    \t\t\t<div class=\"sub-container\">
 \t\t\t\t\t\t    \t\t\t\t<p class=\"intro\">
 \t\t\t\t\t\t\t    \t\t\t\tAu cours de mes études et mes diverses expériences, j'ai pu découvrir et approfondir différents langages de programmation. J'aime découvrir de nouvelles technologies et me tenir au courant des technologies et méthodes utilisés dans le monde du web. Pour cela, j'aime effectuer de la veille technologique à titre personnel.
@@ -162,7 +162,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"contact\">
 \t\t\t\t\t\t    \t<div class=\"wrap-section\">
 \t\t\t\t\t\t    \t\t<div class=\"section-container\">
-\t\t\t\t\t\t    \t\t\t<h1>/ Contact</h1>
+\t\t\t\t\t\t    \t\t\t<h2>/ Contact</h2>
 \t\t\t\t\t\t    \t\t\t
 \t\t\t\t\t\t    \t\t</div>
 \t\t\t\t\t\t    \t\t
@@ -186,7 +186,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
         // line 149
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
             // line 150
-            echo "\t\t\t\t\t\t        \t\t<h1>/ Accueil</h1>
+            echo "\t\t\t\t\t\t        \t\t<h2>/ Accueil</h2>
 \t\t\t\t\t\t        \t";
         }
         // line 152
@@ -202,8 +202,8 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t\t\t\t\t";
         }
         // line 159
-        echo "\t\t\t\t\t\t\t\t\t\t<h2>// A mon sujet</h2>
-\t\t\t\t\t\t\t\t\t\t<div>
+        echo "\t\t\t\t\t\t\t\t\t\t<h3>// A mon sujet</h3>
+\t\t\t\t\t\t\t\t\t\t<div class=\"content\">
 \t\t\t        \t\t\t\t\t\t<p><span>Nom </span><span>Faivre</span></p>
 \t\t\t\t\t\t\t        \t\t<p><span>Prénom</span><span>Rémi</span></p>
 \t\t\t\t\t\t\t        \t\t<p><span>Âge</span><span>25 ans</span></p>\t\t\t\t        \t\t
@@ -221,13 +221,49 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
         // line 174
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
             // line 175
-            echo "\t\t\t\t\t\t        \t\t<h1>/ Formations</h1>
+            echo "\t\t\t\t\t\t        \t\t<h2>/ Formations</h2>
 \t\t\t\t\t\t        \t";
         }
         // line 177
         echo "\t\t\t\t\t\t        \t<div class=\"sub-container\">
-\t\t\t\t\t\t        \t\t<h2>// Timeline</h2>
-\t\t\t\t\t\t        \t\t<div></div>
+\t\t\t\t\t\t        \t\t<h3>// Timeline</h3>
+\t\t\t\t\t\t        \t\t<div class=\"content\">
+\t\t\t\t\t\t        \t\t\t<ul class=\"timeline-studies\">
+\t\t\t\t\t\t        \t\t\t\t<li>
+\t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2014</div>
+\t\t\t\t\t\t        \t\t\t\t\t<div class=\"diplome\">
+\t\t\t\t\t\t\t        \t\t\t\t\t<div>
+\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>Master IIAM (Image et Intelligence Artificielle, Multimédia,</strong> option multimédia
+\t\t\t\t\t\t\t        \t\t\t\t\t</div>
+\t\t\t\t\t\t\t        \t\t\t\t\t<div>
+\t\t\t\t\t\t\t        \t\t\t\t\t\tUniversité de Bourgogne - Dijon(21)
+\t\t\t\t\t\t\t        \t\t\t\t\t</div>
+\t\t\t\t\t\t        \t\t\t\t\t</div>
+\t\t\t\t\t\t        \t\t\t\t</li>
+\t\t\t\t\t\t        \t\t\t\t<li>
+\t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2012</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"diplome\">
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<strong>Licence Informatique</strong>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUniversité de Franche-Comté - Besançon(25)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
+\t\t\t\t\t\t        \t\t\t\t</li>
+\t\t\t\t\t\t        \t\t\t\t<li>
+\t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2009</div>
+\t\t\t\t\t        \t\t\t\t\t\t<div class=\"diplome\">
+\t\t\t\t\t        \t\t\t\t\t\t\t<div>
+\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>Baccalauréat Scientifique</strong>- Mention Assez Bien\t\t\t\t\t        \t\t\t
+\t\t\t\t\t        \t\t\t\t\t\t\t</div>
+\t\t\t\t\t        \t\t\t\t\t\t\t<div>
+\t\t\t\t\t        \t\t\t\t\t\t\t\tLycée Friant - Poligny(39)
+\t\t\t\t\t        \t\t\t\t\t\t\t</div>
+\t\t\t\t\t        \t\t\t\t\t\t</div>
+\t\t\t\t\t\t        \t\t\t\t</li>
+\t\t\t\t\t\t        \t\t\t</ul>
+\t\t\t\t\t\t        \t\t</div>
 \t\t\t\t\t\t        \t</div>
 \t\t\t\t        \t\t</div>
 \t\t\t\t        \t\t
@@ -238,19 +274,19 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 189
+        // line 225
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 190
-            echo "\t\t\t\t\t        \t\t\t<h1>Compétences</h1>
+            // line 226
+            echo "\t\t\t\t\t        \t\t\t<h2>Compétences</h2>
 \t\t\t\t\t        \t\t";
         } else {
-            // line 192
+            // line 228
             echo "\t\t\t\t\t\t\t\t\t\t<div></div>
 \t\t\t\t\t        \t\t";
         }
-        // line 194
+        // line 230
         echo "\t\t\t\t\t        \t\t<div>
-\t\t\t\t\t        \t\t\t<h2>Langages Web</h2>
+\t\t\t\t\t        \t\t\t<h3>Langages Web</h3>
 \t\t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t</div>
@@ -261,9 +297,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 205
+        // line 241
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 206
+            // line 242
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -274,12 +310,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 215
+            // line 251
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t\t\t\t\t\t\t\t<h1>Contact</h1>
+\t\t\t\t\t\t\t\t\t\t\t<h2>Contact</h2>
 \t\t\t\t\t\t        \t\t\tgttgggrggtr
 \t\t\t\t\t\t        \t\t</div>
 \t\t\t\t\t\t        \t</div>
@@ -298,14 +334,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 237
+        // line 273
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 240
+        // line 276
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 241
+            // line 277
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -313,7 +349,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 247
+        // line 283
         echo "
 
 \t\t\t</div>
@@ -324,7 +360,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 256
+        // line 292
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -344,7 +380,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  328 => 256,  317 => 247,  309 => 241,  307 => 240,  302 => 237,  278 => 215,  267 => 206,  265 => 205,  252 => 194,  248 => 192,  244 => 190,  242 => 189,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  364 => 292,  353 => 283,  345 => 277,  343 => 276,  338 => 273,  314 => 251,  303 => 242,  301 => 241,  288 => 230,  284 => 228,  280 => 226,  278 => 225,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -435,7 +471,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        <div class="ms-section" data-anchor="home">*/
 /* 					        	<div class="wrap-section">*/
 /* 					        		<div class="section-container">*/
-/* 				        				<h1>/ Accueil</h1>*/
+/* 				        				<h2>/ Accueil</h2>*/
 /* 				        				<div class="sub-container">*/
 /* 					        				<p class="intro">*/
 /* 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class="fa fa-smile-o"></i> !*/
@@ -450,7 +486,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        <div class="ms-section" data-anchor="studies">*/
 /* 					        	<div class="wrap-section">*/
 /* 					        		<div class="section-container">*/
-/* 					        			<h1>/ Formations</h1>*/
+/* 					        			<h2>/ Formations</h2>*/
 /* 					        			<div class="sub-container">*/
 /* 					        				<p class="intro">*/
 /* 					        					Suite à l'obtention de mon baccalauréat Scientifique obtenu avec la mention assez bien, je me suis dirigé vers une licence Informatique à l'Université de Franche-Comté à Besançon (25). C'est lors de cette licence que j'ai décidé de m'orienter vers le domaine du web. Après l'obtention de ma licence, j'ai donc décidé de me diriger vers un Master IIAM (Image et Intelligence Artificielle, Multimédia) option Multimédia réalisé à l'Université de Bourgogne à Dijon (21). Ce Master m'a permis de compléter ma formation pour travailler dans les métiers du web.*/
@@ -464,7 +500,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        <div class="ms-section" data-anchor="skills">*/
 /* 						    	<div class="wrap-section">					    		*/
 /* 						    		<div class="section-container">*/
-/* 						    			<h1>/ Compétences</h1>*/
+/* 						    			<h2>/ Compétences</h2>*/
 /* 						    			<div class="sub-container">*/
 /* 						    				<p class="intro">*/
 /* 							    				Au cours de mes études et mes diverses expériences, j'ai pu découvrir et approfondir différents langages de programmation. J'aime découvrir de nouvelles technologies et me tenir au courant des technologies et méthodes utilisés dans le monde du web. Pour cela, j'aime effectuer de la veille technologique à titre personnel.*/
@@ -480,7 +516,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					        <div class="ms-section" data-anchor="contact">*/
 /* 						    	<div class="wrap-section">*/
 /* 						    		<div class="section-container">*/
-/* 						    			<h1>/ Contact</h1>*/
+/* 						    			<h2>/ Contact</h2>*/
 /* 						    			*/
 /* 						    		</div>*/
 /* 						    		*/
@@ -496,7 +532,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        	<div class="wrap-section">*/
 /* 				        		<div class="section-container">*/
 /* 				        			{% if isMobile == "1" %}*/
-/* 						        		<h1>/ Accueil</h1>*/
+/* 						        		<h2>/ Accueil</h2>*/
 /* 						        	{% endif %}*/
 /* 				        			<div class="sub-container">*/
 /* 										{% if isMobile =="1" %}*/
@@ -505,8 +541,8 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 												<br /><br />A très bientôt!*/
 /* 											</p>*/
 /* 										{% endif %}*/
-/* 										<h2>// A mon sujet</h2>*/
-/* 										<div>*/
+/* 										<h3>// A mon sujet</h3>*/
+/* 										<div class="content">*/
 /* 			        						<p><span>Nom </span><span>Faivre</span></p>*/
 /* 							        		<p><span>Prénom</span><span>Rémi</span></p>*/
 /* 							        		<p><span>Âge</span><span>25 ans</span></p>				        		*/
@@ -521,11 +557,47 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        	<div class="wrap-section">*/
 /* 				        		<div class="section-container">				        			*/
 /* 						        	{% if isMobile == "1" %}*/
-/* 						        		<h1>/ Formations</h1>*/
+/* 						        		<h2>/ Formations</h2>*/
 /* 						        	{% endif %}*/
 /* 						        	<div class="sub-container">*/
-/* 						        		<h2>// Timeline</h2>*/
-/* 						        		<div></div>*/
+/* 						        		<h3>// Timeline</h3>*/
+/* 						        		<div class="content">*/
+/* 						        			<ul class="timeline-studies">*/
+/* 						        				<li>*/
+/* 						        					<div class="year">2014</div>*/
+/* 						        					<div class="diplome">*/
+/* 							        					<div>*/
+/* 					        								<strong>Master IIAM (Image et Intelligence Artificielle, Multimédia,</strong> option multimédia*/
+/* 							        					</div>*/
+/* 							        					<div>*/
+/* 							        						Université de Bourgogne - Dijon(21)*/
+/* 							        					</div>*/
+/* 						        					</div>*/
+/* 						        				</li>*/
+/* 						        				<li>*/
+/* 						        					<div class="year">2012</div>*/
+/* 													<div class="diplome">*/
+/* 														<div>*/
+/* 															<strong>Licence Informatique</strong>															*/
+/* 														</div>*/
+/* 														<div>*/
+/* 															Université de Franche-Comté - Besançon(25)															*/
+/* 														</div>*/
+/* 													</div>*/
+/* 						        				</li>*/
+/* 						        				<li>*/
+/* 						        					<div class="year">2009</div>*/
+/* 					        						<div class="diplome">*/
+/* 					        							<div>*/
+/* 					        								<strong>Baccalauréat Scientifique</strong>- Mention Assez Bien					        			*/
+/* 					        							</div>*/
+/* 					        							<div>*/
+/* 					        								Lycée Friant - Poligny(39)*/
+/* 					        							</div>*/
+/* 					        						</div>*/
+/* 						        				</li>*/
+/* 						        			</ul>*/
+/* 						        		</div>*/
 /* 						        	</div>*/
 /* 				        		</div>*/
 /* 				        		*/
@@ -536,12 +608,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        		<div class="section-container">*/
 /* 				        			*/
 /* 					        		{% if isMobile == "1" %}*/
-/* 					        			<h1>Compétences</h1>*/
+/* 					        			<h2>Compétences</h2>*/
 /* 					        		{% else %}*/
 /* 										<div></div>*/
 /* 					        		{% endif %}*/
 /* 					        		<div>*/
-/* 					        			<h2>Langages Web</h2>*/
+/* 					        			<h3>Langages Web</h3>*/
 /* 					        			*/
 /* 					        			*/
 /* 					        		</div>*/
@@ -565,7 +637,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					    		<div class="slide">*/
 /* 						        	<div class="wrap-section">*/
 /* 						        		<div class="section-container">*/
-/* 											<h1>Contact</h1>*/
+/* 											<h2>Contact</h2>*/
 /* 						        			gttgggrggtr*/
 /* 						        		</div>*/
 /* 						        	</div>*/
