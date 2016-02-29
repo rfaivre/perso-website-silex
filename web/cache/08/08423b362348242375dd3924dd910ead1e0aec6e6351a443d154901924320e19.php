@@ -206,8 +206,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t\t\t\t\t<div>
 \t\t\t        \t\t\t\t\t\t<p><span>Nom </span><span>Faivre</span></p>
 \t\t\t\t\t\t\t        \t\t<p><span>Prénom</span><span>Rémi</span></p>
-\t\t\t\t\t\t\t        \t\t<p><span>Âge</span><span>25 ans</span></p>\t
-\t\t\t\t\t\t\t        \t\t<p><span>Téléphone</span><span>06.43.49.33.18</span></p>\t\t\t\t\t        \t\t
+\t\t\t\t\t\t\t        \t\t<p><span>Âge</span><span>25 ans</span></p>\t\t\t\t        \t\t
 \t\t\t\t\t\t\t        \t\t<p><span>Mail</span><span>rfaivre91@gmail.com</span></p>\t\t\t\t\t        \t\t
 \t\t\t\t\t\t\t        \t\t<p><span>Situation professionelle</span><span>En recherche active</span></p>\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t</div>
@@ -219,13 +218,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\t<div class=\"section-container\">\t\t\t\t        \t\t\t
 \t\t\t\t\t\t        \t";
-        // line 175
+        // line 174
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 176
+            // line 175
             echo "\t\t\t\t\t\t        \t\t<h1>/ Formations</h1>
 \t\t\t\t\t\t        \t";
         }
-        // line 178
+        // line 177
         echo "\t\t\t\t\t\t        \t<div class=\"sub-container\">
 \t\t\t\t\t\t        \t\t<h2>// Timeline</h2>
 \t\t\t\t\t\t        \t\t<div></div>
@@ -239,17 +238,17 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 190
+        // line 189
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 191
+            // line 190
             echo "\t\t\t\t\t        \t\t\t<h1>Compétences</h1>
 \t\t\t\t\t        \t\t";
         } else {
-            // line 193
+            // line 192
             echo "\t\t\t\t\t\t\t\t\t\t<div></div>
 \t\t\t\t\t        \t\t";
         }
-        // line 195
+        // line 194
         echo "\t\t\t\t\t        \t\t<div>
 \t\t\t\t\t        \t\t\t<h2>Langages Web</h2>
 \t\t\t\t\t        \t\t\t
@@ -262,9 +261,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 206
+        // line 205
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 207
+            // line 206
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -275,7 +274,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 216
+            // line 215
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -299,14 +298,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 238
+        // line 237
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 241
+        // line 240
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 242
+            // line 241
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -314,7 +313,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 248
+        // line 247
         echo "
 
 \t\t\t</div>
@@ -325,7 +324,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 257
+        // line 256
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -345,7 +344,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  329 => 257,  318 => 248,  310 => 242,  308 => 241,  303 => 238,  279 => 216,  268 => 207,  266 => 206,  253 => 195,  249 => 193,  245 => 191,  243 => 190,  229 => 178,  225 => 176,  223 => 175,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  328 => 256,  317 => 247,  309 => 241,  307 => 240,  302 => 237,  278 => 215,  267 => 206,  265 => 205,  252 => 194,  248 => 192,  244 => 190,  242 => 189,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -510,8 +509,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 										<div>*/
 /* 			        						<p><span>Nom </span><span>Faivre</span></p>*/
 /* 							        		<p><span>Prénom</span><span>Rémi</span></p>*/
-/* 							        		<p><span>Âge</span><span>25 ans</span></p>	*/
-/* 							        		<p><span>Téléphone</span><span>06.43.49.33.18</span></p>					        		*/
+/* 							        		<p><span>Âge</span><span>25 ans</span></p>				        		*/
 /* 							        		<p><span>Mail</span><span>rfaivre91@gmail.com</span></p>					        		*/
 /* 							        		<p><span>Situation professionelle</span><span>En recherche active</span></p>								*/
 /* 										</div>*/
