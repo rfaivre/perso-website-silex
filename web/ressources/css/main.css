@@ -4755,6 +4755,10 @@ html body #multiscroll .ms-left .ms-section
     color: white; 
     background-color: #0ca3b9;
 }
+html body #multiscroll .ms-left .ms-section .wrap-section
+{
+    border-right: 1px solid #188898;
+}
 html body #multiscroll .ms-left .ms-section .wrap-section .section-container
 {
     float: right; 
@@ -4810,13 +4814,13 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-container .s
 
     width: 45%;
 }
-html body #multiscroll .ms-right .section-home .wrap-section,
-html body #multiscroll .ms-right .section-skills .wrap-section,
-html body #multiscroll .ms-right .section-contact .wrap-section
+html body #multiscroll .ms-right .section-home .wrap-section
 {
     padding-top: 210px;
 }
-html body #multiscroll .ms-right .section-studies .wrap-section
+html body #multiscroll .ms-right .section-studies .wrap-section,
+html body #multiscroll .ms-right .section-skills .wrap-section,
+html body #multiscroll .ms-right .section-contact .wrap-section
 {
     padding-top: 110px;
 }
@@ -4984,10 +4988,11 @@ ul.timeline-studies li .diplome
 {
     display: inline-block;
 
-    box-sizing: border-box; 
+    box-sizing: border-box;
     width: 100%;
     padding: 10px;
 
+    border-bottom: 1px solid #988d8d; 
     background: #bec3c4;
 }
 ul.timeline-studies:before
@@ -5012,6 +5017,11 @@ ul.timeline-studies:before
 .ml20
 {
     margin-left: 20px;
+}
+
+.ml15
+{
+    margin-left: 10px;
 }
 
 .tar

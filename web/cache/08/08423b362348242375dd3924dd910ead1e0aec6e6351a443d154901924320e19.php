@@ -120,8 +120,8 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t\t\t<h2>/ Accueil</h2>
 \t\t\t\t        \t\t\t\t<div class=\"sub-container\">
 \t\t\t\t\t        \t\t\t\t<p class=\"intro\">
-\t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contacter si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
-\t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt!
+\t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contacter si mon profil vous intéresse!
+\t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt <i class=\"fa fa-smile-o\"></i> !
 \t\t\t\t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t        \t\t\t</div>
 \t\t\t\t\t        \t\t</div>
@@ -225,62 +225,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t        \t";
         }
         // line 177
-        echo "\t\t\t\t\t\t        \t<div class=\"sub-container\">
-\t\t\t\t\t\t        \t\t<h3>// Timeline</h3>
-\t\t\t\t\t\t        \t\t<div class=\"content\">
-\t\t\t\t\t\t        \t\t\t<ul class=\"timeline-studies\">
-\t\t\t\t\t\t        \t\t\t\t<li>
-\t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2014</div>
-\t\t\t\t\t\t        \t\t\t\t\t<div class=\"diplome\">
-\t\t\t\t\t\t\t        \t\t\t\t\t<div>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t\t<i class=\"fa fa-angle-double-right\"></i>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t\tMaster IIAM (Image et Intelligence Artificielle, Multimédia.
-\t\t\t\t\t        \t\t\t\t\t\t\t\t</strong>
-\t\t\t\t\t\t\t        \t\t\t\t\t</div>
-\t\t\t\t\t\t\t        \t\t\t\t\t<div>
-\t\t\t\t\t\t\t        \t\t\t\t\t\t<em>option multimédia</em>
-\t\t\t\t\t\t\t        \t\t\t\t\t</div>
-\t\t\t\t\t\t\t        \t\t\t\t\t<div>-- Mention Bien</div>
-\t\t\t\t\t\t\t        \t\t\t\t\t<div>
-\t\t\t\t\t\t\t        \t\t\t\t\t\tUniversité de Bourgogne - Dijon(21)
-\t\t\t\t\t\t\t        \t\t\t\t\t</div>
-\t\t\t\t\t\t        \t\t\t\t\t</div>
-\t\t\t\t\t\t        \t\t\t\t</li>
-\t\t\t\t\t\t        \t\t\t\t<li>
-\t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2012</div>
-\t\t\t\t\t\t\t\t\t\t\t\t\t<div class=\"diplome\">
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<strong>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<i class=\"fa fa-angle-double-right\"></i>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLicence Informatique
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</strong>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t<div>
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUniversité de Franche-Comté - Besançon(25)\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t\t\t\t\t\t\t\t</div>
-\t\t\t\t\t\t        \t\t\t\t</li>
-\t\t\t\t\t\t        \t\t\t\t<li>
-\t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2009</div>
-\t\t\t\t\t        \t\t\t\t\t\t<div class=\"diplome\">
-\t\t\t\t\t        \t\t\t\t\t\t\t<div>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t\t<i class=\"fa fa-angle-double-right\"></i>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t\tBaccalauréat Scientifique
-\t\t\t\t\t        \t\t\t\t\t\t\t\t</strong>\t\t\t\t\t        \t\t\t
-\t\t\t\t\t        \t\t\t\t\t\t\t</div>
-\t\t\t\t\t        \t\t\t\t\t\t\t<div>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t-- Mention Assez Bien
-\t\t\t\t\t        \t\t\t\t\t\t\t</div>
-\t\t\t\t\t        \t\t\t\t\t\t\t<div>
-\t\t\t\t\t        \t\t\t\t\t\t\t\tLycée Friant - Poligny(39)
-\t\t\t\t\t        \t\t\t\t\t\t\t</div>
-\t\t\t\t\t        \t\t\t\t\t\t</div>
-\t\t\t\t\t\t        \t\t\t\t</li>
-\t\t\t\t\t\t        \t\t\t</ul>
-\t\t\t\t\t\t        \t\t</div>
-\t\t\t\t\t\t        \t</div>
+        echo "\t\t\t\t\t\t        \t<div class=\"sub-container\">\t\t\t\t\t\t        \t\t
+\t\t\t\t\t\t        \t\t";
+        // line 178
+        $this->loadTemplate("studies.twig", "index.twig", 178)->display($context);
+        // line 179
+        echo "\t\t\t\t\t\t        \t</div>
 \t\t\t\t        \t\t</div>
 \t\t\t\t        \t\t
 \t\t\t\t        \t</div>
@@ -288,24 +238,20 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        <div class=\"ms-section section section-skills\" data-anchor=\"skills\">
 \t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 241
+        // line 187
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 242
+            // line 188
             echo "\t\t\t\t\t        \t\t\t<h2>Compétences</h2>
 \t\t\t\t\t        \t\t";
-        } else {
-            // line 244
-            echo "\t\t\t\t\t\t\t\t\t\t<div></div>
-\t\t\t\t\t        \t\t";
         }
-        // line 246
-        echo "\t\t\t\t\t        \t\t<div>
-\t\t\t\t\t        \t\t\t<h3>Langages Web</h3>
-\t\t\t\t\t        \t\t\t
-\t\t\t\t\t        \t\t\t
-\t\t\t\t\t        \t\t</div>
+        // line 190
+        echo "\t\t\t\t\t        \t\t<div class=\"sub-container\">
+\t\t\t\t\t        \t\t\t";
+        // line 191
+        $this->loadTemplate("skills.twig", "index.twig", 191)->display($context);
+        // line 192
+        echo "\t\t\t\t\t        \t\t</div>
 
 \t\t\t\t        \t\t</div>
 \t\t\t\t        \t\t
@@ -313,9 +259,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 257
+        // line 199
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 258
+            // line 200
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -326,7 +272,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 267
+            // line 209
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -350,14 +296,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 289
+        // line 231
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 292
+        // line 234
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 293
+            // line 235
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -365,7 +311,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 299
+        // line 241
         echo "
 
 \t\t\t</div>
@@ -376,7 +322,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 308
+        // line 250
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -396,7 +342,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  380 => 308,  369 => 299,  361 => 293,  359 => 292,  354 => 289,  330 => 267,  319 => 258,  317 => 257,  304 => 246,  300 => 244,  296 => 242,  294 => 241,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  326 => 250,  315 => 241,  307 => 235,  305 => 234,  300 => 231,  276 => 209,  265 => 200,  263 => 199,  254 => 192,  252 => 191,  249 => 190,  245 => 188,  243 => 187,  233 => 179,  231 => 178,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -490,8 +436,8 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        				<h2>/ Accueil</h2>*/
 /* 				        				<div class="sub-container">*/
 /* 					        				<p class="intro">*/
-/* 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contacter si mon profil vous intéresse <i class="fa fa-smile-o"></i> !*/
-/* 												<br /><br />A très bientôt!*/
+/* 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contacter si mon profil vous intéresse!*/
+/* 												<br /><br />A très bientôt <i class="fa fa-smile-o"></i> !*/
 /* 											</p>*/
 /* 					        			</div>*/
 /* 					        		</div>*/
@@ -575,61 +521,8 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 						        	{% if isMobile == "1" %}*/
 /* 						        		<h2>/ Formations</h2>*/
 /* 						        	{% endif %}*/
-/* 						        	<div class="sub-container">*/
-/* 						        		<h3>// Timeline</h3>*/
-/* 						        		<div class="content">*/
-/* 						        			<ul class="timeline-studies">*/
-/* 						        				<li>*/
-/* 						        					<div class="year">2014</div>*/
-/* 						        					<div class="diplome">*/
-/* 							        					<div>*/
-/* 					        								<strong>*/
-/* 					        									<i class="fa fa-angle-double-right"></i>*/
-/* 					        									Master IIAM (Image et Intelligence Artificielle, Multimédia.*/
-/* 					        								</strong>*/
-/* 							        					</div>*/
-/* 							        					<div>*/
-/* 							        						<em>option multimédia</em>*/
-/* 							        					</div>*/
-/* 							        					<div>-- Mention Bien</div>*/
-/* 							        					<div>*/
-/* 							        						Université de Bourgogne - Dijon(21)*/
-/* 							        					</div>*/
-/* 						        					</div>*/
-/* 						        				</li>*/
-/* 						        				<li>*/
-/* 						        					<div class="year">2012</div>*/
-/* 													<div class="diplome">*/
-/* 														<div>*/
-/* 															<strong>*/
-/* 																<i class="fa fa-angle-double-right"></i>*/
-/* 																Licence Informatique*/
-/* 															</strong>															*/
-/* 														</div>*/
-/* 														<div>*/
-/* 															Université de Franche-Comté - Besançon(25)															*/
-/* 														</div>*/
-/* 													</div>*/
-/* 						        				</li>*/
-/* 						        				<li>*/
-/* 						        					<div class="year">2009</div>*/
-/* 					        						<div class="diplome">*/
-/* 					        							<div>*/
-/* 					        								<strong>*/
-/* 					        									<i class="fa fa-angle-double-right"></i>*/
-/* 					        									Baccalauréat Scientifique*/
-/* 					        								</strong>					        			*/
-/* 					        							</div>*/
-/* 					        							<div>*/
-/* 					        								-- Mention Assez Bien*/
-/* 					        							</div>*/
-/* 					        							<div>*/
-/* 					        								Lycée Friant - Poligny(39)*/
-/* 					        							</div>*/
-/* 					        						</div>*/
-/* 						        				</li>*/
-/* 						        			</ul>*/
-/* 						        		</div>*/
+/* 						        	<div class="sub-container">						        		*/
+/* 						        		{% include "studies.twig" %}*/
 /* 						        	</div>*/
 /* 				        		</div>*/
 /* 				        		*/
@@ -638,16 +531,11 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        <div class="ms-section section section-skills" data-anchor="skills">*/
 /* 				        	<div class="wrap-section">*/
 /* 				        		<div class="section-container">*/
-/* 				        			*/
 /* 					        		{% if isMobile == "1" %}*/
 /* 					        			<h2>Compétences</h2>*/
-/* 					        		{% else %}*/
-/* 										<div></div>*/
 /* 					        		{% endif %}*/
-/* 					        		<div>*/
-/* 					        			<h3>Langages Web</h3>*/
-/* 					        			*/
-/* 					        			*/
+/* 					        		<div class="sub-container">*/
+/* 					        			{% include "skills.twig" %}*/
 /* 					        		</div>*/
 /* */
 /* 				        		</div>*/

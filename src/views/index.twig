@@ -5,57 +5,7 @@
 
 <div id="st-container" class="st-container">
 
-	<nav class="st-menu st-effect-1" id="menu-1">
-		<ul>
-			<li>
-				<a class="icon icon-data hvr-bounce-to-right" href="#home">
-					<i class="fa fa-home"></i>
-					<span>
-						Accueil
-					</span>
-				</a>
-			</li>
-			<li>
-				<a class="icon icon-location hvr-bounce-to-right" href="#studies">
-					<i class="fa fa-graduation-cap"></i>
-					<span>
-						Formations
-					</span>
-				</a>
-			</li>
-			<li>
-				<a class="icon icon-location hvr-bounce-to-right" href="#projects">
-					<i class="fa fa-folder-open"></i>
-					<span>
-						Projets
-					</span>
-				</a>
-			</li>
-			<li>
-				<a class="icon icon-study hvr-bounce-to-right" href="#skills">
-					<i class="fa fa-code"></i>
-					<span>
-						Compétences
-					</span>
-				</a>
-			</li>
-			<li>
-				<a class="icon icon-photo hvr-bounce-to-right" href="#contact">
-					<i class="fa fa-envelope"></i>
-					<span>
-						Contact
-					</span>
-				</a>
-			</li>
-		</ul>
-		<div class="st-menu-bottom">
-			<a href=""><i class="fa fa-envelope"></i></a>
-			<a href=""><i class="fa fa-linkedin-square"></i></a>
-			<a href=""><i class="fa fa-facebook"></i></a>
-			<a href=""><i class="fa fa-google-plus"></i></a>
-			<a href=""><i class="fa fa-twitter"></i></a>
-		</div>
-	</nav>
+	{% include "navbar.twig" %}
 
 	<!-- content push wrapper -->
 	<div class="st-pusher">
@@ -174,61 +124,8 @@
 						        	{% if isMobile == "1" %}
 						        		<h2>/ Formations</h2>
 						        	{% endif %}
-						        	<div class="sub-container">
-						        		<h3>// Timeline</h3>
-						        		<div class="content">
-						        			<ul class="timeline-studies">
-						        				<li>
-						        					<div class="year">2014</div>
-						        					<div class="diplome">
-							        					<div>
-					        								<strong>
-					        									<i class="fa fa-angle-double-right"></i>
-					        									Master IIAM (Image et Intelligence Artificielle, Multimédia.
-					        								</strong>
-							        					</div>
-							        					<div>
-							        						<em>option multimédia</em>
-							        					</div>
-							        					<div>-- Mention Bien</div>
-							        					<div>
-							        						Université de Bourgogne - Dijon(21)
-							        					</div>
-						        					</div>
-						        				</li>
-						        				<li>
-						        					<div class="year">2012</div>
-													<div class="diplome">
-														<div>
-															<strong>
-																<i class="fa fa-angle-double-right"></i>
-																Licence Informatique
-															</strong>															
-														</div>
-														<div>
-															Université de Franche-Comté - Besançon(25)															
-														</div>
-													</div>
-						        				</li>
-						        				<li>
-						        					<div class="year">2009</div>
-					        						<div class="diplome">
-					        							<div>
-					        								<strong>
-					        									<i class="fa fa-angle-double-right"></i>
-					        									Baccalauréat Scientifique
-					        								</strong>					        			
-					        							</div>
-					        							<div>
-					        								-- Mention Assez Bien
-					        							</div>
-					        							<div>
-					        								Lycée Friant - Poligny(39)
-					        							</div>
-					        						</div>
-						        				</li>
-						        			</ul>
-						        		</div>
+						        	<div class="sub-container">						        		
+						        		{% include "studies.twig" %}
 						        	</div>
 				        		</div>
 				        		
@@ -237,16 +134,11 @@
 				        <div class="ms-section section section-skills" data-anchor="skills">
 				        	<div class="wrap-section">
 				        		<div class="section-container">
-				        			
 					        		{% if isMobile == "1" %}
 					        			<h2>Compétences</h2>
-					        		{% else %}
-										<div></div>
 					        		{% endif %}
-					        		<div>
-					        			<h3>Langages Web</h3>
-					        			
-					        			
+					        		<div class="sub-container">
+					        			{% include "skills.twig" %}
 					        		</div>
 
 				        		</div>
