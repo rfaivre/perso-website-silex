@@ -184,13 +184,23 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
             // line 147
             echo "\t\t\t\t\t\t        \t\t<h1>/Accueil</h1>
-\t\t\t\t\t\t        \t\t
+
 \t\t\t\t\t\t        \t";
         }
         // line 150
         echo "\t\t\t\t        \t\t\t<div class=\"sub-container\">
-
-\t\t\t\t\t\t\t\t\t\t<h2>// A mon sujet</h2>
+\t\t\t\t\t\t\t\t\t\t";
+        // line 151
+        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
+            // line 152
+            echo "\t\t\t\t\t\t\t\t\t\t\t<p class=\"intro\">
+\t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
+\t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt!
+\t\t\t\t\t\t\t\t\t\t\t</p>
+\t\t\t\t\t\t\t\t\t\t";
+        }
+        // line 157
+        echo "\t\t\t\t\t\t\t\t\t\t<h2>// A mon sujet</h2>
 \t\t\t\t\t\t\t\t\t\t<div>
 \t\t\t        \t\t\t\t\t\t<p><span>Nom </span><span>Faivre</span></p>
 \t\t\t\t\t\t\t        \t\t<p><span>Prénom</span><span>Rémi</span></p>
@@ -206,13 +216,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t\t        \t";
-        // line 167
+        // line 172
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 168
+            // line 173
             echo "\t\t\t\t\t\t        \t\t<h1>Formations</h1>
 \t\t\t\t\t\t        \t";
         }
-        // line 170
+        // line 175
         echo "\t\t\t\t\t\t        \t<div>
 \t\t\t\t\t        \t\t\tSection droite 2
 \t\t\t\t\t\t        \t\t
@@ -226,17 +236,17 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 182
+        // line 187
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 183
+            // line 188
             echo "\t\t\t\t\t        \t\t\t<h1>Compétences</h1>
 \t\t\t\t\t        \t\t";
         } else {
-            // line 185
+            // line 190
             echo "\t\t\t\t\t\t\t\t\t\t<div></div>
 \t\t\t\t\t        \t\t";
         }
-        // line 187
+        // line 192
         echo "\t\t\t\t\t        \t\t<div>
 \t\t\t\t\t        \t\t\t<h2>Langages Web</h2>
 \t\t\t\t\t        \t\t\t
@@ -249,9 +259,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 198
+        // line 203
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 199
+            // line 204
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -262,7 +272,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 208
+            // line 213
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -286,14 +296,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 230
+        // line 235
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 233
+        // line 238
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 234
+            // line 239
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -301,7 +311,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 240
+        // line 245
         echo "
 
 \t\t\t</div>
@@ -312,7 +322,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 249
+        // line 254
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -332,7 +342,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  316 => 249,  305 => 240,  297 => 234,  295 => 233,  290 => 230,  266 => 208,  255 => 199,  253 => 198,  240 => 187,  236 => 185,  232 => 183,  230 => 182,  216 => 170,  212 => 168,  210 => 167,  191 => 150,  186 => 147,  184 => 146,  176 => 141,  173 => 140,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  326 => 254,  315 => 245,  307 => 239,  305 => 238,  300 => 235,  276 => 213,  265 => 204,  263 => 203,  250 => 192,  246 => 190,  242 => 188,  240 => 187,  226 => 175,  222 => 173,  220 => 172,  203 => 157,  196 => 152,  194 => 151,  191 => 150,  186 => 147,  184 => 146,  176 => 141,  173 => 140,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -482,10 +492,15 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        		<div class="section-sontainer">*/
 /* 				        			{% if isMobile == "1" %}*/
 /* 						        		<h1>/Accueil</h1>*/
-/* 						        		*/
+/* */
 /* 						        	{% endif %}*/
 /* 				        			<div class="sub-container">*/
-/* */
+/* 										{% if isMobile =="1" %}*/
+/* 											<p class="intro">*/
+/* 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class="fa fa-smile-o"></i> !*/
+/* 												<br /><br />A très bientôt!*/
+/* 											</p>*/
+/* 										{% endif %}*/
 /* 										<h2>// A mon sujet</h2>*/
 /* 										<div>*/
 /* 			        						<p><span>Nom </span><span>Faivre</span></p>*/

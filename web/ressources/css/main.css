@@ -4762,6 +4762,8 @@ html body #multiscroll .ms-left .ms-section .wrap-section .section-container .su
 html body #multiscroll .ms-left .ms-section .wrap-section .section-container .sub-container p.intro
 {
     line-height: 25px;
+
+    text-align: justify;
 }
 html body #multiscroll .ms-right .ms-section
 {
@@ -4772,12 +4774,15 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer
     width: 100%;
     max-width: 723px;
     margin-top: 65px;
-    margin-right: 45px;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .sub-container div
 {
-    padding-right: 10px; 
+    display: block;
+
+    box-sizing: border-box; 
+    width: 100%;
+    padding-right: 60px;
     padding-left: 10px;
 }
 html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .sub-container div p
@@ -4791,6 +4796,12 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .s
     display: inline-block; 
 
     width: 45%;
+}
+html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .sub-container div p.intro
+{
+    line-height: 25px;
+
+    text-align: justify;
 }
 html body #multiscroll .ms-right .section-home .wrap-section
 {
@@ -5036,6 +5047,12 @@ html body #multiscroll .ms-right .section-contact .wrap-section
     html body #multiscroll .ms-right .section-home .wrap-section
     {
         padding-top: 110px;
+    }
+    html body #multiscroll .ms-right .ms-section .wrap-section .section-container
+    {
+        margin-top: 10px; 
+
+        color: red;
     }
 }
 
