@@ -4769,14 +4769,21 @@ html body #multiscroll .ms-right .ms-section
 {
     background-color: #d7dbdb;
 }
-html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container
 {
+    box-sizing: border-box; 
     width: 100%;
     max-width: 723px;
     margin-top: 65px;
-    margin-left: 10px;
+    padding-left: 10px;
 }
-html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .sub-container div
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container p.intro
+{
+    line-height: 25px;
+
+    text-align: justify;
+}
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div
 {
     display: block;
 
@@ -4785,37 +4792,25 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .s
     padding-right: 60px;
     padding-left: 10px;
 }
-html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .sub-container div p
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div p
 {
     padding-bottom: 10px; 
 
     border-bottom: 2px solid rgba(0, 0, 0, .2);
 }
-html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .sub-container div p span:nth-child(1)
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div p span:nth-child(1)
 {
     display: inline-block; 
 
     width: 45%;
 }
-html body #multiscroll .ms-right .ms-section .wrap-section .section-sontainer .sub-container div p.intro
-{
-    line-height: 25px;
-
-    text-align: justify;
-}
-html body #multiscroll .ms-right .section-home .wrap-section
+html body #multiscroll .ms-right .section-home .wrap-section,
+html body #multiscroll .ms-right .section-skills .wrap-section,
+html body #multiscroll .ms-right .section-contact .wrap-section
 {
     padding-top: 210px;
 }
 html body #multiscroll .ms-right .section-studies .wrap-section
-{
-    padding-top: 110px;
-}
-html body #multiscroll .ms-right .section-skills .wrap-section
-{
-    padding-top: 110px;
-}
-html body #multiscroll .ms-right .section-contact .wrap-section
 {
     padding-top: 110px;
 }
@@ -4948,6 +4943,11 @@ html body #multiscroll .ms-right .section-contact .wrap-section
     margin-left: 20px;
 }
 
+.tar
+{
+    text-align: right;
+}
+
 @media screen and (max-width: 640px)
 {
     #multiscroll .ms-left
@@ -5048,11 +5048,19 @@ html body #multiscroll .ms-right .section-contact .wrap-section
     {
         padding-top: 110px;
     }
-    html body #multiscroll .ms-right .ms-section .wrap-section .section-container
+    html body #multiscroll .ms-right .section-home .wrap-section .section-container
     {
-        margin-top: 10px; 
+        margin-top: 10px;
+    }
+    html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container p.intro
+    {
+        line-height: inherit;
 
-        color: red;
+        text-align: justify;
+    }
+    html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div
+    {
+        padding-right: 10px;
     }
 }
 

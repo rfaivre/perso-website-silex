@@ -124,7 +124,6 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt!
 \t\t\t\t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t        \t\t\t</div>
-\t\t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t</div>
 \t\t\t\t\t        \t</div>
 \t\t\t\t\t        </div>
@@ -169,37 +168,36 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t    </div>
 \t\t\t\t\t";
         }
-        // line 140
+        // line 139
         echo "
 \t\t\t\t    <div class=\"ms-right ";
-        // line 141
+        // line 140
         echo twig_escape_filter($this->env, (isset($context["isMobileClass"]) ? $context["isMobileClass"] : $this->getContext($context, "isMobileClass")), "html", null, true);
         echo "\" id=\"fullpage\">
 
 \t\t\t\t        <div class=\"ms-section section section-home\" data-anchor=\"home\">
 \t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t        \t\t<div class=\"section-sontainer\">
+\t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t";
-        // line 146
+        // line 145
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 147
+            // line 146
             echo "\t\t\t\t\t\t        \t\t<h1>/Accueil</h1>
-
 \t\t\t\t\t\t        \t";
         }
-        // line 150
+        // line 148
         echo "\t\t\t\t        \t\t\t<div class=\"sub-container\">
 \t\t\t\t\t\t\t\t\t\t";
-        // line 151
+        // line 149
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 152
+            // line 150
             echo "\t\t\t\t\t\t\t\t\t\t\t<p class=\"intro\">
 \t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
 \t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt!
 \t\t\t\t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t\t\t\t";
         }
-        // line 157
+        // line 155
         echo "\t\t\t\t\t\t\t\t\t\t<h2>// A mon sujet</h2>
 \t\t\t\t\t\t\t\t\t\t<div>
 \t\t\t        \t\t\t\t\t\t<p><span>Nom </span><span>Faivre</span></p>
@@ -216,13 +214,13 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t\t        \t";
-        // line 172
+        // line 170
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 173
+            // line 171
             echo "\t\t\t\t\t\t        \t\t<h1>Formations</h1>
 \t\t\t\t\t\t        \t";
         }
-        // line 175
+        // line 173
         echo "\t\t\t\t\t\t        \t<div>
 \t\t\t\t\t        \t\t\tSection droite 2
 \t\t\t\t\t\t        \t\t
@@ -236,17 +234,17 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 187
+        // line 185
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 188
+            // line 186
             echo "\t\t\t\t\t        \t\t\t<h1>Compétences</h1>
 \t\t\t\t\t        \t\t";
         } else {
-            // line 190
+            // line 188
             echo "\t\t\t\t\t\t\t\t\t\t<div></div>
 \t\t\t\t\t        \t\t";
         }
-        // line 192
+        // line 190
         echo "\t\t\t\t\t        \t\t<div>
 \t\t\t\t\t        \t\t\t<h2>Langages Web</h2>
 \t\t\t\t\t        \t\t\t
@@ -259,9 +257,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 203
+        // line 201
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 204
+            // line 202
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -272,7 +270,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 213
+            // line 211
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -296,14 +294,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 235
+        // line 233
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 238
+        // line 236
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 239
+            // line 237
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -311,7 +309,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 245
+        // line 243
         echo "
 
 \t\t\t</div>
@@ -322,7 +320,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 254
+        // line 252
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -342,7 +340,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  326 => 254,  315 => 245,  307 => 239,  305 => 238,  300 => 235,  276 => 213,  265 => 204,  263 => 203,  250 => 192,  246 => 190,  242 => 188,  240 => 187,  226 => 175,  222 => 173,  220 => 172,  203 => 157,  196 => 152,  194 => 151,  191 => 150,  186 => 147,  184 => 146,  176 => 141,  173 => 140,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  324 => 252,  313 => 243,  305 => 237,  303 => 236,  298 => 233,  274 => 211,  263 => 202,  261 => 201,  248 => 190,  244 => 188,  240 => 186,  238 => 185,  224 => 173,  220 => 171,  218 => 170,  201 => 155,  194 => 150,  192 => 149,  189 => 148,  185 => 146,  183 => 145,  175 => 140,  172 => 139,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -440,7 +438,6 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 												<br /><br />A très bientôt!*/
 /* 											</p>*/
 /* 					        			</div>*/
-/* 					        			*/
 /* 					        		</div>*/
 /* 					        	</div>*/
 /* 					        </div>*/
@@ -489,10 +486,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* 				        <div class="ms-section section section-home" data-anchor="home">*/
 /* 				        	<div class="wrap-section">*/
-/* 				        		<div class="section-sontainer">*/
+/* 				        		<div class="section-container">*/
 /* 				        			{% if isMobile == "1" %}*/
 /* 						        		<h1>/Accueil</h1>*/
-/* */
 /* 						        	{% endif %}*/
 /* 				        			<div class="sub-container">*/
 /* 										{% if isMobile =="1" %}*/
