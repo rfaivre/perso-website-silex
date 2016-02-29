@@ -4973,16 +4973,22 @@ ul.timeline-studies li .year
     display: inline-block;
     float: left;
 
-    box-sizing: border-box; 
+    box-sizing: border-box;
     width: 9%;
     min-width: 57px;
     padding: 10px;
+
+    background: #15a286;
 }
 ul.timeline-studies li .diplome
 {
-    display: inline-block; 
+    display: inline-block;
 
+    box-sizing: border-box; 
     width: 90%;
+    padding: 10px;
+
+    background: #bec3c4;
 }
 ul.timeline-studies:before
 {
