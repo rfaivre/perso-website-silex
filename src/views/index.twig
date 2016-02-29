@@ -86,7 +86,7 @@
 					        <div class="ms-section" data-anchor="home">
 					        	<div class="wrap-section">
 					        		<div class="section-container">
-				        				<h1><i class="fa fa-arrow-circle-right"></i></i> Accueil</h1>
+				        				<h1>/ Accueil</h1>
 				        				<div class="sub-container">
 					        				<p class="intro">
 												Je m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contact si mon profil vous intéresse <i class="fa fa-smile-o"></i> !
@@ -102,7 +102,7 @@
 					        <div class="ms-section" data-anchor="studies">
 					        	<div class="wrap-section">
 					        		<div class="section-container">
-					        			<h1><i class="fa fa-arrow-circle-right"></i> Formations</h1>
+					        			<h1>/ Formations</h1>
 					        			
 					        		</div>					        		
 					        	</div>
@@ -112,9 +112,9 @@
 					        <div class="ms-section" data-anchor="skills">
 						    	<div class="wrap-section">					    		
 						    		<div class="section-container">
-						    			<h1><i class="fa fa-arrow-circle-right"></i> Compétences</h1>
-						    			<div>
-						    				<p>
+						    			<h1>/ Compétences</h1>
+						    			<div class="sub-container">
+						    				<p class="intro">
 							    				Au cours de mes études et mes diverses expériences, j'ai pu découvrir et approfondir différents langages de programmation. J'aime découvrir de nouvelles technologies et me tenir au courant des technologies et méthodes utilisés dans le monde du web. Pour cela, j'aime effectuer de la veille technologique à titre personnel.
 							    					
 						    				</p>
@@ -128,7 +128,7 @@
 					        <div class="ms-section" data-anchor="contact">
 						    	<div class="wrap-section">
 						    		<div class="section-container">
-						    			<h1><i class="fa fa-arrow-circle-right"></i> Contact</h1>
+						    			<h1>/ Contact</h1>
 						    			
 						    		</div>
 						    		
@@ -143,8 +143,13 @@
 				        <div class="ms-section section section-home" data-anchor="home">
 				        	<div class="wrap-section">
 				        		<div class="section-sontainer">
+				        			{% if isMobile == "1" %}
+						        		<h1>/Accueil</h1>
+						        		
+						        	{% endif %}
 				        			<div class="sub-container">
-										<h2><i class="fa fa-arrow-circle-down"></i> A mon sujet</h2>
+
+										<h2>// A mon sujet</h2>
 										<div>
 			        						<p><span>Nom </span><span>Faivre</span></p>
 							        		<p><span>Prénom</span><span>Rémi</span></p>
