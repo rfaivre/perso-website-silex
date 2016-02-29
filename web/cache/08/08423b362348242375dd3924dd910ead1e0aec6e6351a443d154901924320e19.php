@@ -233,8 +233,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2014</div>
 \t\t\t\t\t\t        \t\t\t\t\t<div class=\"diplome\">
 \t\t\t\t\t\t\t        \t\t\t\t\t<div>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>Master IIAM (Image et Intelligence Artificielle, Multimédia,</strong> option multimédia
+\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>Master IIAM (Image et Intelligence Artificielle, Multimédia,</strong>
 \t\t\t\t\t\t\t        \t\t\t\t\t</div>
+\t\t\t\t\t\t\t        \t\t\t\t\t<div>
+\t\t\t\t\t\t\t        \t\t\t\t\t\t<em>option multimédia</em>
+\t\t\t\t\t\t\t        \t\t\t\t\t</div>
+\t\t\t\t\t\t\t        \t\t\t\t\t<div>-- Mention Bien</div>
 \t\t\t\t\t\t\t        \t\t\t\t\t<div>
 \t\t\t\t\t\t\t        \t\t\t\t\t\tUniversité de Bourgogne - Dijon(21)
 \t\t\t\t\t\t\t        \t\t\t\t\t</div>
@@ -255,7 +259,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t\t        \t\t\t\t\t<div class=\"year\">2009</div>
 \t\t\t\t\t        \t\t\t\t\t\t<div class=\"diplome\">
 \t\t\t\t\t        \t\t\t\t\t\t\t<div>
-\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>Baccalauréat Scientifique</strong>- Mention Assez Bien\t\t\t\t\t        \t\t\t
+\t\t\t\t\t        \t\t\t\t\t\t\t\t<strong>Baccalauréat Scientifique</strong>\t\t\t\t\t        \t\t\t
+\t\t\t\t\t        \t\t\t\t\t\t\t</div>
+\t\t\t\t\t        \t\t\t\t\t\t\t<div>
+\t\t\t\t\t        \t\t\t\t\t\t\t\t-- Mention Assez Bien
 \t\t\t\t\t        \t\t\t\t\t\t\t</div>
 \t\t\t\t\t        \t\t\t\t\t\t\t<div>
 \t\t\t\t\t        \t\t\t\t\t\t\t\tLycée Friant - Poligny(39)
@@ -274,17 +281,17 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t
 \t\t\t\t\t        \t\t";
-        // line 225
+        // line 232
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 226
+            // line 233
             echo "\t\t\t\t\t        \t\t\t<h2>Compétences</h2>
 \t\t\t\t\t        \t\t";
         } else {
-            // line 228
+            // line 235
             echo "\t\t\t\t\t\t\t\t\t\t<div></div>
 \t\t\t\t\t        \t\t";
         }
-        // line 230
+        // line 237
         echo "\t\t\t\t\t        \t\t<div>
 \t\t\t\t\t        \t\t\t<h3>Langages Web</h3>
 \t\t\t\t\t        \t\t\t
@@ -297,9 +304,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 241
+        // line 248
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 242
+            // line 249
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -310,7 +317,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 251
+            // line 258
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -334,14 +341,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 273
+        // line 280
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 276
+        // line 283
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 277
+            // line 284
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -349,7 +356,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 283
+        // line 290
         echo "
 
 \t\t\t</div>
@@ -360,7 +367,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 292
+        // line 299
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -380,7 +387,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  364 => 292,  353 => 283,  345 => 277,  343 => 276,  338 => 273,  314 => 251,  303 => 242,  301 => 241,  288 => 230,  284 => 228,  280 => 226,  278 => 225,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  371 => 299,  360 => 290,  352 => 284,  350 => 283,  345 => 280,  321 => 258,  310 => 249,  308 => 248,  295 => 237,  291 => 235,  287 => 233,  285 => 232,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -567,8 +574,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 						        					<div class="year">2014</div>*/
 /* 						        					<div class="diplome">*/
 /* 							        					<div>*/
-/* 					        								<strong>Master IIAM (Image et Intelligence Artificielle, Multimédia,</strong> option multimédia*/
+/* 					        								<strong>Master IIAM (Image et Intelligence Artificielle, Multimédia,</strong>*/
 /* 							        					</div>*/
+/* 							        					<div>*/
+/* 							        						<em>option multimédia</em>*/
+/* 							        					</div>*/
+/* 							        					<div>-- Mention Bien</div>*/
 /* 							        					<div>*/
 /* 							        						Université de Bourgogne - Dijon(21)*/
 /* 							        					</div>*/
@@ -589,7 +600,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 						        					<div class="year">2009</div>*/
 /* 					        						<div class="diplome">*/
 /* 					        							<div>*/
-/* 					        								<strong>Baccalauréat Scientifique</strong>- Mention Assez Bien					        			*/
+/* 					        								<strong>Baccalauréat Scientifique</strong>					        			*/
+/* 					        							</div>*/
+/* 					        							<div>*/
+/* 					        								-- Mention Assez Bien*/
 /* 					        							</div>*/
 /* 					        							<div>*/
 /* 					        								Lycée Friant - Poligny(39)*/
