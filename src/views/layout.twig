@@ -30,6 +30,10 @@
 	<script type="text/javascript" src="ressources/js/classie.js"></script>
 	<script>
 		(function() {
+
+			$('input').focus(function() { $.fn.fullpage.rebuild(); }
+			$('input').blur(function() { $.fn.fullpage.rebuild(); }
+
 			// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
 			if (!String.prototype.trim) {
 				(function() {
