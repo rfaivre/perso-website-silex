@@ -4974,6 +4974,8 @@ ul.timeline-studies li
 }
 ul.timeline-studies li .year
 {
+    font-weight: bold; 
+
     display: inline-block;
     float: left;
 
@@ -4982,8 +4984,9 @@ ul.timeline-studies li .year
     min-width: 57px;
     padding: 10px;
 
-    text-align: center; 
+    text-align: center;
 
+    border-radius: 5px 5px 0 0;
     background: #15a286;
 }
 ul.timeline-studies li .diplome
@@ -4994,14 +4997,14 @@ ul.timeline-studies li .diplome
     width: 100%;
     padding: 10px;
 
-    border-bottom: 1px solid #988d8d; 
+    border-radius: 0 5px 5px 5px; 
     background: #bec3c4;
 }
 ul.timeline-studies:before
 {
     position: absolute;
     top: 0;
-    left: 30px;
+    left: 26px;
 
     display: block;
 
