@@ -5167,15 +5167,6 @@ ul.skills-list li .skill .progress .progress-bar-100
     background-color: #0ca3b9;
 }
 
-.arrow-skills
-{
-    font-size: 2em;
-
-    position: absolute;
-    top: 0;
-    right: 20px;
-}
-
 @media screen and (max-width: 1280px)
 {
     #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content
