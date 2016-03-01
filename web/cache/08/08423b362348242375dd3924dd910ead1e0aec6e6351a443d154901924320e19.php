@@ -189,32 +189,15 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        <div class=\"ms-section section section-skills\" data-anchor=\"skills\">
-\t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t\t        \t\t";
-        // line 137
-        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 138
-            echo "\t\t\t\t\t        \t\t\t<h2>Compétences</h2>
-\t\t\t\t\t        \t\t";
-        }
-        // line 140
-        echo "\t\t\t\t\t        \t\t<div class=\"sub-container\">
-\t\t\t\t\t        \t\t\t";
-        // line 141
-        $this->loadTemplate("skills.twig", "index.twig", 141)->display($context);
-        // line 142
-        echo "\t\t\t\t\t        \t\t</div>
-
-\t\t\t\t        \t\t</div>
-\t\t\t\t        \t\t
-\t\t\t\t        \t\t
-\t\t\t\t        \t</div>
-\t\t\t\t        </div>
+\t\t\t\t\t        ";
+        // line 135
+        $this->loadTemplate("skills.twig", "index.twig", 135)->display(array_merge($context, array("isMobile" => (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")))));
+        // line 136
+        echo "\t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 149
+        // line 137
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 150
+            // line 138
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -225,7 +208,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 159
+            // line 147
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -249,14 +232,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 181
+        // line 169
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 184
+        // line 172
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 185
+            // line 173
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -264,7 +247,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 191
+        // line 179
         echo "
 \t\t
 \t\t\t</div>
@@ -277,7 +260,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 202
+        // line 190
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -297,7 +280,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  281 => 202,  268 => 191,  260 => 185,  258 => 184,  253 => 181,  229 => 159,  218 => 150,  216 => 149,  207 => 142,  205 => 141,  202 => 140,  198 => 138,  196 => 137,  186 => 129,  184 => 128,  181 => 127,  177 => 125,  175 => 124,  158 => 109,  151 => 104,  149 => 103,  146 => 102,  142 => 100,  140 => 99,  132 => 94,  129 => 93,  68 => 34,  66 => 33,  40 => 9,  38 => 8,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  264 => 190,  251 => 179,  243 => 173,  241 => 172,  236 => 169,  212 => 147,  201 => 138,  199 => 137,  196 => 136,  194 => 135,  186 => 129,  184 => 128,  181 => 127,  177 => 125,  175 => 124,  158 => 109,  151 => 104,  149 => 103,  146 => 102,  142 => 100,  140 => 99,  132 => 94,  129 => 93,  68 => 34,  66 => 33,  40 => 9,  38 => 8,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -434,19 +417,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        	</div>*/
 /* 				        </div>*/
 /* 				        <div class="ms-section section section-skills" data-anchor="skills">*/
-/* 				        	<div class="wrap-section">*/
-/* 				        		<div class="section-container">*/
-/* 					        		{% if isMobile == "1" %}*/
-/* 					        			<h2>Compétences</h2>*/
-/* 					        		{% endif %}*/
-/* 					        		<div class="sub-container">*/
-/* 					        			{% include "skills.twig" %}*/
-/* 					        		</div>*/
-/* */
-/* 				        		</div>*/
-/* 				        		*/
-/* 				        		*/
-/* 				        	</div>*/
+/* 					        {% include "skills.twig" with {'isMobile': isMobile } %}*/
 /* 				        </div>*/
 /* 				        {% if isMobile == "0" %}*/
 /* 					        <div class="ms-section section section-contact" data-anchor="contact">*/

@@ -132,19 +132,7 @@
 				        	</div>
 				        </div>
 				        <div class="ms-section section section-skills" data-anchor="skills">
-				        	<div class="wrap-section">
-				        		<div class="section-container">
-					        		{% if isMobile == "1" %}
-					        			<h2>Compétences</h2>
-					        		{% endif %}
-					        		<div class="sub-container">
-					        			{% include "skills.twig" %}
-					        		</div>
-
-				        		</div>
-				        		
-				        		
-				        	</div>
+					        {% include "skills.twig" with {'isMobile': isMobile } %}
 				        </div>
 				        {% if isMobile == "0" %}
 					        <div class="ms-section section section-contact" data-anchor="contact">

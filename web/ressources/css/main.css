@@ -5021,7 +5021,6 @@ ul.skills-list
     display: inline-block;
 
     width: 100%;
-    margin: 0;
 }
 ul.skills-list li
 {
@@ -5042,7 +5041,7 @@ ul.skills-list li .title
 
     box-sizing: border-box;
     width: 100%;
-    padding: 7px;
+    padding: 12px;
 
     color: white;
     border-top-left-radius: 10px;
@@ -5054,8 +5053,8 @@ ul.skills-list li .skill
     display: table-cell;
 
     box-sizing: border-box;
-    width: 80%;
-    padding: 7px;
+    width: 70%;
+    padding: 10px;
 
     vertical-align: middle; 
 
@@ -5276,6 +5275,10 @@ ul.skills-list li .skill .progress .progress-bar-100
     html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content
     {
         padding-right: 10px;
+    }
+    html body #fullpage ul.skills-list
+    {
+        padding-left: 0;
     }
 }
 
