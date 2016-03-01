@@ -264,7 +264,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 <div class=\"landscape\">
 \t<div>
-\t\tL'orientation paysage n'est pas encore tout à fait au point...\t
+\t\tL'orientation paysage n'est pas encore tout à fait au optimisé, j'y travaille...\t
 \t</div>
 </div>
 
@@ -487,7 +487,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* <div class="landscape">*/
 /* 	<div>*/
-/* 		L'orientation paysage n'est pas encore tout à fait au point...	*/
+/* 		L'orientation paysage n'est pas encore tout à fait au optimisé, j'y travaille...	*/
 /* 	</div>*/
 /* </div>*/
 /* */

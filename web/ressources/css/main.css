@@ -5169,9 +5169,17 @@ ul.skills-list li .skill .progress .progress-bar-100
 
 .landscape
 {
+    bottom: 0; 
+
     display: none;
 
+    width: 100%;
+
     background-color: #ecf0f1;
+    background-image: url(../img/dessin-1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
 }
 .landscape div
 {
