@@ -27,8 +27,7 @@ $(document).ready(function() {
 		$('#fullpage').fullpage({
 			controlArrows: false,
 			slidesNavigation: true,
-			resize : false,
-			scrollOverflow:true,
+			normalScrollElements: '.section-contact',
 			onLeave: function(index, nextIndex, direction){
 				header_effects(nextIndex, direction);
 			}
