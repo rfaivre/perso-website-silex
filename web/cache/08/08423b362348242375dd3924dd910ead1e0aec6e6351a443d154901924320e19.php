@@ -33,58 +33,11 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
         echo "
 <div id=\"st-container\" class=\"st-container\">
 
-\t<nav class=\"st-menu st-effect-1\" id=\"menu-1\">
-\t\t<ul>
-\t\t\t<li>
-\t\t\t\t<a class=\"icon icon-data hvr-bounce-to-right\" href=\"#home\">
-\t\t\t\t\t<i class=\"fa fa-home\"></i>
-\t\t\t\t\t<span>
-\t\t\t\t\t\tAccueil
-\t\t\t\t\t</span>
-\t\t\t\t</a>
-\t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<a class=\"icon icon-location hvr-bounce-to-right\" href=\"#studies\">
-\t\t\t\t\t<i class=\"fa fa-graduation-cap\"></i>
-\t\t\t\t\t<span>
-\t\t\t\t\t\tFormations
-\t\t\t\t\t</span>
-\t\t\t\t</a>
-\t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<a class=\"icon icon-location hvr-bounce-to-right\" href=\"#projects\">
-\t\t\t\t\t<i class=\"fa fa-folder-open\"></i>
-\t\t\t\t\t<span>
-\t\t\t\t\t\tProjets
-\t\t\t\t\t</span>
-\t\t\t\t</a>
-\t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<a class=\"icon icon-study hvr-bounce-to-right\" href=\"#skills\">
-\t\t\t\t\t<i class=\"fa fa-code\"></i>
-\t\t\t\t\t<span>
-\t\t\t\t\t\tCompétences
-\t\t\t\t\t</span>
-\t\t\t\t</a>
-\t\t\t</li>
-\t\t\t<li>
-\t\t\t\t<a class=\"icon icon-photo hvr-bounce-to-right\" href=\"#contact\">
-\t\t\t\t\t<i class=\"fa fa-envelope\"></i>
-\t\t\t\t\t<span>
-\t\t\t\t\t\tContact
-\t\t\t\t\t</span>
-\t\t\t\t</a>
-\t\t\t</li>
-\t\t</ul>
-\t\t<div class=\"st-menu-bottom\">
-\t\t\t<a href=\"\"><i class=\"fa fa-envelope\"></i></a>
-\t\t\t<a href=\"\"><i class=\"fa fa-linkedin-square\"></i></a>
-\t\t\t<a href=\"\"><i class=\"fa fa-facebook\"></i></a>
-\t\t\t<a href=\"\"><i class=\"fa fa-google-plus\"></i></a>
-\t\t\t<a href=\"\"><i class=\"fa fa-twitter\"></i></a>
-\t\t</div>
-\t</nav>
-
+\t";
+        // line 8
+        $this->loadTemplate("navbar.twig", "index.twig", 8)->display($context);
+        // line 9
+        echo "
 \t<!-- content push wrapper -->
 \t<div class=\"st-pusher\">
 
@@ -109,9 +62,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t<div id=\"multiscroll\">
 
 \t\t\t\t\t";
-        // line 83
+        // line 33
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 84
+            // line 34
             echo "\t\t\t\t\t    <div class=\"ms-left\">
 \t\t\t\t\t    \t<!-- SECTION HOME -->
 \t\t\t\t\t        <div class=\"ms-section\" data-anchor=\"home\">
@@ -172,10 +125,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t    </div>
 \t\t\t\t\t";
         }
-        // line 143
+        // line 93
         echo "
 \t\t\t\t    <div class=\"ms-right ";
-        // line 144
+        // line 94
         echo twig_escape_filter($this->env, (isset($context["isMobileClass"]) ? $context["isMobileClass"] : $this->getContext($context, "isMobileClass")), "html", null, true);
         echo "\" id=\"fullpage\">
 
@@ -183,25 +136,25 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t        \t\t\t";
-        // line 149
+        // line 99
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 150
+            // line 100
             echo "\t\t\t\t\t\t        \t\t<h2>/ Accueil</h2>
 \t\t\t\t\t\t        \t";
         }
-        // line 152
+        // line 102
         echo "\t\t\t\t        \t\t\t<div class=\"sub-container\">
 \t\t\t\t\t\t\t\t\t\t";
-        // line 153
+        // line 103
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 154
+            // line 104
             echo "\t\t\t\t\t\t\t\t\t\t\t<p class=\"intro\">
 \t\t\t\t\t\t\t\t\t\t\t\tJe m'appelle Rémi Faivre. Je suis développeur web, actuellement à la recherche d'un emploi suite à ma dernière expérience. Je vous laisse découvrir mon site afin de découvrir un peu plus mon parcours, mes expériences professionnelles ainsi que mes compétences. <br />Je vous laisse me contacter si mon profil vous intéresse <i class=\"fa fa-smile-o\"></i> !
 \t\t\t\t\t\t\t\t\t\t\t\t<br /><br />A très bientôt!
 \t\t\t\t\t\t\t\t\t\t\t</p>
 \t\t\t\t\t\t\t\t\t\t";
         }
-        // line 159
+        // line 109
         echo "\t\t\t\t\t\t\t\t\t\t<h3>// A mon sujet</h3>
 \t\t\t\t\t\t\t\t\t\t<div class=\"content\">
 \t\t\t        \t\t\t\t\t\t<p><span>Nom </span><span>Faivre</span></p>
@@ -218,18 +171,18 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\t<div class=\"section-container\">\t\t\t\t        \t\t\t
 \t\t\t\t\t\t        \t";
-        // line 174
+        // line 124
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 175
+            // line 125
             echo "\t\t\t\t\t\t        \t\t<h2>/ Formations</h2>
 \t\t\t\t\t\t        \t";
         }
-        // line 177
+        // line 127
         echo "\t\t\t\t\t\t        \t<div class=\"sub-container\">\t\t\t\t\t\t        \t\t
 \t\t\t\t\t\t        \t\t";
-        // line 178
-        $this->loadTemplate("studies.twig", "index.twig", 178)->display($context);
-        // line 179
+        // line 128
+        $this->loadTemplate("studies.twig", "index.twig", 128)->display($context);
+        // line 129
         echo "\t\t\t\t\t\t        \t</div>
 \t\t\t\t        \t\t</div>
 \t\t\t\t        \t\t
@@ -239,18 +192,18 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t        \t\t<div class=\"section-container\">
 \t\t\t\t\t        \t\t";
-        // line 187
+        // line 137
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "1")) {
-            // line 188
+            // line 138
             echo "\t\t\t\t\t        \t\t\t<h2>Compétences</h2>
 \t\t\t\t\t        \t\t";
         }
-        // line 190
+        // line 140
         echo "\t\t\t\t\t        \t\t<div class=\"sub-container\">
 \t\t\t\t\t        \t\t\t";
-        // line 191
-        $this->loadTemplate("skills.twig", "index.twig", 191)->display($context);
-        // line 192
+        // line 141
+        $this->loadTemplate("skills.twig", "index.twig", 141)->display($context);
+        // line 142
         echo "\t\t\t\t\t        \t\t</div>
 
 \t\t\t\t        \t\t</div>
@@ -259,9 +212,9 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t        \t</div>
 \t\t\t\t        </div>
 \t\t\t\t        ";
-        // line 199
+        // line 149
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 200
+            // line 150
             echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t        \t<div class=\"wrap-section\">
 \t\t\t\t\t        \t\t<div class=\"section-container\">
@@ -272,7 +225,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t        </div>
 \t\t\t\t\t    ";
         } else {
-            // line 209
+            // line 159
             echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
 \t\t\t\t\t    \t\t<div class=\"slide\">
 \t\t\t\t\t\t        \t<div class=\"wrap-section\">
@@ -296,14 +249,14 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t\t\t\t\t    ";
         }
-        // line 231
+        // line 181
         echo "\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 234
+        // line 184
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 235
+            // line 185
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -311,10 +264,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 241
+        // line 191
         echo "
-
+\t\t
 \t\t\t</div>
+
+\t\t\t<div class=\"footer-fixed\"></div>
 \t\t</div>
 
 \t</div>
@@ -322,7 +277,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 250
+        // line 202
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -342,7 +297,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  326 => 250,  315 => 241,  307 => 235,  305 => 234,  300 => 231,  276 => 209,  265 => 200,  263 => 199,  254 => 192,  252 => 191,  249 => 190,  245 => 188,  243 => 187,  233 => 179,  231 => 178,  228 => 177,  224 => 175,  222 => 174,  205 => 159,  198 => 154,  196 => 153,  193 => 152,  189 => 150,  187 => 149,  179 => 144,  176 => 143,  115 => 84,  113 => 83,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  281 => 202,  268 => 191,  260 => 185,  258 => 184,  253 => 181,  229 => 159,  218 => 150,  216 => 149,  207 => 142,  205 => 141,  202 => 140,  198 => 138,  196 => 137,  186 => 129,  184 => 128,  181 => 127,  177 => 125,  175 => 124,  158 => 109,  151 => 104,  149 => 103,  146 => 102,  142 => 100,  140 => 99,  132 => 94,  129 => 93,  68 => 34,  66 => 33,  40 => 9,  38 => 8,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -352,57 +307,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* */
 /* <div id="st-container" class="st-container">*/
 /* */
-/* 	<nav class="st-menu st-effect-1" id="menu-1">*/
-/* 		<ul>*/
-/* 			<li>*/
-/* 				<a class="icon icon-data hvr-bounce-to-right" href="#home">*/
-/* 					<i class="fa fa-home"></i>*/
-/* 					<span>*/
-/* 						Accueil*/
-/* 					</span>*/
-/* 				</a>*/
-/* 			</li>*/
-/* 			<li>*/
-/* 				<a class="icon icon-location hvr-bounce-to-right" href="#studies">*/
-/* 					<i class="fa fa-graduation-cap"></i>*/
-/* 					<span>*/
-/* 						Formations*/
-/* 					</span>*/
-/* 				</a>*/
-/* 			</li>*/
-/* 			<li>*/
-/* 				<a class="icon icon-location hvr-bounce-to-right" href="#projects">*/
-/* 					<i class="fa fa-folder-open"></i>*/
-/* 					<span>*/
-/* 						Projets*/
-/* 					</span>*/
-/* 				</a>*/
-/* 			</li>*/
-/* 			<li>*/
-/* 				<a class="icon icon-study hvr-bounce-to-right" href="#skills">*/
-/* 					<i class="fa fa-code"></i>*/
-/* 					<span>*/
-/* 						Compétences*/
-/* 					</span>*/
-/* 				</a>*/
-/* 			</li>*/
-/* 			<li>*/
-/* 				<a class="icon icon-photo hvr-bounce-to-right" href="#contact">*/
-/* 					<i class="fa fa-envelope"></i>*/
-/* 					<span>*/
-/* 						Contact*/
-/* 					</span>*/
-/* 				</a>*/
-/* 			</li>*/
-/* 		</ul>*/
-/* 		<div class="st-menu-bottom">*/
-/* 			<a href=""><i class="fa fa-envelope"></i></a>*/
-/* 			<a href=""><i class="fa fa-linkedin-square"></i></a>*/
-/* 			<a href=""><i class="fa fa-facebook"></i></a>*/
-/* 			<a href=""><i class="fa fa-google-plus"></i></a>*/
-/* 			<a href=""><i class="fa fa-twitter"></i></a>*/
-/* 		</div>*/
-/* 	</nav>*/
+/* 	{% include "navbar.twig" %}*/
 /* */
 /* 	<!-- content push wrapper -->*/
 /* 	<div class="st-pusher">*/
@@ -586,8 +491,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 					</div>*/
 /* 				{% endif %}*/
 /* */
-/* */
+/* 		*/
 /* 			</div>*/
+/* */
+/* 			<div class="footer-fixed"></div>*/
 /* 		</div>*/
 /* */
 /* 	</div>*/

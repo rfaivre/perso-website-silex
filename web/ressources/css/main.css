@@ -4982,6 +4982,8 @@ ul.timeline-studies li .year
     min-width: 57px;
     padding: 10px;
 
+    text-align: center; 
+
     background: #15a286;
 }
 ul.timeline-studies li .diplome
@@ -4999,7 +5001,7 @@ ul.timeline-studies:before
 {
     position: absolute;
     top: 0;
-    left: 25px;
+    left: 30px;
 
     display: block;
 
@@ -5027,6 +5029,20 @@ ul.timeline-studies:before
 .tar
 {
     text-align: right;
+}
+
+.footer-fixed
+{
+    position: fixed;
+    bottom: 0; 
+
+    width: 100%;
+    height: 300px;
+
+    background-image: url(../img/dessin-1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% auto;
 }
 
 @media screen and (max-width: 1280px)
