@@ -31,8 +31,13 @@
 	<script>
 		(function() {
 
-			$('input').focus(function() { $.fn.fullpage.rebuild(); }
-			$('input').blur(function() { $.fn.fullpage.rebuild(); }
+			$('input[type="text"]').blur(function() {
+			  setTimeout(function() {
+			    if (!$(document.activeElement).is('input[type="text"]')) {
+			      $(window).scrollTop(0,0);
+			    }
+			  }, 0);
+			});
 
 			// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
 			if (!String.prototype.trim) {
