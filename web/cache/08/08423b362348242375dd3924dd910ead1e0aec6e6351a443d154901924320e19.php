@@ -262,9 +262,15 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t</div>
 </div>
 
+<div class=\"landscape\">
+\t<div>
+\t\tL'orientation paysage n'est pas encore tout à fait au point...\t
+\t</div>
+</div>
+
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 194
+        // line 200
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -284,7 +290,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  268 => 194,  255 => 183,  247 => 177,  245 => 176,  240 => 173,  216 => 151,  205 => 142,  203 => 141,  200 => 140,  198 => 139,  190 => 133,  188 => 132,  185 => 131,  181 => 129,  179 => 128,  162 => 113,  155 => 108,  153 => 107,  150 => 106,  146 => 104,  144 => 103,  136 => 98,  133 => 97,  68 => 34,  66 => 33,  40 => 9,  38 => 8,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  274 => 200,  255 => 183,  247 => 177,  245 => 176,  240 => 173,  216 => 151,  205 => 142,  203 => 141,  200 => 140,  198 => 139,  190 => 133,  188 => 132,  185 => 131,  181 => 129,  179 => 128,  162 => 113,  155 => 108,  153 => 107,  150 => 106,  146 => 104,  144 => 103,  136 => 98,  133 => 97,  68 => 34,  66 => 33,  40 => 9,  38 => 8,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -476,6 +482,12 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 			<div class="footer-fixed"></div>*/
 /* 		</div>*/
 /* */
+/* 	</div>*/
+/* </div>*/
+/* */
+/* <div class="landscape">*/
+/* 	<div>*/
+/* 		L'orientation paysage n'est pas encore tout à fait au point...	*/
 /* 	</div>*/
 /* </div>*/
 /* */
