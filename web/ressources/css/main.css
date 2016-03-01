@@ -6505,6 +6505,87 @@ ul.skills-list li .skill .progress .progress-bar-100
     display: none;
 }
 
+span.input_custom
+{
+    position: relative;
+    z-index: 1;
+
+    display: inline-block;
+
+    width: calc(100% - 2em);
+    max-width: 400px;
+    margin: 1em;
+
+    vertical-align: top;
+}
+span.input_custom input
+{
+    font-weight: 400;
+
+    position: relative;
+
+    display: block;
+    float: right;
+
+    width: 100%;
+    width: 60%;
+    padding: .8em .5em;
+    padding: .8em;
+
+    -webkit-transition: border-color .3s;
+
+    transition: border-color .3s;
+
+    color: #b5b5b5;
+    color: #aaa;
+    border: 2px solid;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    background: #f0f0f0;
+
+    -webkit-appearance: none;
+}
+span.input_custom label
+{
+    font-size: 70.25%;
+    font-weight: bold;
+
+    position: absolute;
+    top: 0;
+
+    display: inline-block;
+    float: right;
+    overflow: hidden;
+
+    width: 40%;
+    width: 100%;
+    padding: 0 1em;
+    padding: 0;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-transform: translate3d(0, 3em, 0);
+            transform: translate3d(0, 3em, 0);
+    text-align: left;
+    pointer-events: none; 
+
+    color: #6a7989;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+     -khtml-user-select: none;
+}
+
+.input__field:focus,
+.input--filled input
+{
+    border-color: #da6484;
+}
+
 @media screen and (max-width: 1280px)
 {
     #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content
