@@ -5,12 +5,10 @@
 				<h2>Compétences</h2>
 			{% endif %}
 			<div class="sub-container">
-
 				{% include "skills/langages.twig" %}
 				{% include "skills/bd.twig" %}
 				{% include "skills/framework.twig" %}
-				{% include "skills/divers.twig"%}
-				
+				{% include "skills/divers.twig"%}	
 			</div>
 		</div>
 	</div>
@@ -18,8 +16,11 @@
 {% else %}
 	<div class="slide">
 		<div class="wrap-section">
-			<div class="section-container">
+			<div class="section-container">			
 				<h2>Compétences</h2>
+				<div class="arrow-skills">
+					<a href="javascript:void(0);" class="hvr-icon-forward" id="arrow-skill-right"></a>								
+				</div>
 				<div class="sub-container">
 					{% include "skills/langages.twig" %}
 					{% include "skills/bd.twig" %}

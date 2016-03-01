@@ -41,5 +41,9 @@ $(document).ready(function() {
 		$(this).blur();
 		$(this).focusout();
 	});
+
+	$('#arrow-skill-right').on('click', function(){
+		$.fn.fullpage.moveSlideRight();
+	});
 	
 });

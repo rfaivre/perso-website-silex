@@ -4741,6 +4741,8 @@ html body #multiscroll .ms-section .wrap-section
 }
 html body #multiscroll .ms-section .wrap-section .section-container
 {
+    position: relative; 
+
     box-sizing: border-box;
     padding: 0 10px;
 }
@@ -4977,7 +4979,7 @@ ul.timeline-studies li
 }
 ul.timeline-studies li .year
 {
-    font-weight: bold; 
+    font-weight: bold;
 
     display: inline-block;
     float: left;
@@ -4989,8 +4991,9 @@ ul.timeline-studies li .year
 
     text-align: center;
 
+    color: white; 
     border-radius: 5px 5px 0 0;
-    background: #15a286;
+    background: #336e7b;
 }
 ul.timeline-studies li .diplome
 {
@@ -5073,7 +5076,7 @@ ul.skills-list li .skill
 }
 ul.skills-list li .skill .progress
 {
-    height: 17px; 
+    height: 15px; 
 
     border-radius: 5px;
     background: #d7dbdb;
@@ -5162,6 +5165,15 @@ ul.skills-list li .skill .progress .progress-bar-100
 .bg-blue
 {
     background-color: #0ca3b9;
+}
+
+.arrow-skills
+{
+    font-size: 2em;
+
+    position: absolute;
+    top: 0;
+    right: 20px;
 }
 
 @media screen and (max-width: 1280px)
