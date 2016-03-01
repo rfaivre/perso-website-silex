@@ -32,12 +32,13 @@
 	<script>
 		(function() {
 
-			$('input[type="text"]').blur(function() {
-			  setTimeout(function() {
-			    if (!$(document.activeElement).is('input[type="text"]')) {
-			      $(window).scrollTop(0,0);
-			    }
-			  }, 0);
+			$('input').focus(function() { 
+				console.log('focus');
+				$.fn.fullpage.reBuild();
+			});
+			$('input').blur(function() { 
+				console.log('blur');
+				$.fn.fullpage.reBuild();
 			});
 
 			// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
@@ -70,4 +71,4 @@
 		})();
 	</script>
 </body>
-</html>
+</html>		
