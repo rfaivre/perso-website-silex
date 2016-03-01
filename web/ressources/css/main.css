@@ -5169,25 +5169,7 @@ ul.skills-list li .skill .progress .progress-bar-100
 
 .landscape
 {
-    bottom: 0; 
-
     display: none;
-
-    width: 100%;
-
-    background-color: #ecf0f1;
-    background-image: url(../img/dessin-1.svg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100% auto;
-}
-.landscape div
-{
-    padding: 15px;
-
-    border: 5px solid #15a286; 
-    border-radius: 15px;
-    background-color: #bec3c4;
 }
 
 @media screen and (max-width: 1280px)
@@ -5338,7 +5320,7 @@ ul.skills-list li .skill .progress .progress-bar-100
     }
 }
 
-@media screen and (orientation: landscape)
+@media screen and (max-width: 60em) and (orientation: landscape)
 {
     .st-container
     {
@@ -5346,23 +5328,43 @@ ul.skills-list li .skill .progress .progress-bar-100
     }
     .landscape
     {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
+        bottom: 0; 
+
+        display: -webkit-box; 
+
+        display: -webkit-flex; 
+
+        display: -ms-flexbox; 
+
         display: flex;
 
-        height: 100%; 
+        width: 100%;
+        height: 100%;
 
-        -webkit-box-align: center; 
+        background-color: #ecf0f1;
+        background-image: url(../img/dessin-1.svg);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100% auto;
 
-        -webkit-align-items: center; 
+        -webkit-box-align: center;
 
-            -ms-flex-align: center; 
+        -webkit-align-items: center;
+
+            -ms-flex-align: center;
 
                 align-items: center;
         -webkit-box-pack: center;
         -webkit-justify-content: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    }
+    .landscape div
+    {
+        padding: 15px;
+
+        border: 5px solid #15a286; 
+        border-radius: 15px;
+        background-color: #bec3c4;
     }
 }
