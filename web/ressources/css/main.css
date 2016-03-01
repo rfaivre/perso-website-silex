@@ -4763,10 +4763,6 @@ html body #multiscroll .ms-left .ms-section
     color: white; 
     background-color: #0ca3b9;
 }
-html body #multiscroll .ms-left .ms-section .wrap-section
-{
-    border-right: 1px solid #188898;
-}
 html body #multiscroll .ms-left .ms-section .wrap-section .section-container
 {
     float: right; 
@@ -4787,6 +4783,10 @@ html body #multiscroll .ms-left .ms-section .wrap-section .section-container .su
 html body #multiscroll .ms-right .ms-section
 {
     background-color: #d7dbdb;
+}
+html body #multiscroll .ms-right .ms-section .wrap-section
+{
+    border-left: 5px solid #2c3c51;
 }
 html body #multiscroll .ms-right .ms-section .wrap-section .section-container
 {
@@ -5007,6 +5007,7 @@ ul.timeline-studies li .diplome
     width: 100%;
     padding: 10px;
 
+    border: 3px solid #336e7b;
     border-radius: 0 5px 5px 5px; 
     background: #bec3c4;
 }
