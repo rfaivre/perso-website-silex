@@ -41,7 +41,7 @@ namespace :deploy do
 
   after :updated, :change_permission do	
     on roles(:web) do
-      invoke "php:change_permission"
+      #invoke "php:change_permission"
     end
   end
 
