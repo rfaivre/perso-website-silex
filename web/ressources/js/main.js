@@ -28,6 +28,7 @@ $(document).ready(function() {
 			controlArrows: false,
 			slidesNavigation: true,
 			resize : false,
+			scrollOverflow:true,
 			onLeave: function(index, nextIndex, direction){
 				header_effects(nextIndex, direction);
 			}
