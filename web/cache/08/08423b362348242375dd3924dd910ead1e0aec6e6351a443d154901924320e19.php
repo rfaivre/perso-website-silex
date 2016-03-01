@@ -198,52 +198,20 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
         $this->loadTemplate("skills.twig", "index.twig", 139)->display(array_merge($context, array("isMobile" => (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")))));
         // line 140
         echo "\t\t\t\t        </div>
-\t\t\t\t        ";
-        // line 141
-        if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 142
-            echo "\t\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
-\t\t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t\t\t\t\t\t\tSection droite 4
-\t\t\t\t\t        \t\t\t
-\t\t\t\t\t        \t\t</div>
-\t\t\t\t\t        \t</div>
-\t\t\t\t\t        </div>
-\t\t\t\t\t    ";
-        } else {
-            // line 151
-            echo "\t\t\t\t\t    \t<div class=\"ms-section section section-contact\" data-anchor=\"contact\">
-\t\t\t\t\t    \t\t<div class=\"slide\">
-\t\t\t\t\t\t        \t<div class=\"wrap-section\">
-\t\t\t\t\t\t        \t\t<div class=\"section-container\">
-\t\t\t\t\t\t\t\t\t\t\t<h2>Contact</h2>
-\t\t\t\t\t\t        \t\t\tgttgggrggtr
-\t\t\t\t\t\t        \t\t</div>
-\t\t\t\t\t\t        \t</div>
-\t\t\t\t\t    \t\t\t
-\t\t\t\t\t    \t\t</div>
-\t\t\t\t\t    \t\t<div class=\"slide\">
-\t\t\t\t\t    \t\t\t<div class=\"wrap-section\">
-\t\t\t\t\t    \t\t\t\t<div class=\"section-container\">
-\t\t\t\t\t\t\t\t\t\t\tazdedferefre
-\t\t\t\t\t    \t\t\t\t\t
-\t\t\t\t\t    \t\t\t\t</div>
-\t\t\t\t\t\t        \t</div>
-\t\t\t\t\t    \t\t\t
-\t\t\t\t\t    \t\t</div>
-\t\t\t\t\t        </div>
 
-\t\t\t\t\t    ";
-        }
-        // line 173
-        echo "\t\t\t\t    </div>
+\t\t\t\t        <div class=\"ms-section section section-contact\" data-anchor=\"contact\">
+\t\t\t\t        \t";
+        // line 143
+        $this->loadTemplate("contact.twig", "index.twig", 143)->display(array_merge($context, array("isMobile" => (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")))));
+        echo "\t\t\t\t        \t
+\t\t\t\t        </div>
+\t\t\t\t    </div>
 \t\t\t\t</div>
 
 \t\t\t\t";
-        // line 176
+        // line 148
         if (((isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")) == "0")) {
-            // line 177
+            // line 149
             echo "
 \t\t\t\t\t<div id=\"multiscroll-nav\" class=\"animated slideInRight multiscroll-nav-class\">
 \t\t\t\t\t\t<ul id=\"multiscroll-menu\">\t\t\t\t\t\t    
@@ -251,7 +219,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 \t\t\t\t\t</div>
 \t\t\t\t";
         }
-        // line 183
+        // line 155
         echo "
 \t\t
 \t\t\t</div>
@@ -270,7 +238,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
 \t<script type=\"text/javascript\">
 \t\tvar isMobile = \"";
-        // line 200
+        // line 172
         echo twig_escape_filter($this->env, (isset($context["isMobile"]) ? $context["isMobile"] : $this->getContext($context, "isMobile")), "html", null, true);
         echo "\"; 
 \t</script>
@@ -290,7 +258,7 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 
     public function getDebugInfo()
     {
-        return array (  274 => 200,  255 => 183,  247 => 177,  245 => 176,  240 => 173,  216 => 151,  205 => 142,  203 => 141,  200 => 140,  198 => 139,  190 => 133,  188 => 132,  185 => 131,  181 => 129,  179 => 128,  162 => 113,  155 => 108,  153 => 107,  150 => 106,  146 => 104,  144 => 103,  136 => 98,  133 => 97,  68 => 34,  66 => 33,  40 => 9,  38 => 8,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
+        return array (  242 => 172,  223 => 155,  215 => 149,  213 => 148,  205 => 143,  200 => 140,  198 => 139,  190 => 133,  188 => 132,  185 => 131,  181 => 129,  179 => 128,  162 => 113,  155 => 108,  153 => 107,  150 => 106,  146 => 104,  144 => 103,  136 => 98,  133 => 97,  68 => 34,  66 => 33,  40 => 9,  38 => 8,  33 => 5,  31 => 4,  28 => 3,  11 => 1,);
     }
 }
 /* {% extends "layout.twig" %}*/
@@ -433,38 +401,10 @@ class __TwigTemplate_d49e3191323811334c40741cec5126c18145944b10c658233cc778484d6
 /* 				        <div class="ms-section section section-skills" data-anchor="skills">*/
 /* 					        {% include "skills.twig" with {'isMobile': isMobile } %}*/
 /* 				        </div>*/
-/* 				        {% if isMobile == "0" %}*/
-/* 					        <div class="ms-section section section-contact" data-anchor="contact">*/
-/* 					        	<div class="wrap-section">*/
-/* 					        		<div class="section-container">*/
-/* 										Section droite 4*/
-/* 					        			*/
-/* 					        		</div>*/
-/* 					        	</div>*/
-/* 					        </div>*/
-/* 					    {% else %}*/
-/* 					    	<div class="ms-section section section-contact" data-anchor="contact">*/
-/* 					    		<div class="slide">*/
-/* 						        	<div class="wrap-section">*/
-/* 						        		<div class="section-container">*/
-/* 											<h2>Contact</h2>*/
-/* 						        			gttgggrggtr*/
-/* 						        		</div>*/
-/* 						        	</div>*/
-/* 					    			*/
-/* 					    		</div>*/
-/* 					    		<div class="slide">*/
-/* 					    			<div class="wrap-section">*/
-/* 					    				<div class="section-container">*/
-/* 											azdedferefre*/
-/* 					    					*/
-/* 					    				</div>*/
-/* 						        	</div>*/
-/* 					    			*/
-/* 					    		</div>*/
-/* 					        </div>*/
 /* */
-/* 					    {% endif %}*/
+/* 				        <div class="ms-section section section-contact" data-anchor="contact">*/
+/* 				        	{% include "contact.twig" with {'isMobile': isMobile } %}				        	*/
+/* 				        </div>*/
 /* 				    </div>*/
 /* 				</div>*/
 /* */

@@ -3,4 +3,4 @@
 /ressources
 .sass-cache
 web/cache
-logs/
+logs/*

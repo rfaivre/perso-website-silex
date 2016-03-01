@@ -4691,6 +4691,10 @@ html body #st-container .st-menu .st-menu-bottom a
 
     color: white;
 }
+html body #st-container .st-menu .st-menu-bottom a i
+{
+    font-size: 1.5em;
+}
 html body #ha-header .ha-header-front
 {
     background: #2c3c51;
@@ -5021,8 +5025,8 @@ ul.timeline-studies:before
     content: ' ';
 
     background: #1ea0ce;
-    background: -webkit-linear-gradient(top, #d7dbdb 0%, #000 7%, #000 89%, #d7dbdb 100%);
-    background: linear-gradient(to bottom, #d7dbdb 0%, #000 7%, #000 89%, #d7dbdb 100%);
+    background: -webkit-linear-gradient(top, #d7dbdb 0%, #15a286 7%, #15a286 89%, #d7dbdb 100%);
+    background: linear-gradient(to bottom, #d7dbdb 0%, #15a286 7%, #15a286 89%, #d7dbdb 100%);
 }
 
 ul.skills-list

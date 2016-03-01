@@ -138,38 +138,10 @@
 				        <div class="ms-section section section-skills" data-anchor="skills">
 					        {% include "skills.twig" with {'isMobile': isMobile } %}
 				        </div>
-				        {% if isMobile == "0" %}
-					        <div class="ms-section section section-contact" data-anchor="contact">
-					        	<div class="wrap-section">
-					        		<div class="section-container">
-										Section droite 4
-					        			
-					        		</div>
-					        	</div>
-					        </div>
-					    {% else %}
-					    	<div class="ms-section section section-contact" data-anchor="contact">
-					    		<div class="slide">
-						        	<div class="wrap-section">
-						        		<div class="section-container">
-											<h2>Contact</h2>
-						        			gttgggrggtr
-						        		</div>
-						        	</div>
-					    			
-					    		</div>
-					    		<div class="slide">
-					    			<div class="wrap-section">
-					    				<div class="section-container">
-											azdedferefre
-					    					
-					    				</div>
-						        	</div>
-					    			
-					    		</div>
-					        </div>
 
-					    {% endif %}
+				        <div class="ms-section section section-contact" data-anchor="contact">
+				        	{% include "contact.twig" with {'isMobile': isMobile } %}				        	
+				        </div>
 				    </div>
 				</div>
 
