@@ -4785,7 +4785,7 @@ html body #multiscroll .ms-right .ms-section .wrap-section .section-container
     box-sizing: border-box; 
     width: 100%;
     max-width: 768px;
-    margin-top: 65px;
+    margin-top: 40px;
     padding-left: 10px;
 }
 html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container p.intro
@@ -5023,7 +5023,9 @@ ul.skills-list
 {
     display: inline-block;
 
+    box-sizing: border-box; 
     width: 100%;
+    margin: 0;
 }
 ul.skills-list li
 {
@@ -5044,7 +5046,7 @@ ul.skills-list li .title
 
     box-sizing: border-box;
     width: 100%;
-    padding: 12px;
+    padding: 8px;
 
     color: white;
     border-top-left-radius: 10px;
@@ -5057,7 +5059,7 @@ ul.skills-list li .skill
 
     box-sizing: border-box;
     width: 70%;
-    padding: 10px;
+    padding: 8px;
 
     vertical-align: middle; 
 
@@ -5067,7 +5069,7 @@ ul.skills-list li .skill
 }
 ul.skills-list li .skill .progress
 {
-    height: 20px; 
+    height: 17px; 
 
     border-radius: 5px;
     background: #d7dbdb;
@@ -5151,6 +5153,11 @@ ul.skills-list li .skill .progress .progress-bar-100
 .bg-green
 {
     background-color: #15a286;
+}
+
+.bg-blue
+{
+    background-color: #0ca3b9;
 }
 
 @media screen and (max-width: 1280px)
