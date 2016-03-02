@@ -5987,239 +5987,229 @@ html
 }
 html body
 {
-    overflow: hidden;
+    overflow: hidden; 
 
     height: 100%;
 
     color: black;
-    /*#st-container {
-			.st-menu {
-				background: $blue_menu;
+}
+html body #st-container .st-menu
+{
+    background: #336e7b;
+}
+html body #st-container .st-menu ul li a
+{
+    padding: 1.5em 1em 1.5em 1.2em; 
 
-				ul {
-					li {
-						a {
-							text-decoration: none;
-							padding: 1.5em 1em 1.5em 1.2em;						
-						}
-					}
-				}
+    text-decoration: none;
+}
+html body #st-container .st-menu .st-menu-bottom
+{
+    position: absolute;
+    bottom: 0;
 
-				.st-menu-bottom {
-					position: absolute;
-					bottom: 0;
-					box-shadow: inset 0 1px rgba(0, 0, 0, .2);
-					width: 100%;
-					padding: 1.5em 1em 1.5em 1.2em;
-					box-sizing: border-box;
-					text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.5em 1em 1.5em 1.2em;
 
-					a {
-						display: inline-block;
-						color: white;
-						padding: 0 10px 0 10px;
+    text-align: center; 
 
-						i {
-							font-size: 1.5em;
-						}
-					}
-				}
-			}
-		}
+    box-shadow: inset 0 1px rgba(0, 0, 0, .2);
+}
+html body #st-container .st-menu .st-menu-bottom a
+{
+    display: inline-block;
 
-		// HEADER
-		#ha-header {
+    padding: 0 10px 0 10px; 
 
-			.ha-header-front {
-				background: $blue_header;
-				box-shadow: inset 0px -1px rgba(0, 0, 0, .2);
+    color: white;
+}
+html body #st-container .st-menu .st-menu-bottom a i
+{
+    font-size: 1.5em;
+}
+html body #ha-header .ha-header-front
+{
+    background: #2c3c51;
+    box-shadow: inset 0 -1px rgba(0, 0, 0, .2);
+}
+html body #ha-header .ha-header-front h1
+{
+    color: white;
+}
+html body .st-content .menu-fixed
+{
+    position: fixed;
+    z-index: 20;
 
-				h1 {
-					color: white;
-				}
-			}
-		}
+    display: block;
 
-		.st-content {
-			.menu-fixed {
-				background-color: red;
-				position: fixed;
-				display: block;
-				z-index: 20;
-				width: 100%;
-				height: 70px;
-			}
-		}
+    width: 100%;
+    height: 70px; 
 
-		// MULTISCROLL
-		#multiscroll-nav {
-			ul {
-				li {
-					margin-bottom: 20px;
-				}
-			}
-		}
-		#multiscroll {
+    background-color: red;
+}
+html body #multiscroll-nav ul li
+{
+    margin-bottom: 20px;
+}
+html body #multiscroll h2
+{
+    font-weight: 900;
 
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+html body #multiscroll h3
+{
+    font-weight: 100;
 
-			h2 {
-				font-weight: 900;
-				letter-spacing: 4px;
-				text-transform: uppercase;
-			}
+    margin: .8em 0; 
 
-			h3 {
-				font-weight: 100;
-				letter-spacing: 4px;
-				margin: 0.8em 0;
-			}
+    letter-spacing: 4px;
+}
+html body #multiscroll .ms-section
+{
+    height: 100%;
+}
+html body #multiscroll .ms-section .wrap-section
+{
+    height: 100%;
+}
+html body #multiscroll .ms-section .wrap-section .section-container
+{
+    position: relative; 
 
-			.ms-section {
-				height: 100%;
-				.wrap-section {
-					height: 100%;
-					.section-container {
-						box-sizing: border-box;
-						padding: 0 10px;
-						position: relative;
-					}
-					
-				}
-			}
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+html body #multiscroll .ms-left .ms-section:nth-child(1) .wrap-section
+{
+    padding-top: 210px;
+}
+html body #multiscroll .ms-left .ms-section:nth-child(n+2) .wrap-section
+{
+    padding-top: 110px;
+}
+html body #multiscroll .ms-left .ms-section
+{
+    color: white; 
+    background-color: #0ca3b9;
+}
+html body #multiscroll .ms-left .ms-section .wrap-section .section-container
+{
+    float: right; 
 
+    width: 100%;
+    max-width: 512px;
+}
+html body #multiscroll .ms-left .ms-section .wrap-section .section-container .sub-container p
+{
+    padding-bottom: 10px;
+}
+html body #multiscroll .ms-left .ms-section .wrap-section .section-container .sub-container p.intro
+{
+    line-height: 25px;
 
-			.ms-left {
-				.ms-section:nth-child(1) {
-					.wrap-section {
-						padding-top: 210px;	
-					}
-				}				
+    text-align: justify;
+}
+html body #multiscroll .ms-right .ms-section
+{
+    background-color: #d7dbdb;
+}
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container
+{
+    box-sizing: border-box; 
+    width: 100%;
+    max-width: 768px;
+    margin-top: 40px;
+    padding-left: 10px;
+}
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container p.intro
+{
+    line-height: 25px;
 
-				.ms-section:nth-child(n+2) {
-					.wrap-section {
-						padding-top: 110px;											
-					}
-				}
-				.ms-section {
-					background-color: $blue_left;
-					color: white;
+    text-align: justify;
+}
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content
+{
+    display: block;
 
-					.wrap-section {
-						//border-right: 1px solid #188898;							
-						.section-container {
-							max-width: 512px;
-							width: 100%;
-							float: right;
+    box-sizing: border-box; 
+    width: 100%;
+    padding-left: 10px;
+}
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content p
+{
+    padding-bottom: 10px; 
 
-							.sub-container {
-								p {
-									padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, .2);
+}
+html body #multiscroll .ms-right .ms-section .wrap-section .section-container .sub-container div.content p span:nth-child(1)
+{
+    display: inline-block; 
 
-									&.intro {
-										line-height: 25px;
-										text-align: justify
-									}
-								
-								}
-							}
-						}
-					}
-				}
-			}
-
-			.ms-right {
-
-				.ms-section {
-					background-color: $gray_right;
-					.wrap-section {
-						.section-container {
-							max-width: 768px;
-							margin-top: 40px;
-							width: 100%;
-							padding-left: 10px;
-							box-sizing: border-box;
-
-							.sub-container {
-								p {
-									&.intro {
-										line-height: 25px;
-										text-align: justify	
-									}
-								}
-								div.content {
-									display: block;
-									width: 100%;
-									padding-left: 10px;
-									box-sizing: border-box;
-									p {
-										border-bottom: 2px solid rgba(0,0,0,0.2);
-										padding-bottom: 10px;
-
-										span:nth-child(1) {
-											width: 45%;
-											display: inline-block;
-										}
-									}
-								}								
-							}
-						}
-					}
-				}
-
-				.section-home {
-					.wrap-section {
-						padding-top: 210px;																
-					}
-
-				}
-				.section-studies, .section-skills, .section-contact {
-					.wrap-section {
-						padding-top: 110px;																	
-					}
-				}
-			}
-		}
-	}
+    width: 45%;
+}
+html body #multiscroll .ms-right .section-home .wrap-section
+{
+    padding-top: 210px;
+}
+html body #multiscroll .ms-right .section-studies .wrap-section,
+html body #multiscroll .ms-right .section-skills .wrap-section,
+html body #multiscroll .ms-right .section-contact .wrap-section
+{
+    padding-top: 110px;
 }
 
+.multiscroll-nav-class li,
+.fp-slidesNav li
+{
+    -webkit-transition: box-shadow .3s ease;
+            transition: box-shadow .3s ease; 
 
-.multiscroll-nav-class, .fp-slidesNav {
-	li {
-	    border-radius: 50%;
-	    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
-	    -webkit-transition: box-shadow 0.3s ease;
-	    transition: box-shadow 0.3s ease;
-		a {
-		    top: 0;
-		    left: 0;
-		    width: 100%;
-		    height: 100%;
-		    outline: none;
-		    border-radius: 50%;
-		    background-color: #fff;
-		    background-color: rgba(255, 255, 255, 0.3);
-		    text-indent: -999em;
-		    cursor: pointer;
-		    position: absolute;
-		    color: $grey_dark;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+}
+.multiscroll-nav-class li a,
+.fp-slidesNav li a
+{
+    position: absolute;
+    top: 0;
+    left: 0;
 
-            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
-		    -webkit-transition: box-shadow 0.3s ease, background-color 0.3s ease;
-		    transition: box-shadow 0.3s ease, background-color 0.3s ease;
-    	
-			&:hover, &:focus {
-			    background-color: white;
-			}
+    width: 100%;
+    height: 100%;
 
-			&.active {
-				background-color: transparent;
-    			box-shadow: 0 0 0 2px white;
-			}
+    cursor: pointer;
+    -webkit-transition: box-shadow .3s ease, background-color .3s ease;
+            transition: box-shadow .3s ease, background-color .3s ease; 
+    text-indent: -999em;
 
-			span {
-				background-color: transparent !important;
-			}
-    	}*/
+    color: #696969;
+    border-radius: 50%;
+    outline: none;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, .3);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0);
+}
+.multiscroll-nav-class li a:hover,
+.multiscroll-nav-class li a:focus,
+.fp-slidesNav li a:hover,
+.fp-slidesNav li a:focus
+{
+    background-color: white;
+}
+.multiscroll-nav-class li a.active,
+.fp-slidesNav li a.active
+{
+    background-color: transparent;
+    box-shadow: 0 0 0 2px white;
+}
+.multiscroll-nav-class li a span,
+.fp-slidesNav li a span
+{
+    background-color: transparent !important;
 }
 
 #st-trigger-effects
